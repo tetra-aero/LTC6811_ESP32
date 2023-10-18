@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8f156640-b8b4-485c-8ff9-c76211384978)
+
+  (paper "A3")
+
+  (lib_symbols
+  )
+
+
+  (polyline (pts (xy 322.58 265.43) (xy 321.31 265.43))
+    (stroke (width 0) (type default))
+    (uuid 7370243d-c14e-45f5-8f83-350e5af33962)
+  )
+)
