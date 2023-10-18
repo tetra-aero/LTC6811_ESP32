@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid b38f98d8-cd4c-44bf-9e93-b49da9573c85)
+  (uuid d8abbfa2-ffa6-4428-a6ee-c56dfb7c33be)
 
   (paper "A3")
 
@@ -4482,16 +4482,16 @@
     (pin "24" (uuid a71c2095-2f57-450b-8092-4d6aa4516fab))
     (pin "25" (uuid 55bb97b5-b82f-4a20-9030-1c0bb181bcbe))
     (pin "26" (uuid 19ca709c-a0e7-4c57-afcc-3841e029edef))
-    (pin "27" (uuid 8ab4289e-57f9-4d25-9f1f-ef02e465e1bd))
+    (pin "27" (uuid 4bc2d5e4-6944-491c-8124-913467b4874d))
     (pin "27" (uuid 4bc2d5e4-6944-491c-8124-913467b4874d))
     (pin "28" (uuid c8618964-93db-47f5-a1c8-6fc9eec95af2))
-    (pin "29" (uuid 5f809c9a-43a7-4192-be25-5511dbce08e4))
+    (pin "29" (uuid c4bcf8e2-fc93-48be-bbee-a5f503251b93))
     (pin "29" (uuid c4bcf8e2-fc93-48be-bbee-a5f503251b93))
     (pin "3" (uuid b2d741d5-0d3d-4806-a062-af01195f7ba7))
     (pin "30" (uuid d45a09a9-1a6e-4ae6-8a19-ee146c3cc8b4))
     (pin "31" (uuid 396cffcf-820c-4631-8ce1-ab2acba60359))
     (pin "32" (uuid 84da516f-b07d-4554-8853-94f9390232fc))
-    (pin "33" (uuid 6c1f9cc5-4994-444c-ba54-75554308ef8e))
+    (pin "33" (uuid 2064137b-8a8c-46d4-b08e-c272da0a4826))
     (pin "33" (uuid 2064137b-8a8c-46d4-b08e-c272da0a4826))
     (pin "34" (uuid 2072e691-80ac-4773-84cd-c0726b99a06a))
     (pin "35" (uuid 6a8b9057-40f4-4370-9f96-984e4aa4989e))
