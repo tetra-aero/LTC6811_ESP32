@@ -50,9 +50,9 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.25,
-          "via_gap": 0.25,
-          "width": 0.2
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
         }
       ],
       "drc_exclusions": [],
@@ -178,13 +178,22 @@
         }
       ],
       "track_widths": [
-        0.254,
-        0.2,
+        0.0,
+        0.3,
         0.5,
+        0.8,
         1.0,
         2.0
       ],
       "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
         {
           "diameter": 0.8,
           "drill": 0.4
@@ -502,6 +511,10 @@
   },
   "sheets": [
     [
+      "6a86ff6f-b159-4c4c-8a40-e732cc82e010",
+      ""
+    ],
+    [
       "00000000-0000-0000-0000-00005c519ba0",
       "PowerMonitor"
     ],
@@ -556,10 +569,6 @@
     [
       "60cc472b-ffa3-49bc-9ffa-1eb4726af0bf",
       "cell8"
-    ],
-    [
-      "6a86ff6f-b159-4c4c-8a40-e732cc82e010",
-      ""
     ],
     [
       "463e1fe4-7edf-42b1-8034-da5791a5ce86",
