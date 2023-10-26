@@ -3377,8 +3377,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-07100RL/726888?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJJwAyIAugL5A" (at 123.19 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 88811047-6bd5-4f1c-915a-75e72ab66ac6))
-    (pin "2" (uuid 1b8ae4b2-aa5e-4360-b23a-c84fdd764f20))
+    (pin "1" (uuid 2e67b372-acf6-4441-8e12-07cd1524a276))
+    (pin "2" (uuid 3fc59c71-3673-4afd-a3f6-3d3e2c08116e))
     (instances
       (project "LTC6811_ESP32"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
@@ -3829,8 +3829,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603JR-071K2L/726683?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7AIwDSYAMiALoC%2BQA" (at 355.6 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8344f59d-4925-4004-b1be-131e39ba32e0))
-    (pin "2" (uuid efa56944-776a-4be3-9a7e-0369bed5432a))
+    (pin "1" (uuid 6236d5e0-54be-4e7b-97a4-ef79666c060d))
+    (pin "2" (uuid f7305bec-80a4-4433-a642-e7a093b5266c))
     (instances
       (project "LTC6811_ESP32"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
@@ -4919,8 +4919,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603JR-071ML/726678?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7AIwCyAMiALoC%2BQA" (at 212.725 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4cec85b-4a87-47d9-868b-f7f122dc2b3d))
-    (pin "2" (uuid a8516c36-743a-4af5-8720-9e337060d46d))
+    (pin "1" (uuid f89f8365-5442-4c6f-a217-cd12414ec3ac))
+    (pin "2" (uuid a10b7673-4cd5-40ef-9f37-a389f13c7935))
     (instances
       (project "LTC6811_ESP32"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
@@ -5304,8 +5304,8 @@
     (property "MPN" "LTST-C190KRKT" (at 355.6 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd58933b-6e0a-46af-b7e4-a9857e384af0))
-    (pin "2" (uuid 455d9ba0-0143-43d7-85e3-fb8f9697ca94))
+    (pin "1" (uuid a494ee12-ff71-40db-9969-ad847858d49c))
+    (pin "2" (uuid 504e7995-eb62-4cdd-9b50-d7f387f03ac8))
     (instances
       (project "LTC6811_ESP32"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
@@ -5615,7 +5615,7 @@
     (property "Datasheet" "" (at 355.6 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 747feaba-e482-44ee-b9df-2f4d95277db8))
+    (pin "1" (uuid 309dbcef-641f-48ff-a2fa-80fd3821bd9f))
     (instances
       (project "LTC6811_ESP32"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"

@@ -12995,10 +12995,10 @@
     (property "MPN" "TSW-104-07-G-S" (at 140.97 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03d15085-775c-49ca-87d1-388b7bd1da06))
-    (pin "2" (uuid fed6dfa4-5211-4d16-8997-26a2570ee954))
-    (pin "3" (uuid b536b7a1-0ae5-4e08-ac24-ba3572034aae))
-    (pin "4" (uuid 859b7fcc-d22f-4b6a-80c9-d2a9f7cb8238))
+    (pin "1" (uuid e2a433f1-875d-4b51-9a6a-521348ba3830))
+    (pin "2" (uuid d3a439eb-cca3-4688-a676-2c72b0a28591))
+    (pin "3" (uuid 6190bd5c-8f38-42c9-83e0-439d76779366))
+    (pin "4" (uuid e05a7dfb-7c4d-4282-b8b1-e53df5fd8776))
     (instances
       (project "LTC6811_ESP32"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ab72d4d"
