@@ -11947,7 +11947,7 @@
       (net 38 "Net-(D6-K)") (pinfunction "1") (pintype "passive") (tstamp a2c39d89-494a-4059-9b7b-01032b59fd67))
     (pad "2" smd roundrect (at 2.25 0 180) (size 2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+3V3") (pinfunction "2") (pintype "passive") (tstamp 6540e089-557b-4e75-93d4-3fa756d1cb3b))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP5030T.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sunlord_SWPA5040S.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14011,7 +14011,7 @@
       (net 38 "Net-(D6-K)") (pinfunction "PH") (pintype "input") (tstamp 726f937c-1c4b-4496-81d8-9fea1c46bd82))
     (pad "11" smd rect (at 0 0 90) (size 1.73 1.98) (layers "F.Cu" "F.Mask")
       (net 4 "GND") (pinfunction "PGND") (pintype "input") (tstamp c0070363-dad4-42fd-8801-fa3f83b87bc8))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-10-1EP_3x3mm_P0.5mm_EP1.73x1.98mm.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16142,6 +16142,12 @@
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp eb94100f-5476-4c93-bb98-3e8bb4698d29))
   (gr_rect locked (start 63.1 50.5) (end 193.1 140.5)
     (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp a25fec23-9b75-4c44-9301-aa3bceab50ba))
+  (gr_text "B-_{IN}" (at 181.05 119.31) (layer "F.SilkS") (tstamp 0fd0242d-9f11-44fa-a813-875c690781dd)
+    (effects (font (size 3 3) (thickness 0.5) bold) (justify left bottom))
+  )
+  (gr_text "B-_{OUT}" (at 178.24 72.57) (layer "F.SilkS") (tstamp da657d3c-5460-4708-bddd-5a0da4fcb70e)
+    (effects (font (size 3 3) (thickness 0.5) bold) (justify left bottom))
+  )
 
   (segment (start 72.5 62.8) (end 74.75 60.55) (width 0.5) (layer "F.Cu") (net 1) (tstamp 035c1139-7abe-475d-b8df-97454a01df55))
   (segment (start 120.575 57.875) (end 124.175 61.475) (width 0.5) (layer "F.Cu") (net 1) (tstamp 08e97895-134b-44c1-8ae2-93c093aedd28))
