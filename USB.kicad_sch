@@ -861,7 +861,7 @@
     (pin "8" (uuid 54c8f239-d3ac-4317-9a54-6b118b992476))
     (pin "9" (uuid af82c696-01d9-4ca7-8126-6bbde264d12c))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "U10") (unit 1)
         )
@@ -886,7 +886,7 @@
     )
     (pin "1" (uuid fcf066a3-36c5-40d6-9237-16a4437d7f48))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR064") (unit 1)
         )
@@ -921,7 +921,7 @@
     (pin "1" (uuid a28b2112-0bca-4569-abfb-37dab5e8b1c0))
     (pin "2" (uuid 35d39314-790c-4c47-9e7a-22cdf6a69c34))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "R49") (unit 1)
         )
@@ -956,7 +956,7 @@
     (pin "1" (uuid 64709732-b1e8-4790-9855-8d2c23562cd2))
     (pin "2" (uuid f9f333c0-107c-4295-816b-ec58acc62457))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "R50") (unit 1)
         )
@@ -981,7 +981,7 @@
     )
     (pin "1" (uuid a67554a7-12da-47e3-9db1-fed353286263))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR068") (unit 1)
         )
@@ -1016,7 +1016,7 @@
     (pin "1" (uuid 68cc7316-e737-41a1-8dcc-dc9154dbf939))
     (pin "2" (uuid 0d44945a-2871-4daa-9e5d-356b6ba692ac))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "R51") (unit 1)
         )
@@ -1051,7 +1051,7 @@
     (pin "1" (uuid 04646a94-e341-40a1-81e4-80f5e5225815))
     (pin "2" (uuid b37b60cd-4ec9-46c8-a512-e1928ac7d33c))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
           (reference "C40") (unit 1)
         )
@@ -1079,7 +1079,7 @@
     )
     (pin "1" (uuid 0f43bf72-2bcf-4724-ac74-b16f13adf979))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR065") (unit 1)
         )
@@ -1114,7 +1114,7 @@
     (pin "1" (uuid fe2762c6-da45-4ab4-b5b8-a6e45905076f))
     (pin "2" (uuid 00829a9c-a91b-4d4b-b392-fc7f93abc6bd))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
           (reference "C39") (unit 1)
         )
@@ -1142,7 +1142,7 @@
     )
     (pin "1" (uuid 0a534e5b-b8b4-4f09-a268-5f21be8e6fb2))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR063") (unit 1)
         )
@@ -1167,7 +1167,7 @@
     )
     (pin "1" (uuid f8bf1e28-3463-419f-b17f-f4de0a47b926))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR062") (unit 1)
         )
@@ -1192,7 +1192,7 @@
     )
     (pin "1" (uuid 26780a46-fc95-4697-bdca-676bd4c3d674))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR061") (unit 1)
         )
@@ -1227,7 +1227,7 @@
     (pin "1" (uuid 7a9f5bf7-6de5-4b6a-93c8-49f44f39fd7f))
     (pin "2" (uuid bd3e2657-b0e0-48f9-8a1a-6b6de3eb3364))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
           (reference "C42") (unit 1)
         )
@@ -1265,7 +1265,7 @@
     (pin "1" (uuid 38ea4dd9-d894-4ea1-89d8-da68315a4257))
     (pin "2" (uuid 3ee137eb-abe0-4079-8831-f70e660a0846))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
           (reference "C41") (unit 1)
         )
@@ -1303,7 +1303,7 @@
     (pin "1" (uuid 86006f4d-a272-4f26-a804-6c0484996ea3))
     (pin "2" (uuid 356a449c-e05e-436c-86d7-fb99b2d28c77))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "R52") (unit 1)
         )
@@ -1328,7 +1328,7 @@
     )
     (pin "1" (uuid 56496aad-d4d3-40b0-b164-1ea336fb762c))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR066") (unit 1)
         )
@@ -1353,7 +1353,7 @@
     )
     (pin "1" (uuid 99fd12ec-5df4-4601-95b7-fea75c482f96))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR067") (unit 1)
         )
@@ -1378,7 +1378,7 @@
     )
     (pin "1" (uuid 9807df2e-7c32-44d4-977f-826b7a535aba))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR069") (unit 1)
         )
@@ -1410,7 +1410,7 @@
     (pin "4" (uuid 4996c89d-9a22-4713-80a2-cea425da4549))
     (pin "5" (uuid 4df35c1d-3c8e-4e18-ae10-5da923068cb5))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "J8") (unit 1)
         )
@@ -1435,7 +1435,7 @@
     )
     (pin "1" (uuid 462baca9-fc59-4da2-83b8-7b09dcb1958e))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR059") (unit 1)
         )
@@ -1460,7 +1460,7 @@
     )
     (pin "1" (uuid b17df61f-b50d-4991-88a4-4a781e441373))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c246ca0"
           (reference "#PWR060") (unit 1)
         )
@@ -1496,7 +1496,7 @@
     (pin "1" (uuid 0ea48d1d-e1a7-4f09-856a-6bffb0ad1337))
     (pin "2" (uuid 2aab87ca-6e32-4786-8e25-c82565e11bb2))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005a91e16c"
           (reference "D8") (unit 1)
         )

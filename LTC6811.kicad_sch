@@ -48,6 +48,51 @@
         )
       )
     )
+    (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x02_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector_Generic:Conn_01x07_BAT_6S" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 10.16 0)
         (effects (font (size 1.27 1.27)))
@@ -570,262 +615,6 @@
         )
       )
     )
-    (symbol "ENNOID:HM2108NL" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "TR" (at 0 -13.97 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "HM2108NL" (at -5.08 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 1.27 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 1.27 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "HM2108NL_1_1"
-        (arc (start -9.398 0.762) (mid -8.636 0.0033) (end -7.874 0.762)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -7.874 -3.302) (mid -8.636 -2.5433) (end -9.398 -3.302)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -7.874 0.762) (mid -7.112 0.0033) (end -6.35 0.762)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -6.35 -3.302) (mid -7.112 -2.5433) (end -7.874 -3.302)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -6.35 0.762) (mid -5.588 0.0033) (end -4.826 0.762)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -4.826 -3.302) (mid -5.588 -2.5433) (end -6.35 -3.302)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -1.524 -5.842) (mid -0.7653 -5.08) (end -1.524 -4.318)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -1.524 -4.318) (mid -0.7653 -3.556) (end -1.524 -2.794)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -1.524 -2.794) (mid -0.7653 -2.032) (end -1.524 -1.27)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -1.524 -1.27) (mid -0.7653 -0.508) (end -1.524 0.254)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -1.524 0.254) (mid -0.7653 1.016) (end -1.524 1.778)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start -1.524 1.778) (mid -0.7653 2.54) (end -1.524 3.302)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -12.7 -1.27)
-            (xy -11.938 -1.27)
-          )
-          (stroke (width 0.1778) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -10.16 -6.35)
-            (xy -12.7 -6.35)
-          )
-          (stroke (width 0.1778) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.652 -1.27)
-            (xy -4.826 -1.27)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.826 0.762)
-            (xy -4.826 3.81)
-          )
-          (stroke (width 0.1778) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.826 3.81)
-            (xy -2.54 3.81)
-          )
-          (stroke (width 0.1778) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -6.35)
-            (xy 0 3.81)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -12.7 3.81)
-            (xy -9.398 3.81)
-            (xy -9.398 0.762)
-          )
-          (stroke (width 0.1778) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -10.16 -6.35)
-            (xy -10.16 -3.302)
-            (xy -9.398 -3.302)
-          )
-          (stroke (width 0.1778) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 -1.27)
-            (xy -2.54 -1.27)
-            (xy -2.54 -1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 1.524 -1.27)
-            (xy 2.54 -1.27)
-            (xy 2.54 -1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -4.826 -3.302)
-            (xy -4.064 -3.302)
-            (xy -4.064 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0.1778) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -1.27)
-            (xy -2.54 -4.826)
-            (xy -11.938 -4.826)
-            (xy -11.938 -1.27)
-          )
-          (stroke (width 0.1778) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 -5.842)
-            (xy -1.524 -6.35)
-            (xy -2.54 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 3.302)
-            (xy -1.524 3.81)
-            (xy -2.54 3.81)
-            (xy -2.54 3.81)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 -5.842)
-            (xy 1.524 -6.35)
-            (xy 2.54 -6.35)
-            (xy 2.54 -6.35)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 3.302)
-            (xy 1.524 3.81)
-            (xy 2.54 3.81)
-            (xy 2.54 3.81)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (arc (start 1.524 -4.318) (mid 0.7653 -5.08) (end 1.524 -5.842)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start 1.524 -2.794) (mid 0.7653 -3.556) (end 1.524 -4.318)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start 1.524 -1.27) (mid 0.7653 -2.032) (end 1.524 -2.794)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start 1.524 0.254) (mid 0.7653 -0.508) (end 1.524 -1.27)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start 1.524 1.778) (mid 0.7653 1.016) (end 1.524 0.254)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (arc (start 1.524 3.302) (mid 0.7653 2.54) (end 1.524 1.778)
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (pin passive line (at 5.08 -6.35 180) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -1.27 180) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 3.81 180) (length 2.54)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -15.24 3.81 0) (length 2.54)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -15.24 -1.27 0) (length 2.54)
-          (name "5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -15.24 -6.35 0) (length 2.54)
-          (name "6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "ENNOID:LTC6811-1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -10.16 34.29 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1162,6 +951,504 @@
         )
       )
     )
+    (symbol "Transformer:HM2102NL" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "TR" (at 0 -13.97 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "HM2102NL" (at -5.08 15.24 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Transformer_SMD:HM2102NL_PUL" (at 1.27 -2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 1.27 -2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "HM2102NL_0_1"
+        (arc (start -1.524 -12.192) (mid -0.7653 -11.43) (end -1.524 -10.668)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 -10.668) (mid -0.7653 -9.906) (end -1.524 -9.144)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 -9.144) (mid -0.7653 -8.382) (end -1.524 -7.62)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 -7.62) (mid -0.7653 -6.858) (end -1.524 -6.096)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 -6.096) (mid -0.7653 -5.334) (end -1.524 -4.572)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 -4.572) (mid -0.7653 -3.81) (end -1.524 -3.048)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -12.7 -7.62)
+            (xy -11.938 -7.62)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 -12.7)
+            (xy -12.7 -12.7)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.652 -7.62)
+            (xy -4.826 -7.62)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.826 -5.588)
+            (xy -4.826 -2.54)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.826 -2.54)
+            (xy -2.54 -2.54)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -12.7)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -12.7 -2.54)
+            (xy -9.398 -2.54)
+            (xy -9.398 -5.588)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 -12.7)
+            (xy -10.16 -9.652)
+            (xy -9.398 -9.652)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 -7.62)
+            (xy -2.54 -7.62)
+            (xy -2.54 -7.62)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -4.826 -9.652)
+            (xy -4.064 -9.652)
+            (xy -4.064 -12.7)
+            (xy -2.54 -12.7)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -7.62)
+            (xy -2.54 -11.176)
+            (xy -11.938 -11.176)
+            (xy -11.938 -7.62)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 -12.192)
+            (xy -1.524 -12.7)
+            (xy -2.54 -12.7)
+            (xy -2.54 -12.7)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 -3.048)
+            (xy -1.524 -2.54)
+            (xy -2.54 -2.54)
+            (xy -2.54 -2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "HM2102NL_1_1"
+        (arc (start -9.398 -5.588) (mid -8.636 -6.3467) (end -7.874 -5.588)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -9.398 9.652) (mid -8.636 8.8933) (end -7.874 9.652)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -7.874 -9.652) (mid -8.636 -8.8933) (end -9.398 -9.652)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -7.874 -5.588) (mid -7.112 -6.3467) (end -6.35 -5.588)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -7.874 5.588) (mid -8.636 6.3467) (end -9.398 5.588)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -7.874 9.652) (mid -7.112 8.8933) (end -6.35 9.652)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -6.35 -9.652) (mid -7.112 -8.8933) (end -7.874 -9.652)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -6.35 -5.588) (mid -5.588 -6.3467) (end -4.826 -5.588)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -6.35 5.588) (mid -7.112 6.3467) (end -7.874 5.588)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -6.35 9.652) (mid -5.588 8.8933) (end -4.826 9.652)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -4.826 -9.652) (mid -5.588 -8.8933) (end -6.35 -9.652)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -4.826 5.588) (mid -5.588 6.3467) (end -6.35 5.588)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 3.048) (mid -0.7653 3.81) (end -1.524 4.572)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 4.572) (mid -0.7653 5.334) (end -1.524 6.096)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 6.096) (mid -0.7653 6.858) (end -1.524 7.62)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 7.62) (mid -0.7653 8.382) (end -1.524 9.144)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 9.144) (mid -0.7653 9.906) (end -1.524 10.668)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start -1.524 10.668) (mid -0.7653 11.43) (end -1.524 12.192)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -12.7 7.62)
+            (xy -11.938 7.62)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 2.54)
+            (xy -12.7 2.54)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.652 7.62)
+            (xy -4.826 7.62)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.826 9.652)
+            (xy -4.826 12.7)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.826 12.7)
+            (xy -2.54 12.7)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 12.7)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -12.7 12.7)
+            (xy -9.398 12.7)
+            (xy -9.398 9.652)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 2.54)
+            (xy -10.16 5.588)
+            (xy -9.398 5.588)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 7.62)
+            (xy -2.54 7.62)
+            (xy -2.54 7.62)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -7.62)
+            (xy 2.54 -7.62)
+            (xy 2.54 -7.62)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 1.524 7.62)
+            (xy 2.54 7.62)
+            (xy 2.54 7.62)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -4.826 5.588)
+            (xy -4.064 5.588)
+            (xy -4.064 2.54)
+            (xy -2.54 2.54)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 7.62)
+            (xy -2.54 4.064)
+            (xy -11.938 4.064)
+            (xy -11.938 7.62)
+          )
+          (stroke (width 0.1778) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 3.048)
+            (xy -1.524 2.54)
+            (xy -2.54 2.54)
+            (xy -2.54 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 12.192)
+            (xy -1.524 12.7)
+            (xy -2.54 12.7)
+            (xy -2.54 12.7)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -12.192)
+            (xy 1.524 -12.7)
+            (xy 2.54 -12.7)
+            (xy 2.54 -12.7)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -3.048)
+            (xy 1.524 -2.54)
+            (xy 2.54 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 3.048)
+            (xy 1.524 2.54)
+            (xy 2.54 2.54)
+            (xy 2.54 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 12.192)
+            (xy 1.524 12.7)
+            (xy 2.54 12.7)
+            (xy 2.54 12.7)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 -10.668) (mid 0.7653 -11.43) (end 1.524 -12.192)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 -9.144) (mid 0.7653 -9.906) (end 1.524 -10.668)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 -7.62) (mid 0.7653 -8.382) (end 1.524 -9.144)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 -6.096) (mid 0.7653 -6.858) (end 1.524 -7.62)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 -4.572) (mid 0.7653 -5.334) (end 1.524 -6.096)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 -3.048) (mid 0.7653 -3.81) (end 1.524 -4.572)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 4.572) (mid 0.7653 3.81) (end 1.524 3.048)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 6.096) (mid 0.7653 5.334) (end 1.524 4.572)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 7.62) (mid 0.7653 6.858) (end 1.524 6.096)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 9.144) (mid 0.7653 8.382) (end 1.524 7.62)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 10.668) (mid 0.7653 9.906) (end 1.524 9.144)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.524 12.192) (mid 0.7653 11.43) (end 1.524 10.668)
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (pin passive line (at 5.08 -12.7 180) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -15.24 -2.54 0) (length 2.54)
+          (name "10" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -15.24 -7.62 0) (length 2.54)
+          (name "11" (effects (font (size 1.27 1.27))))
+          (number "11" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -15.24 -12.7 0) (length 2.54)
+          (name "12" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -7.62 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 2.54)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 2.54)
+          (name "4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 7.62 180) (length 2.54)
+          (name "5" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 12.7 180) (length 2.54)
+          (name "6" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -15.24 12.7 0) (length 2.54)
+          (name "7" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -15.24 7.62 0) (length 2.54)
+          (name "8" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -15.24 2.54 0) (length 2.54)
+          (name "9" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND_PACK" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1403,6 +1690,7 @@
   (no_connect (at 33.02 52.705) (uuid 9eb6a936-1bf9-4391-9b32-9a22c14de1b0))
   (no_connect (at 199.39 128.905) (uuid c982b145-c072-4556-97f8-33098c094a0c))
   (no_connect (at 33.02 46.355) (uuid fc127320-528b-44d2-b5e7-107e43c452f7))
+  (no_connect (at 331.47 50.165) (uuid fe89af3d-3e5e-4fad-b83f-1e1757a3352f))
 
   (wire (pts (xy 143.51 149.225) (xy 173.99 149.225))
     (stroke (width 0) (type default))
@@ -1468,6 +1756,10 @@
     (stroke (width 0) (type default))
     (uuid 0750bdbd-4cbb-42ff-8ac8-96aff15997a7)
   )
+  (wire (pts (xy 267.97 45.085) (xy 311.15 45.085))
+    (stroke (width 0) (type default))
+    (uuid 075eea9e-be62-4706-a3c3-8c8452fdf36e)
+  )
   (wire (pts (xy 218.44 151.765) (xy 199.39 151.765))
     (stroke (width 0) (type default))
     (uuid 08f57428-fc19-41a1-b6c0-808b5b8b43c2)
@@ -1488,9 +1780,9 @@
     (stroke (width 0) (type default))
     (uuid 0ad722fd-786a-49a6-8216-be7e3db24451)
   )
-  (wire (pts (xy 212.725 118.745) (xy 212.09 118.745))
+  (wire (pts (xy 287.02 50.165) (xy 292.1 50.165))
     (stroke (width 0) (type default))
-    (uuid 0b5ca087-4746-4a53-a194-8b74cfcfe047)
+    (uuid 0bb6b082-a66d-4796-b7a0-c21b5bd8df0b)
   )
   (wire (pts (xy 97.79 197.485) (xy 97.79 156.845))
     (stroke (width 0) (type default))
@@ -1512,7 +1804,7 @@
     (stroke (width 0) (type default))
     (uuid 0fd9c34b-d749-4386-a6c5-6401985612bc)
   )
-  (wire (pts (xy 212.725 121.285) (xy 212.725 118.745))
+  (wire (pts (xy 219.075 121.285) (xy 219.075 118.745))
     (stroke (width 0) (type default))
     (uuid 115176c4-a2be-4641-9169-ab7ae290d7ba)
   )
@@ -1616,6 +1908,10 @@
     (stroke (width 0) (type default))
     (uuid 244a6eca-29c8-4abf-b027-d84077d627fc)
   )
+  (wire (pts (xy 331.47 45.085) (xy 348.615 45.085))
+    (stroke (width 0) (type default))
+    (uuid 2460cd7f-699c-4dd5-84e9-76131bbb0d98)
+  )
   (wire (pts (xy 146.05 144.145) (xy 146.05 130.175))
     (stroke (width 0) (type default))
     (uuid 25bbcaa2-7372-4052-bdf7-fb0cbab352d3)
@@ -1632,9 +1928,17 @@
     (stroke (width 0) (type default))
     (uuid 2787b0f8-01b2-445c-a6f1-eee46f182b31)
   )
+  (wire (pts (xy 331.47 55.245) (xy 348.615 55.245))
+    (stroke (width 0) (type default))
+    (uuid 27977b0b-438d-465c-8e0a-35e9ca1c4756)
+  )
   (wire (pts (xy 53.34 78.105) (xy 53.34 71.755))
     (stroke (width 0) (type default))
     (uuid 285f5ef0-0b1a-4a7c-97b7-9904ddda79e2)
+  )
+  (wire (pts (xy 299.72 50.165) (xy 311.15 50.165))
+    (stroke (width 0) (type default))
+    (uuid 2b30a3ec-83e8-4d8b-9148-299da998840b)
   )
   (wire (pts (xy 53.34 85.725) (xy 53.34 93.345))
     (stroke (width 0) (type default))
@@ -1672,7 +1976,7 @@
     (stroke (width 0) (type default))
     (uuid 31f5d607-f074-4b11-b194-762daa511541)
   )
-  (wire (pts (xy 331.47 70.485) (xy 347.98 70.485))
+  (wire (pts (xy 331.47 70.485) (xy 348.615 70.485))
     (stroke (width 0) (type default))
     (uuid 321306b7-c77c-4fe4-a19f-f2e5f0f62117)
   )
@@ -1748,6 +2052,10 @@
     (stroke (width 0) (type default))
     (uuid 3ae1fb07-101d-458d-b72d-0faa94ac530e)
   )
+  (wire (pts (xy 219.075 118.745) (xy 217.805 118.745))
+    (stroke (width 0) (type default))
+    (uuid 3bb9dfd1-e4bb-468c-a344-6a59894a4151)
+  )
   (wire (pts (xy 215.9 126.365) (xy 219.71 126.365))
     (stroke (width 0) (type default))
     (uuid 3c02020b-7a47-41a7-b21d-4a9c48008e04)
@@ -1772,7 +2080,7 @@
     (stroke (width 0) (type default))
     (uuid 40dc083d-8733-4e04-83b4-50ce30878482)
   )
-  (wire (pts (xy 331.47 60.325) (xy 347.98 60.325))
+  (wire (pts (xy 331.47 60.325) (xy 348.615 60.325))
     (stroke (width 0) (type default))
     (uuid 40fc78a2-d98b-46b2-8de1-600089bd6cc4)
   )
@@ -1843,10 +2151,6 @@
   (wire (pts (xy 116.84 187.325) (xy 111.76 187.325))
     (stroke (width 0) (type default))
     (uuid 4ac1fa6b-05d5-4ca2-869b-4edc5e331f4e)
-  )
-  (wire (pts (xy 199.39 118.745) (xy 204.47 118.745))
-    (stroke (width 0) (type default))
-    (uuid 4b89481d-cb5f-4411-8d30-bf4402bc5f00)
   )
   (wire (pts (xy 102.87 169.545) (xy 102.87 151.765))
     (stroke (width 0) (type default))
@@ -1960,6 +2264,10 @@
     (stroke (width 0) (type default))
     (uuid 604867c0-6468-4a8b-bc01-6a00c99e7d01)
   )
+  (wire (pts (xy 348.615 45.085) (xy 348.615 48.895))
+    (stroke (width 0) (type default))
+    (uuid 60bedcbb-ec2b-45f8-bf89-3ded8401b7d3)
+  )
   (wire (pts (xy 331.47 193.675) (xy 369.57 193.675))
     (stroke (width 0) (type default))
     (uuid 63e7ec26-8823-4696-bf1e-0222a7c9c24f)
@@ -2060,6 +2368,10 @@
     (stroke (width 0) (type default))
     (uuid 6f522c21-e92d-4675-8e74-36159bec0b63)
   )
+  (wire (pts (xy 267.97 55.245) (xy 311.15 55.245))
+    (stroke (width 0) (type default))
+    (uuid 6fe6a83c-a44e-49b8-ac55-a4dfa0a56387)
+  )
   (wire (pts (xy 382.27 182.245) (xy 382.27 184.785))
     (stroke (width 0) (type default))
     (uuid 6fef7b7a-1583-4b12-beb4-80f3741747c1)
@@ -2091,6 +2403,10 @@
   (wire (pts (xy 134.62 85.725) (xy 130.81 85.725))
     (stroke (width 0) (type default))
     (uuid 748789f7-f621-4c60-9721-e235d4f008f7)
+  )
+  (wire (pts (xy 199.39 118.745) (xy 210.185 118.745))
+    (stroke (width 0) (type default))
+    (uuid 75b8aca1-fb87-4fbf-bfaf-4a75d634bb00)
   )
   (wire (pts (xy 92.71 71.755) (xy 92.71 128.905))
     (stroke (width 0) (type default))
@@ -2128,13 +2444,13 @@
     (stroke (width 0) (type default))
     (uuid 7989ef9d-2017-406e-82dc-0a769f76a946)
   )
-  (wire (pts (xy 72.39 144.145) (xy 90.17 144.145))
-    (stroke (width 0) (type default))
-    (uuid 79bc4941-f941-4ef6-89e6-9c0930129668)
-  )
   (wire (pts (xy 64.77 154.305) (xy 50.8 154.305))
     (stroke (width 0) (type default))
     (uuid 79cd7094-2c28-477f-b655-82f609b25097)
+  )
+  (wire (pts (xy 348.615 51.435) (xy 348.615 55.245))
+    (stroke (width 0) (type default))
+    (uuid 7add8f7f-fa54-4e05-a7a4-fe01597594f4)
   )
   (wire (pts (xy 130.81 197.485) (xy 134.62 197.485))
     (stroke (width 0) (type default))
@@ -2252,7 +2568,7 @@
     (stroke (width 0) (type default))
     (uuid 9371dc50-0a46-46dd-af7a-989f3345a3ad)
   )
-  (wire (pts (xy 199.39 121.285) (xy 212.725 121.285))
+  (wire (pts (xy 199.39 121.285) (xy 219.075 121.285))
     (stroke (width 0) (type default))
     (uuid 947b77d2-97f1-41cf-9f83-c8f0482c08a4)
   )
@@ -2260,9 +2576,17 @@
     (stroke (width 0) (type default))
     (uuid 948727b6-c2e4-465f-aae3-f5d3e104ecb8)
   )
+  (wire (pts (xy 83.82 144.78) (xy 83.82 144.145))
+    (stroke (width 0) (type default))
+    (uuid 955a03ca-20dd-4e67-a0b9-02308003ec53)
+  )
   (wire (pts (xy 173.99 151.765) (xy 143.51 151.765))
     (stroke (width 0) (type default))
     (uuid 95a111bd-527a-4d22-a3e4-a8c02abcb05a)
+  )
+  (wire (pts (xy 83.82 144.145) (xy 72.39 144.145))
+    (stroke (width 0) (type default))
+    (uuid 965f6ca2-1b9a-49dc-afc9-bebccd46b55c)
   )
   (wire (pts (xy 246.38 151.765) (xy 255.27 151.765))
     (stroke (width 0) (type default))
@@ -2774,6 +3098,10 @@
     (uuid fff7292b-9875-4e13-9298-fc4458e4de49)
   )
 
+  (text "In the daisy chain connection\nR58 is 100 ohms." (at 199.39 115.57 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b1f78241-3c31-4b42-840c-51f57507be36)
+  )
   (text "2023-10-17" (at 332.74 281.305 0)
     (effects (font (size 1.27 1.27) (color 255 8 14 1)) (justify left bottom))
     (uuid bf88c82c-cd59-4217-9fa1-7ef78d0948ee)
@@ -2811,6 +3139,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 318b184b-2363-40bc-ab74-8e6b879825dc)
   )
+  (label "IMB" (at 204.47 121.285 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 32263d1e-08cb-4f67-8c00-c7d6545fabed)
+  )
   (label "C2" (at 56.515 159.385 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3649ac7b-e055-45a5-b736-e1acaeb8b569)
@@ -2842,6 +3174,10 @@
   (label "Vreg" (at 204.47 146.685 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6821fa66-c254-44a0-ab4b-8b2776b4371e)
+  )
+  (label "IPB" (at 267.97 45.085 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6e058dad-27ef-4dd8-aef3-9fbcf5824456)
   )
   (label "C10" (at 53.975 133.985 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2903,6 +3239,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b3da0953-27ac-47df-a7bd-7dad70e9c906)
   )
+  (label "IMB" (at 267.97 55.245 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b7164cf1-2b33-43be-b1f4-acd6adeda324)
+  )
   (label "C7" (at 53.975 141.605 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c674401f-0090-4264-8c00-aa6b6eaa143d)
@@ -2931,6 +3271,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ef86dc9d-cf66-4534-b2cf-2a4d3d8a54e9)
   )
+  (label "IPB" (at 204.47 118.745 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f887fd43-482f-4064-adb0-a7b9d1bfc7c2)
+  )
 
   (hierarchical_label "BAT+" (shape input) (at 78.74 55.245 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -2940,11 +3284,11 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 46495327-5657-4013-8135-76b74cd85aaa)
   )
-  (hierarchical_label "PA" (shape input) (at 347.98 70.485 0) (fields_autoplaced)
+  (hierarchical_label "PA" (shape input) (at 348.615 70.485 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b7ba6d01-aa2e-4086-942c-9c82c09ab264)
   )
-  (hierarchical_label "MA" (shape input) (at 347.98 60.325 0) (fields_autoplaced)
+  (hierarchical_label "MA" (shape input) (at 348.615 60.325 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ef134003-df03-483b-a9ce-b398ea3e1c91)
   )
@@ -2969,7 +3313,7 @@
     )
     (pin "1" (uuid a3226493-1fcd-4639-af2a-97a9144e4620))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "J11") (unit 1)
         )
@@ -3009,7 +3353,7 @@
     (pin "1" (uuid bbe34f84-e4f1-4e5d-95d2-8eb924943be7))
     (pin "2" (uuid 312917ab-5aa7-47a9-88b2-1b333c7ea616))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "D11") (unit 1)
         )
@@ -3049,7 +3393,7 @@
     (pin "1" (uuid 682f1c35-b5ed-4553-8dbc-9078b8061bc4))
     (pin "2" (uuid dc326cfa-9bef-40a7-bbb0-b92940fd7048))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F5") (unit 1)
         )
@@ -3089,7 +3433,7 @@
     (pin "1" (uuid 1a1ee663-6912-4cd2-b5dd-89c52eaf0eff))
     (pin "2" (uuid b8a34a37-4dca-4f66-9aa9-b59e8cc9cff7))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C54") (unit 1)
         )
@@ -3119,7 +3463,7 @@
     )
     (pin "1" (uuid 9fb76b19-e069-4481-a66a-9d0bcd5e09fc))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR081") (unit 1)
         )
@@ -3154,7 +3498,7 @@
     (pin "1" (uuid 48b80651-25f5-4758-9e42-a4528c575fdb))
     (pin "2" (uuid cd2001b0-8b93-43cd-a6fd-70eb3fd9d4bc))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R57") (unit 1)
         )
@@ -3194,7 +3538,7 @@
     (pin "1" (uuid 8832ed0f-4751-4998-9ef9-e581ca404ff3))
     (pin "2" (uuid 1df24ffb-7f37-48d5-a745-2dca8acd85ff))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "FB1") (unit 1)
         )
@@ -3234,7 +3578,7 @@
     (pin "1" (uuid 4d2b51c5-7fbb-4db6-81cb-b42334d1cc9e))
     (pin "2" (uuid 5816daba-0153-439c-ac6c-72ec735bef32))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TH3") (unit 1)
         )
@@ -3274,7 +3618,7 @@
     (pin "1" (uuid e81e3d64-9ef3-42b4-a5be-5720e3fec959))
     (pin "2" (uuid 9b178377-8a7a-430c-a6e8-759d2540b7eb))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R67") (unit 1)
         )
@@ -3314,7 +3658,7 @@
     (pin "1" (uuid 5068289f-553f-48ee-b951-efd24d2acf82))
     (pin "2" (uuid 122403ed-93ef-4888-b8b6-e01e1dadd081))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F2") (unit 1)
         )
@@ -3344,7 +3688,7 @@
     )
     (pin "1" (uuid 04810336-6640-4cfc-b070-123066bb2cdc))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR076") (unit 1)
         )
@@ -3358,7 +3702,7 @@
     (property "Reference" "R53" (at 119.38 53.975 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100R" (at 129.54 53.975 90)
+    (property "Value" "100R" (at 130.81 53.975 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 123.19 57.023 90)
@@ -3379,7 +3723,7 @@
     (pin "1" (uuid 2e67b372-acf6-4441-8e12-07cd1524a276))
     (pin "2" (uuid 3fc59c71-3673-4afd-a3f6-3d3e2c08116e))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R53") (unit 1)
         )
@@ -3419,7 +3763,7 @@
     (pin "1" (uuid a23e1378-0573-453b-a769-f7fdaa2ccf2b))
     (pin "2" (uuid 8068c552-e41f-4f2e-a67a-725fbd4fa6da))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F10") (unit 1)
         )
@@ -3464,7 +3808,7 @@
     (pin "5" (uuid 954038d5-69f6-43c4-81bd-b1f55c9257a4))
     (pin "6" (uuid 011275b6-6078-41e4-b7c7-bec03dc54def))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "J14") (unit 1)
         )
@@ -3489,7 +3833,7 @@
     )
     (pin "1" (uuid b6bde705-5fc1-4ad9-b8e7-26b633d4a164))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR078") (unit 1)
         )
@@ -3524,7 +3868,7 @@
     (pin "1" (uuid e02d942a-e3d5-406b-ba87-cbdc7808232f))
     (pin "2" (uuid f579a5f1-7f64-40dd-8a24-1c2b7fb6da14))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F1") (unit 1)
         )
@@ -3564,7 +3908,7 @@
     (pin "1" (uuid 3534032c-6949-4f30-ab51-9647ef6c9f60))
     (pin "2" (uuid 81ddaacc-a7ad-4c9f-8d31-499c709b370c))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R55") (unit 1)
         )
@@ -3594,7 +3938,7 @@
     )
     (pin "1" (uuid bf33b2ae-50c7-465c-83cc-35ab70e3de28))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR085") (unit 1)
         )
@@ -3629,7 +3973,7 @@
     (pin "1" (uuid f503d504-e9a4-4060-a952-b20ba5f40ae7))
     (pin "2" (uuid 2da7f4ff-2dea-4082-9a74-ff4e881179c8))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R62") (unit 1)
         )
@@ -3669,7 +4013,7 @@
     (pin "1" (uuid e9af16ce-62eb-472a-9283-748ab5b4d0d1))
     (pin "2" (uuid e1e861a0-a22e-4fae-8a5d-b23f566ff889))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F13") (unit 1)
         )
@@ -3685,7 +4029,7 @@
   (symbol (lib_id "LTC6811-rescue:C-Device") (at 231.14 108.585 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3df37d84-9698-49dc-860a-22307b3b05e3)
-    (property "Reference" "C48" (at 234.061 107.4166 0)
+    (property "Reference" "C48" (at 234.315 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF 100V" (at 234.061 109.728 0)
@@ -3709,7 +4053,7 @@
     (pin "1" (uuid b2b89d23-41a7-40a6-aa40-2e0ec8c3240b))
     (pin "2" (uuid a4a8c60c-3795-4693-b6aa-711ca84de848))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C48") (unit 1)
         )
@@ -3717,6 +4061,46 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
           (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 353.695 51.435 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 458dba90-8fde-404b-9037-4db393ee2f50)
+    (property "Reference" "J15" (at 355.727 51.2318 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PB MB" (at 355.727 48.9204 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ENNOID:Pin_1x02-XL" (at 353.695 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/705430001_sd.pdf" (at 353.695 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "70543-0001" (at 353.695 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.jp/en/products/detail/molex/0705430001/114915?s=N4IgTCBcDaIOwAYCsAWAzAWgdgjCAugL5A" (at 353.695 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)" (at 353.695 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 22d7a1b4-54a9-4866-9620-d35eff481deb))
+    (pin "2" (uuid bbfa3c51-a166-43d4-8d51-52430b947cee))
+    (instances
+      (project "LTC6811_ESP32_V1.0"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
+          (reference "J15") (unit 1)
+        )
+      )
+      (project "BMS_LTC6811_Slaves_12W"
+        (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3749,7 +4133,7 @@
     (pin "1" (uuid 00adbee0-9314-475b-bb6e-e43ad7ae6cc2))
     (pin "2" (uuid 86e5cf9e-20b4-4c93-ab29-89751f8e27e2))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "D9") (unit 1)
         )
@@ -3757,48 +4141,6 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
           (reference "D13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ENNOID:HM2108NL") (at 316.23 66.675 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4cd52d03-3ee9-482c-8bd5-4ff94c9aa545)
-    (property "Reference" "TR2" (at 321.31 76.2 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HM2108NL" (at 321.31 73.8886 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "ENNOID:HM2108NL" (at 314.96 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/HM2108NL" (at 314.96 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "HM2108NL" (at 316.23 66.675 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "135µH Pulse Transformer Surface Mount" (at 316.23 66.675 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Link" "https://www.digikey.jp/en/products/detail/pulse-electronics/HM2108NL/7914611" (at 316.23 66.675 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2351c5e0-4d3e-4e56-8863-d8395877e25f))
-    (pin "2" (uuid 7f78bddc-586b-43a4-821c-5da25a45ecee))
-    (pin "3" (uuid 60dd1f5a-5fe5-4a8d-94e0-fce980c1ac90))
-    (pin "4" (uuid bdcf080e-1357-484d-8d39-42a1ff68ba2c))
-    (pin "5" (uuid 9da073cd-0c44-4b7e-a30c-20a2c2473c48))
-    (pin "6" (uuid 575aae86-c512-4794-a20d-18aac0fbf877))
-    (instances
-      (project "LTC6811_ESP32"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ab72d4d"
-          (reference "TR2") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
-          (reference "TR3") (unit 1)
         )
       )
     )
@@ -3831,7 +4173,7 @@
     (pin "1" (uuid 6236d5e0-54be-4e7b-97a4-ef79666c060d))
     (pin "2" (uuid f7305bec-80a4-4433-a642-e7a093b5266c))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R66") (unit 1)
         )
@@ -3861,7 +4203,7 @@
     )
     (pin "1" (uuid afbff0ed-2a71-4dca-b52a-e30503a2e62a))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR082") (unit 1)
         )
@@ -3896,7 +4238,7 @@
     (pin "1" (uuid 63a92fc4-7a4e-4351-ad9f-638851420c74))
     (pin "2" (uuid aea49078-1d33-4657-ba56-e03b2b552527))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C47") (unit 1)
         )
@@ -3936,7 +4278,7 @@
     (pin "1" (uuid 83a588f3-d595-4da5-a5b2-a9bea726cdab))
     (pin "2" (uuid 5104c872-ecfa-4586-baa9-65b13e27186e))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F3") (unit 1)
         )
@@ -3949,10 +4291,60 @@
     )
   )
 
+  (symbol (lib_id "Transformer:HM2102NL") (at 326.39 57.785 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 54d7853f-8c05-4c8e-90fe-a5fdcea1872c)
+    (property "Reference" "TR3" (at 321.2655 40.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "HM2102NL" (at 321.2655 43.18 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Transformer_SMD:HM2102NL_PUL" (at 327.66 60.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/HM2102NL" (at 327.66 60.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "HM2102NL" (at 326.39 57.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.jp/en/products/detail/pulse-electronics/HM2102NL/7914608" (at 326.39 57.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "150µH Pulse Transformer 1:1 Surface Mount" (at 326.39 57.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a7162553-83ba-49ed-9b0b-0612225cd19e))
+    (pin "10" (uuid a310474a-940d-4a66-a24f-d3871037e52b))
+    (pin "11" (uuid 125558e4-2fc2-458f-8c32-611485eb38ef))
+    (pin "12" (uuid d164bd46-5308-4f4c-a82e-fe58405169c3))
+    (pin "2" (uuid 051d2e04-c80d-40c9-84b8-15189ae5accd))
+    (pin "3" (uuid f80890b0-d0c0-4fb6-9e24-ca9be721b4bd))
+    (pin "4" (uuid 5771cd04-f84f-48b0-a8e6-5370af594dc3))
+    (pin "5" (uuid b405041d-7f18-4725-ac75-01a892ac099f))
+    (pin "6" (uuid a3df9f0a-a367-4b9f-87f9-47b8843b8c34))
+    (pin "7" (uuid 8645ff4d-13e7-4e8b-a371-f256dfb57e37))
+    (pin "8" (uuid b97f938f-e704-4a09-9039-787e59fb619a))
+    (pin "9" (uuid 9a4adb4d-5a75-43ea-a33b-f84fe0e6c62f))
+    (instances
+      (project "LTC6811_ESP32_V1.0"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
+          (reference "TR3") (unit 1)
+        )
+      )
+      (project "BMS_LTC6811_Slaves_12W"
+        (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
+          (reference "TR1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "LTC6811-rescue:C-Device") (at 294.64 65.405 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b88db98-4081-4a42-8cd0-bbdf3ae8e88c)
-    (property "Reference" "C53" (at 290.83 62.865 90)
+    (property "Reference" "C53" (at 289.56 62.865 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100pF 100V" (at 298.45 62.865 90)
@@ -3976,7 +4368,7 @@
     (pin "1" (uuid 4c1e76c4-62ea-4dd8-ba01-28c72f66d483))
     (pin "2" (uuid 9eecb222-0274-47dc-ae11-c6daa4fd0eed))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C53") (unit 1)
         )
@@ -4021,9 +4413,39 @@
     (pin "5" (uuid 17012cb2-d51f-43c3-9ab7-2b88b4c687d5))
     (pin "6" (uuid 4431865e-1cb6-4d46-af85-169fb8be6669))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "J13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND_PACK") (at 287.02 50.165 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 634b0e12-77fa-40c2-a33b-e7ca13667ca9)
+    (property "Reference" "#PWR039" (at 287.02 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_PACK" (at 287.655 53.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 287.02 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 287.02 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ca2a49ee-e9ed-4e51-a384-81c7e7bd9a43))
+    (instances
+      (project "LTC6811_ESP32_V1.0"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
+          (reference "#PWR039") (unit 1)
+        )
+      )
+      (project "BMS_LTC6811_Slaves_12W"
+        (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4035,7 +4457,7 @@
     (property "Reference" "R54" (at 119.38 60.325 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100R" (at 129.54 60.325 90)
+    (property "Value" "100R" (at 130.81 60.325 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 123.19 63.373 90)
@@ -4056,7 +4478,7 @@
     (pin "1" (uuid f501be5f-b167-4598-906f-c78c0f6fff4d))
     (pin "2" (uuid 7ca0ba40-5465-47bf-a0dd-464bf255f8da))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R54") (unit 1)
         )
@@ -4089,7 +4511,7 @@
     )
     (pin "1" (uuid 19863875-d35e-47df-a4dd-cb6f2e4d5c0e))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "J10") (unit 1)
         )
@@ -4129,7 +4551,7 @@
     (pin "1" (uuid 1bf5a09b-1371-470b-aec1-11d51c4ee5c0))
     (pin "2" (uuid 0e8cd850-016e-49d7-a578-3b07edb821fc))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TH4") (unit 1)
         )
@@ -4159,7 +4581,7 @@
     )
     (pin "1" (uuid aa6ebd8d-c298-462e-812b-0a15f393a3e7))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR083") (unit 1)
         )
@@ -4194,7 +4616,7 @@
     (pin "1" (uuid d89e8e40-a7b9-4c07-9bd0-ebdc56c845e5))
     (pin "2" (uuid 3a43156f-9d09-4378-8c68-79eb8ce98cea))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F6") (unit 1)
         )
@@ -4250,17 +4672,17 @@
     (pin "24" (uuid a71c2095-2f57-450b-8092-4d6aa4516fab))
     (pin "25" (uuid 55bb97b5-b82f-4a20-9030-1c0bb181bcbe))
     (pin "26" (uuid 19ca709c-a0e7-4c57-afcc-3841e029edef))
-    (pin "27" (uuid 4bc2d5e4-6944-491c-8124-913467b48751))
-    (pin "27" (uuid 4bc2d5e4-6944-491c-8124-913467b48751))
+    (pin "27" (uuid 4bc2d5e4-6944-491c-8124-913467b48755))
+    (pin "27" (uuid 4bc2d5e4-6944-491c-8124-913467b48755))
     (pin "28" (uuid c8618964-93db-47f5-a1c8-6fc9eec95af2))
-    (pin "29" (uuid c4bcf8e2-fc93-48be-bbee-a5f503251b97))
-    (pin "29" (uuid c4bcf8e2-fc93-48be-bbee-a5f503251b97))
+    (pin "29" (uuid c4bcf8e2-fc93-48be-bbee-a5f503251b9b))
+    (pin "29" (uuid c4bcf8e2-fc93-48be-bbee-a5f503251b9b))
     (pin "3" (uuid b2d741d5-0d3d-4806-a062-af01195f7ba7))
     (pin "30" (uuid d45a09a9-1a6e-4ae6-8a19-ee146c3cc8b4))
     (pin "31" (uuid 396cffcf-820c-4631-8ce1-ab2acba60359))
     (pin "32" (uuid 84da516f-b07d-4554-8853-94f9390232fc))
-    (pin "33" (uuid 2064137b-8a8c-46d4-b08e-c272da0a482a))
-    (pin "33" (uuid 2064137b-8a8c-46d4-b08e-c272da0a482a))
+    (pin "33" (uuid 2064137b-8a8c-46d4-b08e-c272da0a482e))
+    (pin "33" (uuid 2064137b-8a8c-46d4-b08e-c272da0a482e))
     (pin "34" (uuid 2072e691-80ac-4773-84cd-c0726b99a06a))
     (pin "35" (uuid 6a8b9057-40f4-4370-9f96-984e4aa4989e))
     (pin "36" (uuid 54ef8ff9-00b4-4b28-8d94-abdaba991460))
@@ -4283,7 +4705,7 @@
     (pin "8" (uuid 529c5bb2-28d6-4424-9231-37627152af0a))
     (pin "9" (uuid e801e740-43f1-44cd-9f5b-ea9d0bc14854))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "U12") (unit 1)
         )
@@ -4323,7 +4745,7 @@
     (pin "1" (uuid bd405895-2116-424a-8ed3-885f50728f29))
     (pin "2" (uuid 071b9276-8775-4206-8027-7fb677000dad))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C57") (unit 1)
         )
@@ -4363,7 +4785,7 @@
     (pin "1" (uuid d18d6300-71fc-43ed-ba35-932542d442d6))
     (pin "2" (uuid f2ef2d0a-ebf7-4dfc-9367-efad37cd86c4))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C49") (unit 1)
         )
@@ -4403,7 +4825,7 @@
     (pin "1" (uuid 30191f8a-052b-4cd8-a98f-5f5f72446edb))
     (pin "2" (uuid b690adf7-983b-4143-aad2-0020ea431a80))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R61") (unit 1)
         )
@@ -4416,24 +4838,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND_PACK") (at 90.17 144.145 0) (unit 1)
+  (symbol (lib_id "power:GND_PACK") (at 83.82 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75ea5529-f0ed-4c62-8c73-8aa6f1ab0a0d)
-    (property "Reference" "#PWR080" (at 90.17 150.495 0)
+    (property "Reference" "#PWR080" (at 83.82 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND_PACK" (at 96.52 146.05 0)
+    (property "Value" "GND_PACK" (at 90.17 146.685 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 90.17 144.145 0)
+    (property "Footprint" "" (at 83.82 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 90.17 144.145 0)
+    (property "Datasheet" "" (at 83.82 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3cec144a-db96-4f96-af99-4a7e310e734f))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR080") (unit 1)
         )
@@ -4461,7 +4883,7 @@
     )
     (pin "1" (uuid c54fa6b2-5bb8-410d-8d4d-a73bca500949))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "J12") (unit 1)
         )
@@ -4501,7 +4923,7 @@
     (pin "1" (uuid 88fd865a-79d9-4f3a-b816-b50e1b3389e1))
     (pin "2" (uuid 538f82e9-adeb-491a-832c-e62b06e78b04))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R59") (unit 1)
         )
@@ -4541,7 +4963,7 @@
     (pin "1" (uuid dbab44ca-314f-4c0e-8519-80f500d28b01))
     (pin "2" (uuid 87834f7a-fc8c-432d-9f18-bad4bd9e2262))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C56") (unit 1)
         )
@@ -4581,7 +5003,7 @@
     (pin "1" (uuid 46af7379-8ea6-4c2a-bf98-d7454276ae10))
     (pin "2" (uuid 826606a0-f8a9-4391-b729-be480b2248ec))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TH1") (unit 1)
         )
@@ -4621,7 +5043,7 @@
     (pin "1" (uuid 2d0a8288-b82f-431c-a870-e4fa8cf752ce))
     (pin "2" (uuid 47f7da27-41f9-4720-b916-cf6a9dd61e0c))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C52") (unit 1)
         )
@@ -4661,7 +5083,7 @@
     (pin "1" (uuid c2690370-a071-4580-9728-cc5641623c9f))
     (pin "2" (uuid 7aabd5fc-e08d-4135-8b96-f5d37b734c49))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F12") (unit 1)
         )
@@ -4669,6 +5091,46 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
           (reference "F11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LTC6811-rescue:C-Device") (at 295.91 50.165 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b205a0e2-5835-44b2-a666-dd98033faadf)
+    (property "Reference" "C22" (at 290.83 47.625 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100pF 100V" (at 299.72 47.625 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 292.1 51.1302 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5411/0603B101K101SD.pdf" (at 295.91 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0603B101K101SD" (at 295.91 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "100 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)" (at 295.91 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.jp/en/products/detail/nextgen-components/0603B101K101SD/18668484" (at 295.91 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 20becac7-6a3c-4a5a-bb6c-7a67869c6b9e))
+    (pin "2" (uuid b9bf9623-b1fe-47bc-9b81-f794a31cac8a))
+    (instances
+      (project "LTC6811_ESP32_V1.0"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
+          (reference "C22") (unit 1)
+        )
+      )
+      (project "BMS_LTC6811_Slaves_12W"
+        (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -4703,7 +5165,7 @@
     (pin "3" (uuid cb43fdda-a8d6-4946-9178-64fc0d0b07a1))
     (pin "4" (uuid 6bbc543b-1feb-4240-b0f6-ee64b9552470))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "Q2") (unit 1)
         )
@@ -4743,7 +5205,7 @@
     (pin "1" (uuid 1264cfd6-f112-42ca-ad8e-2b3daa824b27))
     (pin "2" (uuid 9dd4f359-921f-45a6-aa69-ba4963ffddd4))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F8") (unit 1)
         )
@@ -4773,7 +5235,7 @@
     )
     (pin "1" (uuid 484019f5-b52d-4517-8204-fb542248d11f))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR077") (unit 1)
         )
@@ -4808,7 +5270,7 @@
     (pin "1" (uuid c8217d98-5a1a-41f7-a1f8-4e3f64a22868))
     (pin "2" (uuid 410f8910-4e34-41ab-bce5-6c81f759317f))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TH5") (unit 1)
         )
@@ -4848,7 +5310,7 @@
     (pin "1" (uuid dd72e73b-6a51-4c45-88d3-0164d1ec50e7))
     (pin "2" (uuid 1096cf7d-3bb8-495c-99bf-52ef21ac220e))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F7") (unit 1)
         )
@@ -4888,7 +5350,7 @@
     (pin "1" (uuid f89f8365-5442-4c6f-a217-cd12414ec3ac))
     (pin "2" (uuid a10b7673-4cd5-40ef-9f37-a389f13c7935))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R56") (unit 1)
         )
@@ -4928,7 +5390,7 @@
     (pin "1" (uuid 47eac479-8097-46c1-89f7-41245b642398))
     (pin "2" (uuid 5e06487f-4a8d-410a-96f1-926a3228d002))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C58") (unit 1)
         )
@@ -4968,7 +5430,7 @@
     (pin "1" (uuid d401db19-e324-48e5-a355-a0fda1ed8461))
     (pin "2" (uuid f1eb29a0-351b-4a26-b12c-4e23e9bb5cb6))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C46") (unit 1)
         )
@@ -5008,7 +5470,7 @@
     (pin "1" (uuid 36b9bed4-028b-41d1-987a-85a9769981ed))
     (pin "2" (uuid 233bc236-ab9b-4804-bdb5-7f914407d7c0))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F14") (unit 1)
         )
@@ -5048,7 +5510,7 @@
     (pin "1" (uuid e37dab83-d1e3-426d-8943-8f8c0ac4b7ed))
     (pin "2" (uuid 7303a702-fad6-4c22-9182-dd42c20c4765))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R63") (unit 1)
         )
@@ -5088,7 +5550,7 @@
     (pin "1" (uuid 20d22c9f-4257-4347-8479-905a8edf20da))
     (pin "2" (uuid b5627aaf-e82e-4982-ade5-5a21a321d8e0))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R64") (unit 1)
         )
@@ -5128,7 +5590,7 @@
     (pin "1" (uuid a864f35f-5e90-4229-99d6-6c9c3e55469c))
     (pin "2" (uuid d8c615ae-3031-4a78-a5fc-f894ca8748dd))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C51") (unit 1)
         )
@@ -5158,7 +5620,7 @@
     )
     (pin "1" (uuid 39598084-5c7a-447f-b06a-5a7fe559263d))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR079") (unit 1)
         )
@@ -5193,7 +5655,7 @@
     (pin "1" (uuid 6d496a8d-2a40-4568-b821-4aa0929a34ac))
     (pin "2" (uuid 69b66b5f-1508-49d2-8675-39c182edc141))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C55") (unit 1)
         )
@@ -5233,7 +5695,7 @@
     (pin "1" (uuid 5d7ff7d0-ee09-4196-b1f1-b855bab34aee))
     (pin "2" (uuid 524fdff5-f35e-4aa5-9633-6b98d1323c13))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "C50") (unit 1)
         )
@@ -5252,7 +5714,7 @@
     (property "Reference" "D12" (at 353.06 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LED Red" (at 353.06 100.965 0)
+    (property "Value" "LED Red" (at 360.045 95.885 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 355.6 99.695 0)
@@ -5273,7 +5735,7 @@
     (pin "1" (uuid a494ee12-ff71-40db-9969-ad847858d49c))
     (pin "2" (uuid 504e7995-eb62-4cdd-9b50-d7f387f03ac8))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "D12") (unit 1)
         )
@@ -5313,7 +5775,7 @@
     (pin "1" (uuid 9e356e40-cf25-466a-9ed4-7ce77dbc6308))
     (pin "2" (uuid a338f4b7-93c2-4af0-a1f5-23469f293d94))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F9") (unit 1)
         )
@@ -5353,7 +5815,7 @@
     (pin "1" (uuid d17fac2f-ae3e-4842-ab9e-34764dfca105))
     (pin "2" (uuid 8495a9a3-0726-4c18-b3fa-7ffaf93e7cf5))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R60") (unit 1)
         )
@@ -5393,7 +5855,7 @@
     (pin "1" (uuid caaeda5f-c539-46e5-94c6-d91a5f2ec8e8))
     (pin "2" (uuid a9deaed1-3a72-4c4e-8175-88190cbf6769))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TH2") (unit 1)
         )
@@ -5433,7 +5895,7 @@
     (pin "1" (uuid 80c66657-763b-4136-b76e-ce3027493c77))
     (pin "2" (uuid 7034ce37-11a2-4bf1-a6fc-c422e4d91492))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "D10") (unit 1)
         )
@@ -5446,34 +5908,34 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 208.28 118.745 270) (unit 1)
+  (symbol (lib_id "Device:R") (at 213.995 118.745 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f83136e0-32e9-4970-ad44-212ebcf5d675)
-    (property "Reference" "R58" (at 203.835 116.84 90)
+    (property "Reference" "R58" (at 209.55 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100K" (at 208.915 116.84 90)
+    (property "Value" "100K" (at 214.63 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 208.28 116.967 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.995 116.967 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" (at 208.28 118.745 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" (at 213.995 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "RC0603JR-07100KL" (at 208.28 118.745 0)
+    (property "MPN" "RC0603JR-07100KL" (at 213.995 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" (at 208.28 118.745 0)
+    (property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" (at 213.995 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603JR-07100KL/726698?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7AIxJIDSAMiALoC%2BQA" (at 208.28 118.745 0)
+    (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603JR-07100KL/726698?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7AIxJIDSAMiALoC%2BQA" (at 213.995 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee7c5174-4b98-4ab7-a4b6-7fbbe0e198a4))
     (pin "2" (uuid 16ed68e7-722d-480d-8f78-e6b03361a152))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R58") (unit 1)
         )
@@ -5513,7 +5975,7 @@
     (pin "1" (uuid 93823997-9e54-4373-8992-514f9bdd8471))
     (pin "2" (uuid 9e08e17d-a6ee-4fe7-a741-3a96d80f8515))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F4") (unit 1)
         )
@@ -5553,7 +6015,7 @@
     (pin "1" (uuid b7ddb9ff-b151-4bd5-8348-f552a8eb17c1))
     (pin "2" (uuid 1c40e936-d7ff-42e8-9784-33f676938e91))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "R65") (unit 1)
         )
@@ -5583,7 +6045,7 @@
     )
     (pin "1" (uuid 309dbcef-641f-48ff-a2fa-80fd3821bd9f))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "#PWR084") (unit 1)
         )
@@ -5618,7 +6080,7 @@
     (pin "1" (uuid 4089195a-1526-4f82-b232-aa66c7f38ec7))
     (pin "2" (uuid 6a0f94f2-4b28-4ce0-b318-95265cefd112))
     (instances
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "F11") (unit 1)
         )
@@ -5665,7 +6127,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "11"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "10"))
       )
     )
@@ -5705,7 +6167,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "4"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "17"))
       )
     )
@@ -5745,7 +6207,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "5"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "16"))
       )
     )
@@ -5785,7 +6247,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "13"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "8"))
       )
     )
@@ -5825,7 +6287,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "6"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "15"))
       )
     )
@@ -5865,7 +6327,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "7"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "14"))
       )
     )
@@ -5905,7 +6367,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "8"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "13"))
       )
     )
@@ -5945,7 +6407,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "3"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "18"))
       )
     )
@@ -5985,7 +6447,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "9"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "12"))
       )
     )
@@ -6025,7 +6487,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "12"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "9"))
       )
     )
@@ -6065,7 +6527,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "10"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "11"))
       )
     )
@@ -6105,7 +6567,7 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a" (page "2"))
       )
-      (project "LTC6811_ESP32"
+      (project "LTC6811_ESP32_V1.0"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2" (page "19"))
       )
     )
