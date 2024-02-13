@@ -1,3 +1,8 @@
-V1.0 Add chrysanthemum chain connection interface. （增加菊花链连接接口 ）
-V1.2 Rectify the issue of USB port being obstructed.（修正USB接口被遮挡的问题）
+V1.0
+1、Add chrysanthemum chain connection interface. （增加菊花链连接接口 ）
 
+V1.2 
+1、Rectify the issue of USB port being obstructed.（修正USB接口被遮挡的问题）
+2、Change the maximum output current of the 3.3V DC-DC chip to 3A.（更改3.3V DCDC芯片最大输出电流为3A）
+3、Remove the power supply circuit from the traction battery and switch to a 12V storage battery.（取消从动力电池供电电路，更改为12V蓄电池供电）
+4、
