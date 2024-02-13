@@ -1,2 +1,2 @@
 1、Rectify the issue of USB port being obstructed.（修正USB接口被遮挡的问题。）
-2、Debugging----Incorrect 5V isolated power supply output.（调试----5V隔离供电输出不正确。）
+2、Debugging----Incorrect 5V isolated power supply output.（调试----5V隔离供电输出不正确。）OK
