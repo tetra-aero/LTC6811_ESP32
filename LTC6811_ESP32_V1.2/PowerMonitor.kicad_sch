@@ -11,6 +11,60 @@
   )
 
   (lib_symbols
+    (symbol "Amplifier_Audio:AMC1301" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 1.27 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 1.27 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 1.27 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 1.27 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "AMC1301_0_1"
+        (rectangle (start -12.7 12.7) (end 12.7 -12.7)
+          (stroke (width 0) (type solid))
+          (fill (type background))
+        )
+      )
+      (symbol "AMC1301_1_1"
+        (pin input line (at -15.24 11.43 0) (length 2.54)
+          (name "VDD1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -15.24 -2.54 0) (length 2.54)
+          (name "VINP" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -15.24 -11.43 0) (length 2.54)
+          (name "VINN" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -15.24 2.54 0) (length 2.54)
+          (name "GND1" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 15.24 2.54 180) (length 2.54)
+          (name "GND2" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 15.24 -11.43 180) (length 2.54)
+          (name "VOUTN" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 15.24 -2.54 180) (length 2.54)
+          (name "VOUTP" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 15.24 11.43 180) (length 2.54)
+          (name "VDD2" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Amplifier_Operational:OPA2376xxD" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -448,60 +502,6 @@
         )
       )
     )
-    (symbol "ENNOID:AMC1301" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -10.16 16.51 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "AMC1301" (at -6.35 13.97 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AMC1301_0_1"
-        (rectangle (start -12.7 12.7) (end 12.7 -12.7)
-          (stroke (width 0) (type solid))
-          (fill (type background))
-        )
-      )
-      (symbol "AMC1301_1_1"
-        (pin input line (at -15.24 11.43 0) (length 2.54)
-          (name "VDD1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -15.24 -2.54 0) (length 2.54)
-          (name "VINP" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -15.24 -11.43 0) (length 2.54)
-          (name "VINN" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -15.24 2.54 0) (length 2.54)
-          (name "GND2" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 15.24 2.54 180) (length 2.54)
-          (name "GND2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 15.24 -11.43 180) (length 2.54)
-          (name "VOUTN" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 15.24 -2.54 180) (length 2.54)
-          (name "VOUTP" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 15.24 11.43 180) (length 2.54)
-          (name "VDD2" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -811,9 +811,6 @@
   (junction (at 355.6 182.245) (diameter 0) (color 0 0 0 0)
     (uuid f9354b30-7809-4d11-8aeb-3270fbd03254)
   )
-  (junction (at 95.885 187.325) (diameter 0) (color 0 0 0 0)
-    (uuid fb33c254-a3c5-4dec-b02d-2078fc86f587)
-  )
 
   (no_connect (at 320.675 147.955) (uuid 1f0b7ee2-1162-4795-b475-ac43d20c2039))
   (no_connect (at 350.52 187.325) (uuid 29469e03-c31f-43c1-9fc0-bdfee6b879a5))
@@ -861,10 +858,6 @@
   (wire (pts (xy 75.565 107.95) (xy 80.645 107.95))
     (stroke (width 0) (type default))
     (uuid 21a2a973-530a-4409-8a4e-e6805033f0de)
-  )
-  (wire (pts (xy 314.96 172.085) (xy 330.2 172.085))
-    (stroke (width 0) (type default))
-    (uuid 248cd289-9a9d-4df1-8686-5e5987bf9b08)
   )
   (wire (pts (xy 345.44 163.195) (xy 345.44 164.465))
     (stroke (width 0) (type default))
@@ -1020,10 +1013,6 @@
   (wire (pts (xy 314.96 182.245) (xy 330.2 182.245))
     (stroke (width 0) (type default))
     (uuid 71052562-3e77-4446-97e4-ef7c8bb41ff0)
-  )
-  (wire (pts (xy 95.885 187.325) (xy 105.41 187.325))
-    (stroke (width 0) (type default))
-    (uuid 735078db-a4b2-47a9-a026-2f5031a5a1e6)
   )
   (wire (pts (xy 135.255 102.87) (xy 135.255 101.6))
     (stroke (width 0) (type default))
@@ -1251,7 +1240,7 @@
     (stroke (width 0) (type default))
     (uuid cd636b5c-d5df-46ad-8639-9e7c76cdd414)
   )
-  (wire (pts (xy 93.98 187.325) (xy 95.885 187.325))
+  (wire (pts (xy 93.98 187.325) (xy 105.41 187.325))
     (stroke (width 0) (type default))
     (uuid ce0725f2-f21b-461e-a366-baca8cf3d773)
   )
@@ -1278,6 +1267,10 @@
   (wire (pts (xy 232.41 178.435) (xy 213.36 178.435))
     (stroke (width 0) (type default))
     (uuid db23db60-b27f-4b48-9068-ec97c17812eb)
+  )
+  (wire (pts (xy 314.96 172.085) (xy 330.2 172.085))
+    (stroke (width 0) (type default))
+    (uuid dce7f630-500b-4081-a1a5-162c54cfe299)
   )
   (wire (pts (xy 133.35 187.325) (xy 127 187.325))
     (stroke (width 0) (type default))
@@ -1433,11 +1426,15 @@
     (uuid f91d39c0-d8a7-414d-bea9-d8473e65f54e)
   )
 
-  (label "Vbat" (at 321.945 172.085 0) (fields_autoplaced)
+  (label "VBAT_SENSE" (at 319.405 172.085 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 038e46ce-7f4b-4a9a-970c-d5df206212d9)
   )
-  (label "Vbat" (at 337.82 111.76 0) (fields_autoplaced)
+  (label "BAT-" (at 95.885 187.325 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 58a7e6c6-584c-4ca1-aef9-cf191606bc05)
+  )
+  (label "VBAT_SENSE" (at 330.835 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 72a707f0-1b46-4212-a2b2-af8361394c38)
   )
@@ -1450,6 +1447,10 @@
     (uuid c67d2680-3564-474b-ad09-655ce2ec5344)
   )
 
+  (hierarchical_label "ISO+5V" (shape input) (at 134.62 164.465 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 04bab136-01e3-48c3-9520-e3ff2c1ab778)
+  )
   (hierarchical_label "BAT+" (shape input) (at 49.53 107.95 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0c82eb4f-b72a-487d-9bec-ced235ba5c0b)
@@ -1458,6 +1459,10 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0f2e51a0-3db1-4b9d-96ba-274df083c634)
   )
+  (hierarchical_label "ISO+5V" (shape input) (at 135.255 93.98 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 306d0c5a-8779-45c3-9f84-95f01d98c84c)
+  )
   (hierarchical_label "GND_PACK" (shape input) (at 93.98 178.435 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 311bee60-6fdc-486d-b34d-e68823418164)
@@ -1465,10 +1470,6 @@
   (hierarchical_label "SDA" (shape input) (at 368.3 179.705 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8917ef23-de5b-4495-8734-b1fcca37aaa0)
-  )
-  (hierarchical_label "BAT-" (shape input) (at 93.98 187.325 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9d6e23d7-5059-4e7f-8aef-b26ac421c6e8)
   )
 
   (symbol (lib_id "Device:R") (at 291.465 116.84 90) (unit 1)
@@ -1625,16 +1626,16 @@
     (property "Description" "Power Supply Controller Power Supply Monitor 10-MSOP" (at 340.36 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 343c0ea2-cdbe-41c9-bd3e-5a3adcdc3736))
-    (pin "10" (uuid 36f4a973-79e9-4b8c-8557-8a6b45c586ed))
-    (pin "2" (uuid 4235da66-f075-4158-bf38-e1c6db69f79c))
-    (pin "3" (uuid ea7d448d-aa90-4eb6-aadf-d67cbc526fca))
-    (pin "4" (uuid 528b5675-b960-4bca-b976-79573ac5571c))
-    (pin "5" (uuid 1dc1a1ee-d1c1-4650-921b-6871c4d9d0a5))
-    (pin "6" (uuid 5ac2d808-ae43-4d79-ac58-473874469224))
-    (pin "7" (uuid a7a4c637-7212-4da5-a1e5-c2c717a39b4d))
-    (pin "8" (uuid b232dbc1-c52a-431a-b5ca-e2d45f05d9b2))
-    (pin "9" (uuid 0ea908fb-ff19-4ef1-90e7-216dbb009623))
+    (pin "1" (uuid 066ca808-43a4-41f5-a576-ee27da67cf01))
+    (pin "10" (uuid 5454a009-d0af-4048-bca3-9d75a36d36ab))
+    (pin "2" (uuid a3f17c05-b3da-447b-af73-9de5626222ed))
+    (pin "3" (uuid 882c3c3d-73af-434e-a588-6665a73cd237))
+    (pin "4" (uuid be7900ef-13a9-4742-8cd2-e57e3b0a11b6))
+    (pin "5" (uuid 31b225ae-f812-46a3-b15a-3b71f7adb596))
+    (pin "6" (uuid a8cc42e0-3c96-4dbe-a735-00af29b44e90))
+    (pin "7" (uuid e21eb036-3012-47a3-b399-24e091e78a5e))
+    (pin "8" (uuid f4a89997-3d56-41b7-8666-3e49efb6c8f6))
+    (pin "9" (uuid 26e7d30e-44c2-42c5-bec2-0a548d8272e4))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -1662,7 +1663,7 @@
     (property "Datasheet" "" (at 326.39 198.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c7985776-4c2d-44c2-9d89-ba94b91a6e0d))
+    (pin "1" (uuid c712085d-02dc-4a95-8332-2df1085d2bc8))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -1696,8 +1697,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KC8NNNC/5961291?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTgDgDki4QBdAXyA" (at 326.39 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 45264a8b-a46f-4f74-96e9-84ef3ac3a26a))
-    (pin "2" (uuid df1fa463-0d7c-480d-bbc0-136d1acc6a3c))
+    (pin "1" (uuid 46ab787b-1c11-4f54-bb7a-17f32f5dc3c9))
+    (pin "2" (uuid 4e97956b-dc22-46e9-af0a-b18cc9691858))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
@@ -1734,8 +1735,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603JR-074K7L/726785?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7ACwDS%2BAMiALoC%2BQA" (at 355.6 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d5a6a5e7-2b7d-4e8a-8963-1d6a2e2420b8))
-    (pin "2" (uuid a56f84ca-0782-463e-8fa1-b08c3a8151ff))
+    (pin "1" (uuid b0161285-a0f0-4682-8370-a9995f78346f))
+    (pin "2" (uuid 370e0836-948c-494e-98bf-bf1a21581e36))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -1769,8 +1770,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603JR-074K7L/726785?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7ACwDS%2BAMiALoC%2BQA" (at 363.22 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c45f2e44-969c-4d2d-8e73-7841fc8ce69b))
-    (pin "2" (uuid 4c050acf-fd23-481b-9b88-826856376cf5))
+    (pin "1" (uuid 7f442182-5bf2-4ba1-99d0-c25d0d4edb6d))
+    (pin "2" (uuid aee33050-7c5a-42c9-8a1d-463fecb39109))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -1879,8 +1880,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KC8NNNC/5961291?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTgDgDki4QBdAXyA" (at 345.44 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c6daefcc-7e93-49b3-8b66-0f18ef3b9eac))
-    (pin "2" (uuid 98716fe2-0386-4b72-802f-4adeccb3ba52))
+    (pin "1" (uuid 2d18dc74-d74e-4080-b2e0-8d4986b600ad))
+    (pin "2" (uuid 2409a818-f39a-4a71-a4cf-8211c71eea78))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
@@ -1908,7 +1909,7 @@
     (property "Datasheet" "" (at 345.44 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ab5ec261-62c5-41dc-a627-ed99849b359b))
+    (pin "1" (uuid 87ef5be6-1d3a-445b-859c-297b0ff2f1af))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -1933,7 +1934,7 @@
     (property "Datasheet" "" (at 314.96 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da9524fd-4fd5-4c94-be30-c6ae3492437b))
+    (pin "1" (uuid 172ab4ec-395d-4bc4-affa-84a25a4312ba))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -1958,7 +1959,7 @@
     (property "Datasheet" "" (at 340.36 197.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e61893da-41ce-474e-a4e5-3a2ed57f7739))
+    (pin "1" (uuid 72e5911c-7ca8-4223-b0db-b45cd426a131))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -2031,7 +2032,7 @@
     )
   )
 
-  (symbol (lib_id "ENNOID:AMC1301") (at 167.005 105.41 0) (unit 1)
+  (symbol (lib_id "Amplifier_Audio:AMC1301") (at 167.005 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c7168d3)
     (property "Reference" "U3" (at 167.005 88.265 0)
@@ -2040,10 +2041,10 @@
     (property "Value" "AMC1301" (at 167.005 90.5764 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" (at 167.005 105.41 0)
+    (property "Footprint" "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" (at 168.275 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc1301.pdf?ts=1697691105837&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DAMC1301%2526nr%253D468" (at 167.005 105.41 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc1301.pdf?ts=1697691105837&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DAMC1301%2526nr%253D468" (at 168.275 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "AMC1301DWV" (at 167.005 105.41 0)
@@ -2556,8 +2557,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-073K3L/727126?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7OgNboAyIAugL5A" (at 292.1 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 27b7ce4c-e121-4f76-90d2-12a7abda2406))
-    (pin "2" (uuid f1c28730-c803-499d-967b-e4ea32f9dcfd))
+    (pin "1" (uuid e075585f-02c6-4288-91e7-5d39c090d7bd))
+    (pin "2" (uuid a3bdaba1-39d4-4165-b4f5-331706a83e18))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -2591,8 +2592,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/vishay-dale/CRCW06031K00FKEA/1179809" (at 298.45 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94eee1cf-e228-4834-b4ca-06a93974bb86))
-    (pin "2" (uuid a0411de0-ef69-490f-9f6a-a7e9098171b8))
+    (pin "1" (uuid 5c88134c-2546-4c56-8e2d-645538a5f05b))
+    (pin "2" (uuid f0511c15-d849-40c1-8914-82004f6d2462))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -2626,8 +2627,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-073K3L/727126?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7OgNboAyIAugL5A" (at 292.1 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5dcdb863-dd0d-4e7e-bd58-d26e4ff7e278))
-    (pin "2" (uuid 9be8705a-7341-41ba-a839-00273d2f8802))
+    (pin "1" (uuid 7826f129-6ed2-45a5-b064-c6ad537c6851))
+    (pin "2" (uuid 38e759a3-b082-4b30-85c5-199b483046fe))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -2637,7 +2638,7 @@
     )
   )
 
-  (symbol (lib_id "ENNOID:AMC1301") (at 166.37 175.895 0) (unit 1)
+  (symbol (lib_id "Amplifier_Audio:AMC1301") (at 166.37 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d7a0cf8)
     (property "Reference" "U2" (at 166.37 158.75 0)
@@ -2646,10 +2647,10 @@
     (property "Value" "AMC1301 or AMC1302" (at 166.37 161.0614 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" (at 166.37 175.895 0)
+    (property "Footprint" "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" (at 167.64 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc1301.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1697614208280&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Famc1301" (at 166.37 175.895 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc1301.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1697614208280&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Famc1301" (at 167.64 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "AMC1301DWV" (at 166.37 175.895 0)
@@ -2702,8 +2703,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KC8NNNC/5961291?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTgDgDki4QBdAXyA" (at 191.77 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10ea3f71-8664-4a85-823b-e699198ed96e))
-    (pin "2" (uuid 233514f8-48c0-477b-a9eb-8594ae2833df))
+    (pin "1" (uuid 6e807540-f458-433b-96cb-5f941db84a21))
+    (pin "2" (uuid 79c91c67-2b0b-4ead-91fb-3d4c2532af23))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
@@ -2740,8 +2741,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603C225K4PAC7867/2200308" (at 205.74 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a0839bf9-43a6-4f92-ac32-941c0c4cb511))
-    (pin "2" (uuid 5839c3ff-a77e-4d7f-9540-78950316445d))
+    (pin "1" (uuid baf64d36-42b0-416e-9eeb-4408d674e2d6))
+    (pin "2" (uuid a53c6af8-7051-4339-8a8c-f35ba6d6c8be))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
@@ -2769,7 +2770,7 @@
     (property "Datasheet" "" (at 218.44 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc8e99cc-7dc3-4052-b535-9a6c0828d3ac))
+    (pin "1" (uuid 106a6ff6-f076-4355-882d-8a6da16fac8c))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -2852,41 +2853,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 123.19 187.325 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005d7b40e0)
-    (property "Reference" "R17" (at 127.635 185.42 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1K" (at 127.635 188.595 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_2010_5025Metric" (at 123.19 189.103 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf" (at 123.19 187.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RC2010JK-071KL" (at 123.19 187.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1 kOhms ±5% 0.75W, 3/4W Chip Resistor 2010 (5025 Metric) Moisture Resistant Thick Film" (at 123.19 187.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC2010JK-071KL/5921660" (at 123.19 187.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a3760a03-c5c0-4e02-b5ec-81c54fd0c18e))
-    (pin "2" (uuid 81464ba9-3419-4d9c-9634-6003bb0c3e77))
-    (instances
-      (project "LTC6811_ESP32_V1.2"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "R17") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "BMS-Master-rescue:C-Device") (at 133.35 182.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d7b825f)
@@ -2940,7 +2906,7 @@
     (property "Datasheet" "" (at 218.44 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 372df282-eba7-4e29-a186-fe5ade9cb6c8))
+    (pin "1" (uuid 01d055be-f8ae-4951-9f0d-358f615dc9be))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -2974,8 +2940,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KC8NNNC/5961291?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTgDgDki4QBdAXyA" (at 314.96 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ab02361-3ce5-4431-a637-92c78f48ed71))
-    (pin "2" (uuid d96bce75-4ec1-4e15-b48a-7f8fef6f099b))
+    (pin "1" (uuid 1bb1bf25-6f7e-47b7-962d-2a267c939ba4))
+    (pin "2" (uuid 5260f7c0-b3d7-45c0-ac01-f877e9460938))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
@@ -3003,7 +2969,7 @@
     (property "Datasheet" "" (at 314.96 198.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8886deed-b0b4-4903-aff9-81cfbfa85077))
+    (pin "1" (uuid 627bcf3b-4490-4bc8-8e36-60cce883ad97))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -3037,8 +3003,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-07100RL/726888?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJJwAyIAugL5A" (at 236.22 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a98428a7-e1d1-4b49-81a1-bab58676e92c))
-    (pin "2" (uuid 367b2140-eea0-4501-aeed-098cd323cfb6))
+    (pin "1" (uuid bcc1b820-6cfa-4758-8f4e-1d25204e1575))
+    (pin "2" (uuid 64373cab-588b-486a-ad28-5f3bc9adab8b))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -3072,8 +3038,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/vishay-dale/CRCW06031K00FKEA/1179809" (at 261.62 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 557c2b6c-be99-47b4-a6f7-a1ee1bcb1d55))
-    (pin "2" (uuid a345caa8-1e91-4343-a389-0d9b12f35032))
+    (pin "1" (uuid 4fb2d934-a158-465f-b63b-6dcda7762dc3))
+    (pin "2" (uuid 9426e7a4-023e-4387-b0cc-f3df1f3dc363))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -3107,8 +3073,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-07100RL/726888?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJJwAyIAugL5A" (at 236.22 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3882ea2e-6525-42fe-8a0f-91d36e41fb8d))
-    (pin "2" (uuid 29a37e80-06c4-4371-909b-a75f4282efdd))
+    (pin "1" (uuid a71a05dd-ddfd-41d4-8295-bb9da2474877))
+    (pin "2" (uuid beb60e67-d85e-4280-bdad-45816a29bdf8))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -3142,8 +3108,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603C222K4RECAUTO/8646528" (at 248.92 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c6bc92a9-b94b-4bcb-872f-fe1e365bb530))
-    (pin "2" (uuid 8721bbd4-a164-4e49-bee5-cf7ff7db0da7))
+    (pin "1" (uuid 67736a3f-3be1-47af-87d3-4febe53b97cd))
+    (pin "2" (uuid 806986a6-0a41-479f-8bfa-f995a78fadd4))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
@@ -3180,8 +3146,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/vishay-dale/CRCW06031K00FKEA/1179809" (at 261.62 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b673dfc1-9772-4419-b711-2b98a1700da6))
-    (pin "2" (uuid 8ad6c8fc-148b-437b-9d46-d473123f7209))
+    (pin "1" (uuid 03470a93-d9a3-4928-b278-c09d0c1d0b16))
+    (pin "2" (uuid cb0ba7e8-4188-4e8e-9d67-40957c69b1b6))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
@@ -3215,8 +3181,8 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/murata-electronics/GCM1885C1H221JA16D/1765211" (at 275.59 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25a74ae1-199c-4fe8-9f2e-bbb62a2ec629))
-    (pin "2" (uuid 993c2f93-266b-4c52-ad01-cd1868ddf3b3))
+    (pin "1" (uuid e12a7662-3df1-4905-8c66-ccd3c97b3fd1))
+    (pin "2" (uuid 89b6a3fd-a559-4d0a-9fea-fcae5b0ddf7c))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
@@ -3340,6 +3306,41 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 123.19 187.325 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 280d480e-52d7-495d-9634-34444ced904b)
+    (property "Reference" "R17" (at 128.27 186.055 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 127.635 188.595 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 123.19 189.103 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 123.19 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CRCW06031K00FKEA" (at 123.19 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" (at 123.19 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.jp/en/products/detail/vishay-dale/CRCW06031K00FKEA/1179809" (at 123.19 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3fa3146b-1573-47e3-b18c-c4ed6fe7cba1))
+    (pin "2" (uuid c6ff2ecd-3745-4cde-a403-93cc476c852a))
+    (instances
+      (project "LTC6811_ESP32_V1.2"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
+          (reference "R17") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Amplifier_Operational:OPA2376xxD") (at 374.65 110.49 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a040c1b-5e33-4bde-9f91-dbdd2c585aa4)
@@ -3399,8 +3400,8 @@
     (property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)" (at 314.96 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0956989f-0ca9-4be8-a3ed-19edef33b47a))
-    (pin "2" (uuid 71014066-9d41-4e96-8a8b-f66f210f3b3a))
+    (pin "1" (uuid 96518aac-0173-4c8a-8b0d-6f578c462615))
+    (pin "2" (uuid fa945db8-81b4-412b-bf55-67afa65fe16c))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ab72d4d"
@@ -3585,22 +3586,22 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 95.885 192.405 270) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 88.9 187.325 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7920f876-1b1e-4437-916a-4703177582b1)
-    (property "Reference" "BAT-1" (at 93.98 194.945 90)
+    (property "Reference" "BAT-1" (at 92.075 189.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BAT-" (at 95.885 194.31 0)
+    (property "Value" "BAT-" (at 86.995 187.325 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Battery:Battery_6mm×10mm_Cell_half_2" (at 95.885 192.405 0)
+    (property "Footprint" "Battery:Battery_6mm×10mm_Cell_half_2" (at 88.9 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 95.885 192.405 0)
+    (property "Datasheet" "~" (at 88.9 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 95.885 192.405 0)
+    (property "Description" "" (at 88.9 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 703711f8-40f0-41d2-8bd6-94f5f6eb78b7))
@@ -3613,31 +3614,6 @@
       (project "L9963E+ESP32_V1.0"
         (path "/e9bba7f0-c10d-45df-9f8e-74901087917a"
           (reference "BAT-1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 105.41 187.325 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 840b5e11-608e-4039-a1ce-91ea17cfee33)
-    (property "Reference" "#PWR05" (at 105.41 193.675 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 105.537 191.7192 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 105.41 187.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 105.41 187.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7ad83fb8-b611-4990-aa15-d4451fc06dda))
-    (instances
-      (project "LTC6811_ESP32_V1.2"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3743,14 +3719,14 @@
     (property "Link" "https://www.digikey.jp/en/products/detail/texas-instruments/OPA2197IDR/6175210?s=N4IgTCBcDaIPIAUCCYCMBOA7ASQCICUQBdAXyA" (at 313.055 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7c2989c-5454-4055-89ba-f9c2b5ba2590))
-    (pin "2" (uuid 4baeb6e4-0af4-4e16-a59b-758435492945))
-    (pin "3" (uuid 60765fce-3589-4185-b24c-fa0a4141fda4))
-    (pin "5" (uuid d40e2100-0e6c-4447-b8ae-fc4fd309c23c))
-    (pin "6" (uuid 537aa2ae-295f-4397-803e-a1b695acee87))
-    (pin "7" (uuid fe59ca5e-7883-4436-8851-473c4003edc3))
-    (pin "4" (uuid 734ea0d8-13b8-4ba1-89de-02ffb46dcda1))
-    (pin "8" (uuid 96a2aa08-9064-4e5a-822e-6627176cbeb3))
+    (pin "1" (uuid 0a9d4fad-ac32-4fc5-918e-6d2754027a42))
+    (pin "2" (uuid 1b031b92-b28a-4536-bcf8-b9334a36d8ab))
+    (pin "3" (uuid 166f896b-79a9-4883-968b-7932a978709c))
+    (pin "5" (uuid 6fdb6eb9-c62b-43db-aef3-f8429c5beecc))
+    (pin "6" (uuid 4443416f-14b1-45c0-a90a-75088ba917dd))
+    (pin "7" (uuid fb225193-299d-475e-878d-6515899db706))
+    (pin "4" (uuid 9e5b43d5-85cb-439a-99fa-5230063fb618))
+    (pin "8" (uuid cfc8c7f8-8b30-4294-acfd-a69d87ef50e2))
     (instances
       (project "LTC6811_ESP32_V1.2"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
