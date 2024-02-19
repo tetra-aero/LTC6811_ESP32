@@ -1388,7 +1388,7 @@
     (property "Value" "AI-1027-TWT-5V" (at 276.3012 181.9148 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "ENNOID:BUZZER" (at 271.78 177.8 90)
+    (property "Footprint" "Buzzer_Beeper:Beeper_AI-1027-TWT-5V" (at 271.78 177.8 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.puiaudio.com/media/SpecSheet/AI-1027-TWT-5V-2-R.pdf" (at 271.78 177.8 90)

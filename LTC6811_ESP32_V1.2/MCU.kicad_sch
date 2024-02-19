@@ -12275,7 +12275,7 @@
     (uuid c81a1efe-01a7-424f-83f7-fd6b9cc09b03)
   )
 
-  (label "CAN_RX" (at 127.635 133.985 0) (fields_autoplaced)
+  (label "CAN_RX" (at 127.635 131.445 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e7ea95b-e94a-4c5d-bccf-4fcb7c8e37ed)
   )
@@ -12323,7 +12323,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7c87d1f5-8cc2-460f-b7c5-c91c727eb390)
   )
-  (label "CAN_TX" (at 127.635 131.445 0) (fields_autoplaced)
+  (label "CAN_TX" (at 127.635 133.985 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d5a1b75-82c7-4ed6-88fc-399a9125c791)
   )
