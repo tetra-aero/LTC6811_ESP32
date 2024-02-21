@@ -3,6 +3,6 @@ V1.0
 
 V1.2 
 1、Rectify the issue of USB port being obstructed.（修正USB接口被遮挡的问题）
-2、Change the maximum output current of the 3.3V DC-DC chip to 3A.（更改3.3V DCDC芯片最大输出电流为3A）
+2、Change the maximum output current of the 3.3V DC-DC chip to 2A.（更改3.3V DCDC芯片最大输出电流为2A）
 3、Remove the power supply circuit from the traction battery and switch to a 12V storage battery.（取消从动力电池供电电路，更改为12V蓄电池供电）
-4、
+4、Optimize isolation partition（优化隔离分区）
