@@ -1,2 +1,3 @@
 1、Rectify the issue of USB port being obstructed.（修正USB接口被遮挡的问题。）finished
 2、Debugging----Incorrect 5V isolated power supply output.（调试----5V隔离供电输出不正确。）finished
+3、Correcting signal transmission interference in V1p2 version, updating to V1p3 (PCB modification completed, pending testing and validation).
