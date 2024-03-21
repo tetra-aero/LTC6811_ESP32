@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": true,
         "zones": {
-          "min_clearance": 1.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -531,10 +531,6 @@
     [
       "00000000-0000-0000-0000-00005c246ca0",
       "USB"
-    ],
-    [
-      "00000000-0000-0000-0000-00005a91e16c",
-      "CAN"
     ],
     [
       "0999518d-09c3-4a69-bd78-ff81b3ce8dd2",
