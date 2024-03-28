@@ -5489,17 +5489,17 @@
     (pin "24" (uuid 772d1fcb-b3fd-4d01-8526-27196b70b235))
     (pin "25" (uuid 614b6239-b228-42e8-90a9-610e6d354297))
     (pin "26" (uuid a1ae4944-09bc-4552-aae1-96e7ac0b81df))
-    (pin "27" (uuid fcce4ff8-861a-4bc5-8863-875948883d8f))
-    (pin "27" (uuid fcce4ff8-861a-4bc5-8863-875948883d8f))
+    (pin "27" (uuid fcce4ff8-861a-4bc5-8863-875948883d91))
+    (pin "27" (uuid fcce4ff8-861a-4bc5-8863-875948883d92))
     (pin "28" (uuid 73561b0c-6b0e-4166-8137-7a8bfcfeb1e1))
-    (pin "29" (uuid 0987f252-2546-4584-b7cf-7feb298830ad))
-    (pin "29" (uuid 0987f252-2546-4584-b7cf-7feb298830ad))
+    (pin "29" (uuid 0987f252-2546-4584-b7cf-7feb298830af))
+    (pin "29" (uuid 0987f252-2546-4584-b7cf-7feb298830b0))
     (pin "3" (uuid ee943f7b-0810-49a9-84a6-603afe246699))
     (pin "30" (uuid e63ad3fc-68d7-48a4-aac2-8f4d8f684152))
     (pin "31" (uuid 269805f8-fd57-4012-90c8-19da9dc169c1))
     (pin "32" (uuid 1aee3ee6-d645-480d-92a5-dfb5f9057c44))
-    (pin "33" (uuid bf804b08-fece-4fdd-9aa4-66f21799538d))
-    (pin "33" (uuid bf804b08-fece-4fdd-9aa4-66f21799538d))
+    (pin "33" (uuid bf804b08-fece-4fdd-9aa4-66f21799538f))
+    (pin "33" (uuid bf804b08-fece-4fdd-9aa4-66f217995390))
     (pin "34" (uuid 2fa1f1f1-bcb4-4fce-b999-3ca18d9faff8))
     (pin "35" (uuid 804e27e0-eea9-4a6b-bc5a-0b14a0b54033))
     (pin "36" (uuid 05689175-ad1d-4ffa-b4b0-2b2d59217ff0))
@@ -5673,9 +5673,6 @@
     (pin "1" (uuid cdd8be94-e049-4823-b3f5-781dc767e086))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
-          (reference "TP3") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TP3") (unit 1)
         )
@@ -5843,10 +5840,50 @@
     )
   )
 
+  (symbol (lib_id "Device:R_Small") (at 213.995 118.745 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9f4e1be4-9ff4-439e-927c-67d016219aa1)
+    (property "Reference" "R58" (at 215.9 116.84 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100R" (at 216.535 120.65 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.995 120.523 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" (at 213.995 118.745 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "RC0603FR-07100RL" (at 213.995 118.745 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" (at 213.995 118.745 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-07100RL/726888?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJJwAyIAugL5A" (at 213.995 118.745 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2c74b636-4d7e-4e02-83d1-0971fe1bd9aa))
+    (pin "2" (uuid dfb61a63-1dee-46e9-be1b-e9b73368fd7b))
+    (instances
+      (project "LTC6811_ESP32_V1p3"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
+          (reference "R58") (unit 1)
+        )
+      )
+      (project "LTC6811"
+        (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
+          (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:TestPoint") (at 304.165 156.845 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a56bcd57-d73e-4427-8519-ddff33b858ae)
-    (property "Reference" "TP3" (at 308.737 159.385 0)
+    (property "Reference" "TP4" (at 308.737 159.385 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "TestPoint" (at 309.245 156.845 90)
@@ -5861,9 +5898,6 @@
     (pin "1" (uuid daf8e00e-f0aa-4dbd-892d-3c408ab38927))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
-          (reference "TP3") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TP4") (unit 1)
         )
@@ -5914,7 +5948,7 @@
   (symbol (lib_id "ENNOID:HM2108NL") (at 316.23 51.435 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9f0ffbd-cc6d-4e2e-aae1-9726468443e2)
-    (property "Reference" "TR2" (at 323.215 40.64 0)
+    (property "Reference" "TR4" (at 323.215 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HM2108NL" (at 321.945 43.18 0)
@@ -5943,9 +5977,6 @@
     (pin "6" (uuid 6d926d0f-8a9f-4ec7-8757-b365f3224dfb))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ab72d4d"
-          (reference "TR2") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TR4") (unit 1)
         )
@@ -6273,7 +6304,7 @@
   (symbol (lib_id "ENNOID:HM2108NL") (at 316.23 66.675 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb3c6a71-4752-4962-a89a-fba5bd299681)
-    (property "Reference" "TR2" (at 321.945 74.93 0)
+    (property "Reference" "TR3" (at 321.945 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HM2108NL" (at 321.31 72.39 0)
@@ -6302,9 +6333,6 @@
     (pin "6" (uuid 37bf6d19-c187-4cb2-bbef-4fde5a52d391))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ab72d4d"
-          (reference "TR2") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
           (reference "TR3") (unit 1)
         )
@@ -6837,46 +6865,6 @@
       (project "LTC6811"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
           (reference "D14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 213.995 118.745 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f83136e0-32e9-4970-ad44-212ebcf5d675)
-    (property "Reference" "R58" (at 209.55 116.84 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100K" (at 214.63 116.84 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.995 116.967 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" (at 213.995 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RC0603JR-07100KL" (at 213.995 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" (at 213.995 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603JR-07100KL/726698?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7AIxJIDSAMiALoC%2BQA" (at 213.995 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 445fd736-8cf1-4246-a87d-9afcb54dca03))
-    (pin "2" (uuid acba1c18-2a23-4624-93a6-b7104316ddf3))
-    (instances
-      (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
-          (reference "R58") (unit 1)
-        )
-      )
-      (project "LTC6811"
-        (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
-          (reference "R60") (unit 1)
         )
       )
     )

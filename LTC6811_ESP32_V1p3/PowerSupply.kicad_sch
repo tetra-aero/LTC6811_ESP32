@@ -1317,9 +1317,6 @@
     (pin "5" (uuid 564fc764-c9a7-4f0f-b600-18ee52f72743))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "U4") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "U4") (unit 1)
         )
@@ -1385,12 +1382,6 @@
         )
       )
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "C5") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "C13") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "C27") (unit 1)
         )
@@ -1421,9 +1412,6 @@
     (pin "1" (uuid f16d4e20-e38b-4ac8-b16c-6e004cbd5221))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR022") (unit 1)
         )
@@ -1474,9 +1462,6 @@
     (pin "1" (uuid bade3281-b0b3-4d68-acfb-0b41a4a847ed))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR02") (unit 1)
         )
@@ -1512,9 +1497,6 @@
     (pin "2" (uuid 1ebc6343-1547-43a7-851a-63c39db182c3))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "D5") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "D5") (unit 1)
         )
@@ -1525,7 +1507,7 @@
   (symbol (lib_id "power:GND_PACK") (at 142.875 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5025d627-3560-4e0c-be98-ced36a59aea8)
-    (property "Reference" "#PWR079" (at 142.875 118.11 0)
+    (property "Reference" "#PWR017" (at 142.875 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_PACK" (at 142.875 116.205 0)
@@ -1540,15 +1522,6 @@
     (pin "1" (uuid b94228bb-48dc-4843-8760-52422a53c644))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
-          (reference "#PWR079") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "#PWR098") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR017") (unit 1)
         )
@@ -1589,12 +1562,6 @@
         )
       )
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "C5") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "C13") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "C24") (unit 1)
         )
@@ -1610,7 +1577,7 @@
   (symbol (lib_id "power:GND") (at 68.58 118.745 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5673ee1c-25bc-4fc2-84da-057318091530)
-    (property "Reference" "#PWR024" (at 68.58 125.095 0)
+    (property "Reference" "#PWR053" (at 68.58 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.453 123.1392 0)
@@ -1625,9 +1592,6 @@
     (pin "1" (uuid 3d90ed1f-aff1-46c0-b862-ccdbc73efa69))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR053") (unit 1)
         )
@@ -1638,7 +1602,7 @@
   (symbol (lib_id "power:GND_PACK") (at 87.63 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b63aa4c-7223-4de0-ad3f-9eb56f017851)
-    (property "Reference" "#PWR079" (at 87.63 113.03 0)
+    (property "Reference" "#PWR021" (at 87.63 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_PACK" (at 87.63 111.125 0)
@@ -1653,15 +1617,6 @@
     (pin "1" (uuid 03e75e5e-d116-4f84-bad8-524ae905bccd))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
-          (reference "#PWR079") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "#PWR098") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR021") (unit 1)
         )
@@ -1697,9 +1652,6 @@
     (pin "2" (uuid b2fd47d9-d2fb-47c9-97ef-c23b994072a2))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "D4") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "D4") (unit 1)
         )
@@ -1735,9 +1687,6 @@
     (pin "2" (uuid e116a029-ffff-45e5-b728-48809d46d38f))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "D1") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "D1") (unit 1)
         )
@@ -1803,7 +1752,7 @@
   (symbol (lib_id "power:+3V3") (at 137.16 64.135 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74af1dd8-35be-417b-b783-19b47cbbe700)
-    (property "Reference" "#PWR022" (at 137.16 67.945 0)
+    (property "Reference" "#PWR04" (at 137.16 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 136.779 59.7408 0)
@@ -1818,9 +1767,6 @@
     (pin "1" (uuid cc85b7e2-9ec4-47c1-b3ec-7f9031b5a208))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR04") (unit 1)
         )
@@ -1856,9 +1802,6 @@
     (pin "2" (uuid 03137970-2c9c-4bbf-aaeb-28bdd215dc8c))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "R10") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "R10") (unit 1)
         )
@@ -1899,12 +1842,6 @@
         )
       )
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "C5") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "C13") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "C13") (unit 1)
         )
@@ -1920,7 +1857,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 51.435 59.055 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9196d764-a494-413f-8561-73dc0e647b7d)
-    (property "Reference" "J15" (at 49.403 59.2582 0)
+    (property "Reference" "J1" (at 49.403 59.2582 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PB MB" (at 49.403 61.5696 0)
@@ -1945,9 +1882,6 @@
     (pin "2" (uuid 5d789b8c-c3ab-49cc-8294-3f29d654b4d5))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
-          (reference "J15") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "J1") (unit 1)
         )
@@ -1992,9 +1926,6 @@
     (pin "6" (uuid 76398b5f-0d6e-4ea0-8996-0daef8e109b8))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "TR1") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "TR1") (unit 1)
         )
@@ -2005,7 +1936,7 @@
   (symbol (lib_id "power:GND_PACK") (at 173.355 120.015 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0ebde30-8ce0-4f81-8d04-61c127f551b5)
-    (property "Reference" "#PWR079" (at 173.355 126.365 0)
+    (property "Reference" "#PWR016" (at 173.355 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_PACK" (at 173.355 124.46 0)
@@ -2020,15 +1951,6 @@
     (pin "1" (uuid b369404a-1e72-4c68-ade5-0287170489b4))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
-          (reference "#PWR079") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "#PWR098") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR016") (unit 1)
         )
@@ -2054,9 +1976,6 @@
     (pin "1" (uuid 28b4da25-4b8d-415a-8697-077df865df8b))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR024") (unit 1)
         )
@@ -2067,7 +1986,7 @@
   (symbol (lib_id "Device:C") (at 127.635 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccc8ab3f-2bdc-498a-9998-b2d2f336650e)
-    (property "Reference" "C3" (at 130.81 104.775 0)
+    (property "Reference" "C2" (at 130.81 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF/100V" (at 133.985 109.22 0)
@@ -2092,12 +2011,6 @@
     (pin "2" (uuid e375f839-c4a5-4025-ae5d-83a6a2f9614a))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "C3") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "C2") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "C2") (unit 1)
         )
@@ -2181,9 +2094,6 @@
     (pin "5" (uuid 35c975d8-9b38-4aea-86c8-a502808131cd))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "U1") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "U1") (unit 1)
         )
@@ -2224,12 +2134,6 @@
         )
       )
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "C5") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "C13") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "C10") (unit 1)
         )
@@ -2275,12 +2179,6 @@
         )
       )
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "C5") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "C13") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "C1") (unit 1)
         )
@@ -2311,9 +2209,6 @@
     (pin "1" (uuid 750012c1-db08-47cb-aac4-daed00bb407a))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR023") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR023") (unit 1)
         )
@@ -2324,7 +2219,7 @@
   (symbol (lib_id "power:+3V3") (at 214.63 57.785 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db1cd11f-056c-4fa6-acf3-096db40dc7ca)
-    (property "Reference" "#PWR022" (at 214.63 61.595 0)
+    (property "Reference" "#PWR01" (at 214.63 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 214.249 53.3908 0)
@@ -2339,9 +2234,6 @@
     (pin "1" (uuid 7f4b0912-7e9d-478f-90e5-31e723759a21))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "#PWR01") (unit 1)
         )
@@ -2377,9 +2269,6 @@
     (pin "2" (uuid 596b1478-06e7-40e7-91c7-e327f1359bee))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "D3") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "D3") (unit 1)
         )
@@ -2420,9 +2309,6 @@
     (pin "2" (uuid 9f28a082-0b41-4202-8d2d-93982ecd0ba1))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "R1") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "R1") (unit 1)
         )
@@ -2528,7 +2414,7 @@
   (symbol (lib_id "Device:C") (at 33.02 105.41 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec71825c-15c7-4968-a5fe-8c63fbc20ba6)
-    (property "Reference" "C3" (at 36.83 104.14 0)
+    (property "Reference" "C25" (at 36.83 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF/100V" (at 45.085 107.315 0)
@@ -2553,12 +2439,6 @@
     (pin "2" (uuid 084cc904-24d3-43b9-a45d-fd6834d62d4a))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-          (reference "C3") (unit 1)
-        )
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005c519ba0"
-          (reference "C2") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "C25") (unit 1)
         )
@@ -2569,7 +2449,7 @@
   (symbol (lib_id "Device:R_Small") (at 116.205 66.675 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3e1f48b-aaf3-4f0f-a715-643b30a2266c)
-    (property "Reference" "R65" (at 120.65 65.405 0)
+    (property "Reference" "R37" (at 120.65 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100K" (at 121.92 67.31 0)
@@ -2594,9 +2474,6 @@
     (pin "2" (uuid f60a8f78-34ae-4e07-a195-2041e117c7a3))
     (instances
       (project "LTC6811_ESP32_V1p3"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/0999518d-09c3-4a69-bd78-ff81b3ce8dd2"
-          (reference "R65") (unit 1)
-        )
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "R37") (unit 1)
         )
