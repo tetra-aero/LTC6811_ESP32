@@ -2,7 +2,7 @@
 
   (uuid 7c76c98c-ec13-4d6e-88ad-c761c2df6d23)
 
-  (paper "A4")
+  (paper "A3")
 
   (title_block
     (date "2023-10-19")
@@ -1286,8 +1286,8 @@
     (uuid fcec0899-7b92-4d5a-b0b5-b4bce4b6246a)
   )
 
-  (image (at 224.79 129.54) (scale 0.729535)
-    (uuid 0e842150-097c-4e02-840c-6f1a1e713793)
+  (image (at 254 126.365) (scale 0.729535)
+    (uuid d1214a6e-7040-452f-8fbe-8fb6b7fafadd)
     (data
       iVBORw0KGgoAAAANSUhEUgAABkAAAARDCAIAAAC/ZXp3AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
       AA50AAAOdAFrJLPWAAAgAElEQVR4nOzdeXhbV5k4/nPu1dVqy5vkJd7jPbZjZ3V2Z2+SljS0hZaW
