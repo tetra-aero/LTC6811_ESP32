@@ -740,11 +740,11 @@
         )
       )
     )
-    (symbol "power:GNDREF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GNDREF" (at 0 -3.81 0)
+      (property "Value" "GNDA" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -756,46 +756,26 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GNDA\" , analog ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GNDREF_0_1"
+      (symbol "GNDA_0_1"
         (polyline
           (pts
-            (xy -0.635 -1.905)
-            (xy 0.635 -1.905)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.127 -2.54)
-            (xy 0.127 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -1.27)
             (xy 0 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
+            (xy 0 -1.27)
             (xy 1.27 -1.27)
+            (xy 0 -2.54)
             (xy -1.27 -1.27)
+            (xy 0 -1.27)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "GNDREF_1_1"
+      (symbol "GNDA_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GNDREF" (effects (font (size 1.27 1.27))))
+          (name "GNDA" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1306,6 +1286,31 @@
     )
   )
 
+  (symbol (lib_id "power:GNDA") (at 173.355 120.015 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0dc1ced9-5c18-4965-a3d3-882d695de023)
+    (property "Reference" "#PWR08" (at 173.355 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 173.355 123.825 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 173.355 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 173.355 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 12dd2959-479c-4aa0-a1f8-67e59448fe67))
+    (instances
+      (project "ESP32_Master"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ENNOID:SN65601DBV") (at 53.34 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ab1063d-9ff7-47e6-b41c-0d89ffcec2fb)
@@ -1719,6 +1724,31 @@
     )
   )
 
+  (symbol (lib_id "power:GNDA") (at 142.875 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7288e97d-00f8-49ab-9da0-00ed2a5c744e)
+    (property "Reference" "#PWR07" (at 142.875 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 142.875 115.57 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 142.875 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 142.875 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 21389193-1583-4a55-ba11-a2bc8b49861a))
+    (instances
+      (project "ESP32_Master"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 137.16 64.135 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74af1dd8-35be-417b-b783-19b47cbbe700)
@@ -1824,31 +1854,6 @@
     )
   )
 
-  (symbol (lib_id "power:GNDREF") (at 173.355 120.015 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 81304c06-98f0-4fbe-bfc4-69c921bbf4bd)
-    (property "Reference" "#PWR016" (at 173.355 126.365 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDREF" (at 173.482 124.4092 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 173.355 120.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 173.355 120.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 35ae2d31-b520-4cb6-a312-bf7c67106a21))
-    (instances
-      (project "ESP32_Master"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
-          (reference "#PWR016") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 51.435 59.055 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9196d764-a494-413f-8561-73dc0e647b7d)
@@ -1884,31 +1889,6 @@
       (project "BMS_LTC6811_Slaves_12W"
         (path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
           (reference "J3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDREF") (at 87.63 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9786c2cc-2473-40f4-b95f-7839be33ef7a)
-    (property "Reference" "#PWR021" (at 87.63 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDREF" (at 87.757 111.0742 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 87.63 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 87.63 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2f0bb92b-5811-454a-977d-022db7f09ef6))
-    (instances
-      (project "ESP32_Master"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
-          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2070,7 +2050,7 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 142.875 95.885 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.ti.com.cn/cn/lit/ds/symlink/tps763-q1.pdf?ts=1710725186011&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fsitesearch%252Fzh-cn%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Dzh-CN%2526searchTerm%253DTPS76350%2526nr%253D156" (at 142.875 104.14 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps763.pdf?ts=1704882534161&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS763" (at 142.875 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "TPS76350DBVR" (at 142.875 104.14 0)
@@ -2181,6 +2161,31 @@
       (project "R&C_library"
         (path "/7459c5fb-eaee-49a5-9f15-99dbadaaebb5/69b6d37c-9e3f-4116-ad89-42e4a2524676"
           (reference "C47") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 87.63 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d7d17b82-0778-4a2e-b07e-7f22fee8e887)
+    (property "Reference" "#PWR06" (at 87.63 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 87.63 110.49 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 87.63 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 87.63 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 96e0f3fc-6164-4b7a-9eba-a051944027d9))
+    (instances
+      (project "ESP32_Master"
+        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2306,31 +2311,6 @@
       (project "ESP32_Master"
         (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDREF") (at 142.875 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e371cd8a-d70a-486d-bf60-851b1bbdac52)
-    (property "Reference" "#PWR017" (at 142.875 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDREF" (at 143.002 116.1542 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 142.875 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 142.875 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 14c60461-b08c-4153-b27e-1ea218ba9efe))
-    (instances
-      (project "ESP32_Master"
-        (path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ac18063"
-          (reference "#PWR017") (unit 1)
         )
       )
     )
