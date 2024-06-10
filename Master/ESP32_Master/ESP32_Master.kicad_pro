@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -502,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "BMS-Master.net",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../ENNOID-PACK/CAD/Penthouse/HV/Master/BMS-Master.step",
