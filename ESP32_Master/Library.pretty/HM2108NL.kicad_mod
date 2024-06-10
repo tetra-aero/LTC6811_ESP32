@@ -1,0 +1,205 @@
+(footprint "HM2108NL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.75 -2.25 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b41978c-0dce-47a7-b9f9-91f3f98dc034")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HM2108NL"
+		(at 0.21 1.48 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf8b1e4e-4c4f-4bdb-b14e-103b7562bb1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be80c2d7-5bd2-48c2-8984-334393184ad1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87fea83b-08f0-4c52-abdd-310b1958eb0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "135µH Pulse Transformer Surface Mount"
+		(at 187.9 258.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "879d3f6c-dfa2-4891-914f-9e3676759530")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.jp/en/products/detail/pulse-electronics/HM2108NL/7914611"
+		(at 187.9 258.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15abfe89-b7b2-435b-ab83-c93aa70d08b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "HM2108NL"
+		(at 187.9 258.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aecaf12a-8066-4b46-9b84-ff4da3f5b793")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.3 -6.66)
+		(end 4.3 6.66)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ad7567da-8e29-4856-8b5e-fd630bf72f9d")
+	)
+	(fp_circle
+		(center -3.39 8.77)
+		(end -3.240171 8.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5aa91330-a8aa-4f80-93e4-ec64be2b6eb9")
+	)
+	(fp_circle
+		(center -2.6008 5.0834)
+		(end -2.2452 4.9818)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6b3daa5d-4676-4801-8e3a-79eab9b489df")
+	)
+	(fp_rect
+		(start -4.4 -9)
+		(end 4.4 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "85f86850-8968-440c-94ca-1748a2bcd91c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.117 -6.3974 180)
+		(layer "F.Fab")
+		(uuid "255dfebe-22cf-4e2d-8a10-3b8158b1e872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.21 2.98 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9782d148-f781-4c3a-9a74-f33a50b9db46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93b3cd9b-2782-47de-994c-283adc65cf31")
+	)
+	(pad "2" smd rect
+		(at 0 7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cf93b0c5-9a84-4a70-9eb6-90d8477e0712")
+	)
+	(pad "3" smd rect
+		(at 2.54 7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0617d2d2-079a-4d0b-a365-8da5a794960f")
+	)
+	(pad "4" smd rect
+		(at -2.54 -7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7ddf0301-0a3f-438f-a4dd-b3193edcc0bd")
+	)
+	(pad "5" smd rect
+		(at 0 -7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b7e5ef2a-5e98-4965-b4ec-a4b556eb7926")
+	)
+	(pad "6" smd rect
+		(at 2.54 -7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03876350-c6c2-4e13-838a-90977898b674")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Transformer_SMD.3dshapes/SMT_2108NL_PUL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
