@@ -172,6 +172,7 @@
       "track_widths": [
         0.0,
         0.3,
+        0.4,
         0.5,
         0.8,
         1.0,
@@ -417,7 +418,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BMS_LTC6811_Slaves_12W_V1p3.kicad_pro",
+    "filename": "ESP32_Slaves_V0.kicad_pro",
     "version": 1
   },
   "net_settings": {
