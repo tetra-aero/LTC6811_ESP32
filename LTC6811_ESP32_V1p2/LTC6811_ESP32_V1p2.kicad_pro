@@ -203,6 +203,13 @@
       ],
       "zones_allow_external_fillets": false
     },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
     "layer_presets": [],
     "viewports": []
   },
@@ -426,7 +433,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LTC6811_ESP32_V1.2.kicad_pro",
+    "filename": "LTC6811_ESP32_V1p2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -461,8 +468,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "BMS-Master.net",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../ENNOID-PACK/CAD/Penthouse/HV/Master/BMS-Master.step",
+      "svg": "",
       "vmrl": "",
       "vrml": ""
     },

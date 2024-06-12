@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "LTC6811_ESP32_V1p3.kicad_prl",
+    "filename": "ESP32_Master.kicad_prl",
     "version": 3
   },
   "project": {
