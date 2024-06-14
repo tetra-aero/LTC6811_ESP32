@@ -1,0 +1,1203 @@
+Cmp-Mod V01 Created by PcbNew   date = 2024/6/14 12:08:54
+
+BeginCmp
+TimeStamp = 041c3364-7dc1-421b-bf47-d5d48c6cf193
+Path = /ae722f68-6688-46fd-bba7-97b84e9867e0/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R35;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0574dc2f-6156-40d0-965f-400260e9daca
+Path = /a808e1a3-82d9-4830-b084-cf6ab588f0e8/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q8;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 05e936a3-672d-43fc-ad06-e38b08da1a55
+Path = /02a05921-e181-4f30-9972-13fa7bc03ec4
+Reference = Q13;
+ValeurCmp = NSV1C201MZ4;
+IdModule  = Library:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 06271b21-78d1-474e-80cc-5ecd12037eff
+Path = /84e27182-1baa-4cc5-9c4e-d0817e65c357/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C10;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0a39f877-be5e-481d-aa55-e85c43f1fe04
+Path = /1212529f-4bc7-4b2f-a7bd-25cc657ff51f/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R9;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0a6bb85d-0888-4a85-88fe-5de94affef36
+Path = /5afd03ed-dc31-4782-bcc6-ca5eec4a36a5/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R58;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0a895434-5f6e-4802-89aa-8ddab0a65b60
+Path = /b9bd1d66-b3ba-406f-930d-7b0e7dd81515/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q4;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 0bffe608-44b3-4205-85a3-0ae61451b348
+Path = /6ec7d903-4a07-49c1-b81a-936402bbc043/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R60;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0cbb6bcc-1786-4fe3-988b-873dc0f7562b
+Path = /f0985269-4380-42d4-ba58-9b2694647402/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R33;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0df2e72c-9ad3-47c0-b3d6-39a12a71f0a1
+Path = /88bec9e8-472f-47f5-993c-2b4cb43161d1
+Reference = J2;
+ValeurCmp = B7B-XH-A;
+IdModule  = Library:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical_BAT_6S;
+EndCmp
+
+BeginCmp
+TimeStamp = 0df99386-f697-4546-b34e-fed41c19edca
+Path = /84e27182-1baa-4cc5-9c4e-d0817e65c357/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R29;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0e794573-3b31-4019-8fdf-42ec654fc44e
+Path = /b5d066a8-8cb7-4a74-813c-0a8ccb401384
+Reference = D13;
+ValeurCmp = 1N4148W;
+IdModule  = Library:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 11c6b251-6c24-49b8-bc74-3307d6cff11e
+Path = /1ff9af70-8865-4fd3-81dd-37ed70179726
+Reference = R40;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1346a605-4bb0-448c-ac0a-66db6276d30f
+Path = /b0f4de33-406f-4695-8c8d-5168767c365c
+Reference = F6;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 148e3090-c6cd-454d-8193-051d564ed3c8
+Path = /71f6d107-e422-43d7-9700-c4ab1df1d082
+Reference = F3;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1640da1f-b4da-454b-9987-cd1a0096361f
+Path = /88c2761b-1b20-4ea3-8d58-88eb56a86b14/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C1;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 16b6d640-d682-4cb7-a1c2-8fab8c5ec8bf
+Path = /f0985269-4380-42d4-ba58-9b2694647402/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R32;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 18959956-755c-4cb2-adf5-4527df2d62d8
+Path = /d03e7bdc-4832-41ad-8b91-e5cc85a0023a/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D5;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 18af9658-be33-4f96-a25d-d06c286b56d6
+Path = /88c2761b-1b20-4ea3-8d58-88eb56a86b14/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D1;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 193d2873-445b-4e7b-b3b4-62ddd48d6b5e
+Path = /88c2761b-1b20-4ea3-8d58-88eb56a86b14/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R3;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1d72f63f-5e5e-4e4f-8ab6-968db7be4b59
+Path = /ebe242f7-af57-48fd-881a-a767d27d3375
+Reference = R49;
+ValeurCmp = 10K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 201d21cb-4a5b-42a6-9f10-49664b425d69
+Path = /f0985269-4380-42d4-ba58-9b2694647402/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R62;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 20b705a8-2e8c-47ff-8525-575192599c90
+Path = /3b0e8e4e-4c49-425e-8e8b-e2b3e50e926d/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q2;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 24f01444-5cd3-48e5-a808-174e717f6a01
+Path = /e73b617e-3beb-4793-9f66-bd52055dd0c1
+Reference = R41;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 25016405-a446-4120-95cc-2641c6398d40
+Path = /4a61b654-fc0a-4373-ab99-bc93f257b444
+Reference = J7;
+ValeurCmp = Hole /NC;
+IdModule  = Library:MountingHole_3.2mm_M3_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 25d89402-5cfb-4fda-9e40-dbb43d299ba1
+Path = /d8e4dd31-3125-457c-8457-05d8afa6efd5
+Reference = R46;
+ValeurCmp = 806R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 293812dc-953f-40c1-9ff6-130ab19a48bf
+Path = /a808e1a3-82d9-4830-b084-cf6ab588f0e8/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D8;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 29f55c1e-6dbd-4416-b18f-002aeb93647c
+Path = /6ec7d903-4a07-49c1-b81a-936402bbc043/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D9;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 2d04d30d-9bad-44ab-be57-3eef14e1c499
+Path = /0d88d3bd-0ded-4c67-89d8-5a249dd8f568
+Reference = R50;
+ValeurCmp = 10K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 2d8a3858-4c12-40b6-aa56-e2868235384b
+Path = /a808e1a3-82d9-4830-b084-cf6ab588f0e8/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C8;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 31dabf17-3999-4e39-b70e-fd97601b4b3a
+Path = /8baf1860-27a9-4653-95ba-d5c956e6cbac
+Reference = D15;
+ValeurCmp = BZT52H-C62;
+IdModule  = Library:D_SOD-123F;
+EndCmp
+
+BeginCmp
+TimeStamp = 3210309c-133a-46b8-bf8f-dd9155bbf420
+Path = /eacf2295-c8ee-404c-9de9-b740b993eec2
+Reference = J9;
+ValeurCmp = BAT+;
+IdModule  = Library:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 37c6c279-0799-4747-99c5-5ce76202db2a
+Path = /d1e04fda-599d-43c6-a01f-a522ed52b032
+Reference = C26;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 3e9c5172-644f-4102-9261-b82d71e4b0ed
+Path = /f4c7de29-fed5-4ac8-8cd3-886764a21bfb
+Reference = R39;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 3f1814d9-bd7f-4b1d-b965-c1cbae40a306
+Path = /b2a00d61-a5d3-4ec7-ab97-40358f4c63f1
+Reference = C19;
+ValeurCmp = 1uF 25V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 415bdaba-c4d2-4532-ad2d-592d60f42465
+Path = /12fe357b-8ba8-468f-b373-cc30d617a73b
+Reference = F1;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4177556a-6ffc-4602-a574-903ddd61ae9f
+Path = /049e64e0-adc7-4dfb-b6ce-2c57b779ecc3
+Reference = C21;
+ValeurCmp = 1uF 25V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 441d7267-5f21-4174-9df3-1ea1a40836c6
+Path = /a808e1a3-82d9-4830-b084-cf6ab588f0e8/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R23;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 44a3c45a-5eed-4503-8bfb-06ebdb6d4a44
+Path = /a808e1a3-82d9-4830-b084-cf6ab588f0e8/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R22;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 45cefea7-6c19-4afb-9fb9-23b2625254b7
+Path = /6ec7d903-4a07-49c1-b81a-936402bbc043/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R27;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 47aca3e4-12d5-4b6a-b4d9-688fae9777a5
+Path = /283d5d2e-1948-40a7-a16b-a54f1014d230/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D6;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 4b537c20-9117-40b8-badf-fca466660e3b
+Path = /b9bd1d66-b3ba-406f-930d-7b0e7dd81515/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R11;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4bafd1c6-03fa-4182-a178-11c301dbc4de
+Path = /21db242c-269e-4411-9356-6fc120bf1600
+Reference = C16;
+ValeurCmp = 1uF 25V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4bb1b232-4adb-4a97-a141-b62e504ba30e
+Path = /836ea1f3-aead-4227-9d88-a232f9904aa4
+Reference = TH5;
+ValeurCmp = 10K NTC;
+IdModule  = Library:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 4c002f60-c35d-4a9c-a9f9-171c87e13c82
+Path = /cb864b8e-6035-4e4c-a7c4-d9cedfb59d75
+Reference = R43;
+ValeurCmp = 0;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4c5a5c94-1c24-4ba5-8602-1d8580ef8eea
+Path = /5afd03ed-dc31-4782-bcc6-ca5eec4a36a5/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R21;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4d832239-adea-471d-a8c0-42542e191506
+Path = /6f7b0142-306e-4e40-a1c7-ae8de33f182a
+Reference = F5;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4e2326bc-1222-4acf-934e-953161cce44a
+Path = /a56f9ad3-ef91-474f-baa0-926b2dcc75a5
+Reference = J4;
+ValeurCmp = PB MA;
+IdModule  = Library:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 4e4cbd6d-4d27-43b9-97d0-647709843dd3
+Path = /3b0e8e4e-4c49-425e-8e8b-e2b3e50e926d/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D2;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 4e561f74-9cb1-436e-a5fb-afbdac08a425
+Path = /f0985269-4380-42d4-ba58-9b2694647402/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C11;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4ea60497-5347-4412-9df9-fff9f8e77454
+Path = /283d5d2e-1948-40a7-a16b-a54f1014d230/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R17;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 50db9992-b965-4cb1-a1ac-3856d924e339
+Path = /283d5d2e-1948-40a7-a16b-a54f1014d230/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R16;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 51a5d34b-5e91-486d-83cf-88be4c5407a7
+Path = /d03e7bdc-4832-41ad-8b91-e5cc85a0023a/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q5;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 53575153-73cf-4200-bf04-e8b779adf153
+Path = /d03e7bdc-4832-41ad-8b91-e5cc85a0023a/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R15;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 54b9ee78-4e93-443a-9814-58360e55c4d6
+Path = /3b0e8e4e-4c49-425e-8e8b-e2b3e50e926d/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R53;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 54d4d1e8-f2dc-4027-8036-74f1ff38fa84
+Path = /5afd03ed-dc31-4782-bcc6-ca5eec4a36a5/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C7;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 565af191-296c-48b8-a132-98e6e38f5703
+Path = /6ec7d903-4a07-49c1-b81a-936402bbc043/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R25;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 580c5111-f9b6-47fd-94f7-6220306add14
+Path = /283d5d2e-1948-40a7-a16b-a54f1014d230/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R18;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5a1182c7-d352-44ca-aed3-b780f4a95cb2
+Path = /283d5d2e-1948-40a7-a16b-a54f1014d230/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q6;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5be0620d-26c5-4f1a-ae53-dee9a14649a9
+Path = /4f7e560b-fa70-4fe5-8f42-a2395a875cc7
+Reference = R42;
+ValeurCmp = 1.2K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5d8c54e2-76b0-4d28-800b-653d2a820c5f
+Path = /b9bd1d66-b3ba-406f-930d-7b0e7dd81515/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R12;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5daa37e8-12e8-4efd-9f4a-e7d32c2af02a
+Path = /3987b6f0-0194-4964-9116-1725bbe6a6fe
+Reference = F11;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5dfb65d6-4be4-49e6-815e-499e4fe31c57
+Path = /fbabf784-76de-40f7-910c-792e5a545df6
+Reference = R44;
+ValeurCmp = 1M;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ecf31e7-9ede-482c-965d-47e2d8545de2
+Path = /37b8d16f-b029-4e85-afdc-f714d88c995c
+Reference = R38;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 60811ec4-0275-45d6-9446-d79074987e7c
+Path = /84e27182-1baa-4cc5-9c4e-d0817e65c357/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R61;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 654dc2ea-0f7e-4302-9a3e-bf211baffa97
+Path = /352f99ce-bc43-40d2-ad71-011591479587
+Reference = J6;
+ValeurCmp = Hole /NC;
+IdModule  = Library:MountingHole_3.2mm_M3_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 6a213cc0-8558-42af-a12c-f0fa9840005e
+Path = /8943adb7-40d6-4235-925f-c12cca8b7ef1
+Reference = C24;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 6ad42aa6-e346-4639-9527-5e6ad19a6b50
+Path = /1212529f-4bc7-4b2f-a7bd-25cc657ff51f/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q3;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 6fe86c07-73a3-4d25-b673-d6f3624d1563
+Path = /5afd03ed-dc31-4782-bcc6-ca5eec4a36a5/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q7;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 73dad156-0a6f-43d1-86dd-619a272f927e
+Path = /b9bd1d66-b3ba-406f-930d-7b0e7dd81515/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R10;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 74b09426-d7c7-46a9-b982-93b9d177b1fb
+Path = /84e27182-1baa-4cc5-9c4e-d0817e65c357/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R28;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7ae5e905-2aae-410c-90f5-530de46e0d52
+Path = /3b0e8e4e-4c49-425e-8e8b-e2b3e50e926d/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R4;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7beb3b5f-3eb8-40ff-bc0f-492d702a14a4
+Path = /7459ebf3-51d6-4853-99ec-e027ff9ca1c3
+Reference = F14;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7f0f16aa-9c61-413b-92df-65f997cff0da
+Path = /d03e7bdc-4832-41ad-8b91-e5cc85a0023a/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R56;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8434e5ca-6f5b-4e13-96d5-5728c08beb8c
+Path = /84e27182-1baa-4cc5-9c4e-d0817e65c357/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D10;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 84487781-adb5-40a4-9bf9-dabe91703c76
+Path = /ae722f68-6688-46fd-bba7-97b84e9867e0/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D12;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 8481c56c-6736-4cf3-ba4b-20547504ada1
+Path = /5afd03ed-dc31-4782-bcc6-ca5eec4a36a5/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R20;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 84e45da7-f94b-4d57-aed4-ff1f5e8b0fda
+Path = /a34946ed-af74-42b9-9056-1e55744d1887
+Reference = TH1;
+ValeurCmp = 10K NTC;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 85303423-45af-4417-8832-74deee003537
+Path = /b6ecedc8-5701-4a3e-838e-9fe580895461
+Reference = TR1;
+ValeurCmp = HM2102NL;
+IdModule  = Library:HM2102NL_PUL;
+EndCmp
+
+BeginCmp
+TimeStamp = 863b58c2-4046-482a-a189-1ae07ebefb05
+Path = /6be78c7d-f9ed-4d5b-a544-598885238909
+Reference = J8;
+ValeurCmp = Hole /NC;
+IdModule  = Library:MountingHole_3.2mm_M3_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 87d71afc-35c8-40b8-8bbe-aa64f75f6a2e
+Path = /a808e1a3-82d9-4830-b084-cf6ab588f0e8/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R59;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 88627b59-20dc-4af7-a000-457d019ca7b3
+Path = /b9bd1d66-b3ba-406f-930d-7b0e7dd81515/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D4;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 89112e30-58e1-4043-badc-147a89ca57a9
+Path = /1212529f-4bc7-4b2f-a7bd-25cc657ff51f/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D3;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 898aca1d-13f9-409a-8e23-2b84c8001611
+Path = /b9bd1d66-b3ba-406f-930d-7b0e7dd81515/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R55;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8afaaf4e-4b5a-4d2a-8a5e-7fd2e692e7a2
+Path = /d41c39d5-c42f-4921-b2d9-21feb791b836
+Reference = F8;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8c7781e4-a3f4-49a4-9ff1-916a0ab8d5a2
+Path = /ae722f68-6688-46fd-bba7-97b84e9867e0/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C12;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8d1d3623-fa8d-4160-acf7-077903ef02c3
+Path = /f0985269-4380-42d4-ba58-9b2694647402/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R31;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8d4dd248-6b78-40d1-8f72-d9134cbe9433
+Path = /ae722f68-6688-46fd-bba7-97b84e9867e0/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R63;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8dcd243c-9839-4e49-a6e6-23aa96e909cb
+Path = /84e27182-1baa-4cc5-9c4e-d0817e65c357/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q10;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 8de221d0-180a-4419-9850-f4d5de12e324
+Path = /d03e7bdc-4832-41ad-8b91-e5cc85a0023a/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R13;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8e3d4169-96b1-463b-a194-09d87d552dbc
+Path = /83397279-eb85-48fe-aa15-8ab650dc2184
+Reference = F13;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8fdd6fcc-841b-4fb4-b413-318338100574
+Path = /6eac4aa1-fd23-453e-a3d6-6075de47b78e
+Reference = R48;
+ValeurCmp = 10K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 901440d2-30db-4306-a599-0871067a547e
+Path = /5afd03ed-dc31-4782-bcc6-ca5eec4a36a5/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R19;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 98192e79-15f1-47bd-8b59-d48c65189506
+Path = /a58ec63a-8bcc-4fbe-b57a-c37a48c6d3d5
+Reference = J1;
+ValeurCmp = B7B-XH-A;
+IdModule  = Library:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical_BAT_6S;
+EndCmp
+
+BeginCmp
+TimeStamp = 986c146f-ba2b-4061-8742-1e08e369ba79
+Path = /6ec7d903-4a07-49c1-b81a-936402bbc043/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R26;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 98c5de86-bc8a-4a80-88e7-59ad4e5b338a
+Path = /88c2761b-1b20-4ea3-8d58-88eb56a86b14/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q1;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 99ad5ba2-b35a-4efc-bd88-aaba1aee24ea
+Path = /1212529f-4bc7-4b2f-a7bd-25cc657ff51f/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R54;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 9d01eadc-0064-4c95-aaa6-9e94fc72aed9
+Path = /3b0e8e4e-4c49-425e-8e8b-e2b3e50e926d/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C2;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 9e6ce069-7bfa-4d5f-bfa4-a731ca01f8ed
+Path = /6ec7d903-4a07-49c1-b81a-936402bbc043/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C9;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 9ec5038a-ef96-4cc7-b080-0c08d899baea
+Path = /3b0e8e4e-4c49-425e-8e8b-e2b3e50e926d/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R5;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = adedb7a4-36d2-4b15-bfac-6faa8ee8c326
+Path = /d03e7bdc-4832-41ad-8b91-e5cc85a0023a/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R14;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = af568ed7-294b-4d1f-ab24-a293f12d1f66
+Path = /a9727aeb-9827-4c98-8593-6dcba62c9915
+Reference = C13;
+ValeurCmp = 100pF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = af843b61-d72a-4b28-a92b-9b7245cc1964
+Path = /b5e903d7-1e48-4842-a383-42c8d7e965af
+Reference = TH2;
+ValeurCmp = 10K NTC;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b10f458e-7d9d-43a2-ae1c-c5a56a77a715
+Path = /d03e7bdc-4832-41ad-8b91-e5cc85a0023a/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C5;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b3480bf2-d0c8-4694-b0dd-c93feef29516
+Path = /a808e1a3-82d9-4830-b084-cf6ab588f0e8/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R24;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b3d0d4bf-3300-46a3-90a4-ece249053dd9
+Path = /4f2dac3e-838c-49db-a6e9-019713afcad0
+Reference = R47;
+ValeurCmp = 10K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b4418c0c-8a87-4cfd-8039-f5bbe0d9210f
+Path = /2404de25-1b69-4c8a-9bb5-6aaf0c812065
+Reference = R45;
+ValeurCmp = 0;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b8717d51-9052-44d2-aa51-4aadb219aafa
+Path = /4c44f456-3a7f-4eeb-a746-72c65dc054b6
+Reference = C22;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = ba567951-2eab-4758-b73f-df0cea704a9c
+Path = /a9333765-a7b8-42de-92d5-725811517986
+Reference = J5;
+ValeurCmp = Hole /NC;
+IdModule  = Library:MountingHole_3.2mm_M3_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = bb168382-2e6b-4ed2-b818-4114c9ed47f5
+Path = /9eef2871-5fba-42ee-a3ab-98165c6585c2
+Reference = D14;
+ValeurCmp = 1N4148W;
+IdModule  = Library:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = bb8e8387-676e-405e-a5c0-7d8bfead9af8
+Path = /4ea9a48b-7631-4c3a-8656-d149afefa70a
+Reference = F12;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = bf6af23f-a840-46ea-9a51-20869194a3d9
+Path = /b9bd1d66-b3ba-406f-930d-7b0e7dd81515/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C4;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c4ce1ec5-1901-4e35-a3cd-4c0b4e22d660
+Path = /f0985269-4380-42d4-ba58-9b2694647402/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q11;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = c5ad7b97-d531-42d1-b66a-7bc7f9ceb2c0
+Path = /5b267395-a393-40c7-b9d6-ad029e9b6d9a
+Reference = F4;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c60e57de-0523-4514-9c14-3405ccb94351
+Path = /dd47b972-b5cf-4549-8f9c-467c286de823
+Reference = C17;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c66337ce-5dad-4f6e-b257-7cb77bc869f3
+Path = /5afd03ed-dc31-4782-bcc6-ca5eec4a36a5/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D7;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = c6a59bb8-1ee9-4735-b84e-355db9a72745
+Path = /075b036a-6f09-48ad-b320-169f6533237d
+Reference = TH4;
+ValeurCmp = 10K NTC;
+IdModule  = Library:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = c6c20279-f547-49b6-8e66-160583ecc700
+Path = /3b0e8e4e-4c49-425e-8e8b-e2b3e50e926d/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R6;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c856031f-9172-4b76-bf23-e36dc26c83fa
+Path = /c00fcb4f-584d-4b2d-a046-e7e615386c32
+Reference = J3;
+ValeurCmp = PB MB;
+IdModule  = Library:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = caa646d1-636f-4da9-abee-4f5e53ee589c
+Path = /f0985269-4380-42d4-ba58-9b2694647402/bffe2c04-8455-44e5-b8d6-27889eb432b1
+Reference = D11;
+ValeurCmp = PDZ7.5B;
+IdModule  = Library:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = cc8a2f66-925b-45a5-b5ca-2637f8bf6804
+Path = /591f923f-25ec-4159-b61a-50723e1c635e
+Reference = F9;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cf1e2ef7-fbbd-4489-951a-a5dbd63e327f
+Path = /3b0ce582-f0cc-455d-91bd-362f1b59b621
+Reference = U1;
+ValeurCmp = LTC6811HG-1;
+IdModule  = Library:TSSOP-48_6.1x12.5mm_P0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = d16f23a4-a7c9-4b9d-9305-8260c97a71dd
+Path = /44ed12d1-707f-4768-812f-e52c210c0146
+Reference = C25;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = d89c5376-98c3-49b5-9381-779c31195830
+Path = /f3a57708-c424-4843-9820-d75e80a6c9ae
+Reference = D16;
+ValeurCmp = LED Red;
+IdModule  = Library:LED_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = da9b2cf1-4577-4d22-95ad-486389656ff3
+Path = /2ddcbde4-9c6d-4863-9a58-c1d6c009551b
+Reference = C18;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = db16b233-721f-4d0c-957f-2fa9a8b9ec77
+Path = /ae722f68-6688-46fd-bba7-97b84e9867e0/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R34;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = de3df0ad-04c8-4a20-88c2-b58fa6854bbd
+Path = /5ca53c17-1905-421a-ac36-a6d0f856bf84
+Reference = C20;
+ValeurCmp = 1uF 25V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = de402c9f-6517-427d-9a67-37efe943b943
+Path = /a3de0f3f-fca9-42a6-9287-256167521678
+Reference = R51;
+ValeurCmp = 10K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = df78eed0-4334-473a-91b9-6f5abadd05e6
+Path = /ea8fbb21-ffcb-4bfe-9b3a-3ce123c4b17d
+Reference = R37;
+ValeurCmp = 1.2K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = dfc5c151-3a1f-4ee0-a9bd-0ff73ee129e6
+Path = /1f89427c-8701-4844-a170-180334f5eb1e
+Reference = FB1;
+ValeurCmp = BLM18PG330SN1D;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e0402dbe-548e-42cc-8639-6b891718736a
+Path = /283d5d2e-1948-40a7-a16b-a54f1014d230/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C6;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e19eab3b-2ad5-41a6-91cd-d8aa926bb465
+Path = /746cd2ca-a0cb-482a-9bc6-645f324e5c6f
+Reference = C23;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e4e3d529-a29c-4836-995d-9300a4c90f7d
+Path = /1212529f-4bc7-4b2f-a7bd-25cc657ff51f/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R7;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e80f53fb-2709-40dc-becd-3e9c8517c0fc
+Path = /fb953ff5-4cb4-4ec9-9422-63d1e63eb593
+Reference = F10;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e9102638-519c-41b8-a1af-6a126fb47409
+Path = /1212529f-4bc7-4b2f-a7bd-25cc657ff51f/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R8;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e9ef7254-bbc2-45c0-bda2-1cd13b7dc839
+Path = /b42ecb2c-6c99-41b5-b03e-ddd65bf2acc5
+Reference = TH3;
+ValeurCmp = 10K NTC;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = eab62c95-9bf9-43b9-bce0-835d088752c7
+Path = /283d5d2e-1948-40a7-a16b-a54f1014d230/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R57;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = ed44c059-be7a-4e04-9f66-7393ecb42b02
+Path = /6ec7d903-4a07-49c1-b81a-936402bbc043/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q9;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = ed78b4b9-a328-46e3-ba75-f71701fdda67
+Path = /1212529f-4bc7-4b2f-a7bd-25cc657ff51f/2e9b6365-87c5-43fe-b1c5-4b23a7b1c9b5
+Reference = C3;
+ValeurCmp = 100nF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f05e8c98-3045-45a9-aeee-8d453f880b03
+Path = /88c2761b-1b20-4ea3-8d58-88eb56a86b14/4d7932e6-b269-409d-b64c-130dcc1108ac
+Reference = R2;
+ValeurCmp = 100R;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f142f30a-dd63-495d-8c0d-e646a9a00947
+Path = /ae722f68-6688-46fd-bba7-97b84e9867e0/4b45170f-c02d-4169-a509-c1554863a70e
+Reference = Q12;
+ValeurCmp = TSM2323;
+IdModule  = Library:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = f1a33336-22be-4893-92e7-ec8c23a295d4
+Path = /c4395f0f-41f7-4341-8f07-13d8fe31760a
+Reference = C14;
+ValeurCmp = 100pF 100V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f1c8ca27-2aa0-44e6-b308-103444f38aed
+Path = /84e27182-1baa-4cc5-9c4e-d0817e65c357/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R30;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f2fd84a3-6c59-4f95-8130-f2849ccf97a0
+Path = /88c2761b-1b20-4ea3-8d58-88eb56a86b14/a0ec0c7a-74f9-48e4-a51b-5ef08faab0d2
+Reference = R1;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f37b2c76-c9ff-45b5-8fd1-c6dac004d6a3
+Path = /ae722f68-6688-46fd-bba7-97b84e9867e0/1d42e2d5-1593-444e-aff8-e90ea3ca95ee
+Reference = R36;
+ValeurCmp = 3.3K;
+IdModule  = Library:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f43c0f6f-1469-499a-ad84-e770c0c83ac8
+Path = /88c2761b-1b20-4ea3-8d58-88eb56a86b14/e36b9b74-0465-4b8e-ab89-f60aa142867a
+Reference = R52;
+ValeurCmp = 18R 1W 2512;
+IdModule  = Library:R_2512_6332Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = fa7bba2e-8502-4277-bfaf-a9f43d72c1bb
+Path = /5f944d07-d53d-4417-871d-723531c4ab4c
+Reference = J10;
+ValeurCmp = PACK-;
+IdModule  = Library:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = fe21e6e1-1825-4769-94d5-17febfc409d8
+Path = /79c49a6c-4b7d-4470-9db4-b35c911509f9
+Reference = F2;
+ValeurCmp = MPZ2012S102ATD25;
+IdModule  = Library:Fuse_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = ff97227a-b564-4247-83eb-117ba80c72f5
+Path = /23799bb8-f50e-4c7d-9eb2-502614c011ee
+Reference = C15;
+ValeurCmp = 1uF 25V;
+IdModule  = Library:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = bff09f7a-cf1c-42fb-9800-31144bd124a6
+Path = /6141da82-06d7-4a54-94d2-eb68d1e8188c
+Reference = LOGO1;
+ValeurCmp = teTra;
+IdModule  = Library:teTra-LOGO;
+EndCmp
+
+EndListe
