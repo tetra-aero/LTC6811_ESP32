@@ -1,0 +1,254 @@
+(footprint "WURTH-760390015"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.29 -4.61 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1b802259-8731-4f4f-baae-7989e4b61993")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transformer"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "68f37b47-2f93-4594-98f6-42df9d88c46a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "700a9137-94e9-4a36-a073-2675fa474991")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afe6bf14-cd2d-46a2-84d6-3fb6a67575ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Forward, Push-Pull Converters For For DC/DC Converters SMPS Transformer 3125Vrms Isolation 10kHz Surface Mount"
+		(at -26.9 231.28 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8761cecc-571f-4054-8697-f54694d7dda4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.jp/en/products/detail/w%C3%BCrth-elektronik/760390015/3831267"
+		(at -26.9 231.28 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d03b29a3-dd1f-40f5-a18f-1e181cdb492b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "760390015"
+		(at -26.9 231.28 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dbca4ff-11c9-44a8-a11b-689374521fbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(fp_line
+		(start -5.21 -3.3)
+		(end -3.91 -3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f7204f0-d3c4-4db8-b11e-542fe1afa36a")
+	)
+	(fp_line
+		(start -3.91 -3.3)
+		(end -3.91 -3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f0b276e-1257-4608-b175-58c0467091c5")
+	)
+	(fp_line
+		(start -3.58 -2.2)
+		(end -2.41 -3.365)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e1ba495-4515-4a87-a1b8-190cebe9f577")
+	)
+	(fp_line
+		(start -3.58 3.365)
+		(end -3.58 -2.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cf8222e-9b25-4434-9724-ce17c0baf0f7")
+	)
+	(fp_line
+		(start -2.41 -3.365)
+		(end 3.56 -3.365)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9c5a613-d427-4476-a4dc-15991fc72a6e")
+	)
+	(fp_line
+		(start 3.56 -3.365)
+		(end 3.56 3.365)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "646c4654-4f80-402e-93a0-727872e85dee")
+	)
+	(fp_line
+		(start 3.56 3.365)
+		(end -3.58 3.365)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65bc0e7e-65cd-4b49-a406-64670afd9159")
+	)
+	(fp_circle
+		(center -2.4 -2.23)
+		(end -2 -1.93)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ca54ac5b-4f2f-4dc6-8a19-6973caf9f511")
+	)
+	(fp_rect
+		(start -5.51 -3.5)
+		(end 5.49 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "063f0573-9451-4946-9f67-a8efe3dd3fd8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0e4ba20f-3fba-4ec8-925b-34e6f0dfeb47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.01 0 180)
+		(layer "F.Fab")
+		(uuid "4c08a652-23bb-4f82-9853-7c75993da797")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.58 -2.54)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "07f7d92c-5938-42bc-bd3d-5f6f1d241b06")
+	)
+	(pad "2" smd rect
+		(at -4.58 0)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "38fbffa2-5588-4ffa-a667-75170cf87085")
+	)
+	(pad "3" smd rect
+		(at -4.58 2.54)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5c4d5368-adfc-4ccc-bef1-6831aa6695c0")
+	)
+	(pad "4" smd rect
+		(at 4.56 2.54)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c0d50a60-b696-462c-90d9-b37406c46d92")
+	)
+	(pad "5" smd rect
+		(at 4.56 0)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "daac8a92-0f50-4d27-8d5b-8ca09165bb9a")
+	)
+	(pad "6" smd rect
+		(at 4.56 -2.54)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0db48bf2-4c24-417f-9378-0ec0b17870a9")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Transformer_SMD.3dshapes/760390014.stp"
+		(offset
+			(xyz 5 -3.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

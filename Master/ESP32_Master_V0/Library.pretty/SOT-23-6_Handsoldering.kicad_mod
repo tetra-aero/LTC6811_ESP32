@@ -1,0 +1,287 @@
+(footprint "SOT-23-6_Handsoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "6-pin SOT-23 package, Handsoldering")
+	(tags "SOT-23-6 Handsoldering")
+	(property "Reference" "REF**"
+		(at -1.77 -2.9475 -90)
+		(layer "F.SilkS")
+		(uuid "2c6803ac-8305-4273-93fd-b1cdfecf1a20")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LMR51420XDDCR"
+		(at 0 2.9 180)
+		(layer "F.Fab")
+		(uuid "6308ffe6-d900-4395-a91c-d731ff0679a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7e3a1b1-621e-4107-9116-6da1293c848c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc4757cc-f99f-4091-9b18-e00bafdcd99c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 2A SOT-23-6 Thin, TSOT-23-6"
+		(at -67.8175 196.9225 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83a434a9-64ab-4b4c-9487-af1cab95608b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.jp/en/products/detail/texas-instruments/LMR51420XDDCR/16705125?s=N4IgTCBcDaIDIFkBKBWAjAFjABgBoBF8BhJEAXQF8g"
+		(at -67.8175 196.9225 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64e31467-6476-43f9-8cc0-47ec40b1cfd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "LMR51420XDDCR"
+		(at -67.8175 196.9225 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "697f46ed-a475-4b64-8d78-12d7ae961d59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 1.61)
+		(end 0.9 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f92d1d9c-bf4b-499f-809c-3f2ee96ba910")
+	)
+	(fp_line
+		(start 0.1 -1.61)
+		(end -0.7 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28dc0130-965f-444b-b3ee-9df612dc9fb1")
+	)
+	(fp_line
+		(start 0.1 -1.61)
+		(end 0.9 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c66d3f7-6f81-4bf4-9857-c406241b4200")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -1.56) (xy -1.44 -1.89) (xy -0.96 -1.89) (xy -1.2 -1.56)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "66a7935f-b372-4fab-b31d-a74746302f7f")
+	)
+	(fp_line
+		(start -2.4 -1.8)
+		(end 2.4 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef899654-c735-4b2c-a30a-07aebcb8b989")
+	)
+	(fp_line
+		(start -2.4 1.8)
+		(end -2.4 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5193c050-7b1d-4cf9-9470-f54395601f63")
+	)
+	(fp_line
+		(start 2.4 -1.8)
+		(end 2.4 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "153720de-e31c-492e-8045-1457fe23190e")
+	)
+	(fp_line
+		(start 2.4 1.8)
+		(end -2.4 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d041d95a-6871-4f45-8aae-ead37d30cf29")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70ba5301-e120-4fa4-b3f5-0f0a0e316579")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98ce4d50-ecd6-4dac-a12a-f45d01a7ac18")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end -0.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e0b0cb4-5af4-48eb-8401-65cf7159d18c")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end 0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdd4e838-5354-4e8f-b24e-887e698513e9")
+	)
+	(fp_line
+		(start 0.9 1.55)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1594fa07-aa44-441c-9243-9df665306e99")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "69e25ccc-28f1-4679-afad-643e468b55b5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.35 -0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "59cfff05-7aa6-4a42-809b-eb8a6b85b51e")
+	)
+	(pad "2" smd roundrect
+		(at -1.35 0)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f9dc4dd8-676d-48cb-b792-ec40cd281444")
+	)
+	(pad "3" smd roundrect
+		(at -1.35 0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3d611ed4-5461-48de-b936-a83f6bd54632")
+	)
+	(pad "4" smd roundrect
+		(at 1.35 0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "4963029b-e388-4fc3-8d17-be1df5123f48")
+	)
+	(pad "5" smd roundrect
+		(at 1.35 0)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a8531136-031f-47f6-8438-d0ab7dcffbfa")
+	)
+	(pad "6" smd roundrect
+		(at 1.35 -0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "43d5c796-9cda-4d0f-9c2b-f736ffcb7567")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
