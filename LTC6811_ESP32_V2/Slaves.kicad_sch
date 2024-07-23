@@ -1,0 +1,925 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c41df499-68de-4aa0-9182-9e8acfd86439")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Graphic:Logo_Tetra"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Tetra_1_1"
+				(polyline
+					(pts
+						(xy 0 7.366) (xy -2.54 3.302) (xy 2.54 3.302) (xy 0 7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 88 80 0 1)
+					)
+					(fill
+						(type color)
+						(color 88 80 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy -2.794 2.54) (xy -4.318 0.254) (xy -0.508 -5.588) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 38 9 255 1)
+					)
+					(fill
+						(type color)
+						(color 38 9 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 2.794 2.54) (xy 4.318 0.254) (xy 0.508 -5.588) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 255 228 16 1)
+					)
+					(fill
+						(type color)
+						(color 255 228 16 1)
+					)
+				)
+				(text "a"
+					(at 13.462 -1.27 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 8.89 8.89)
+						)
+					)
+				)
+				(text "e"
+					(at -8.89 -1.27 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 8.89 8.89)
+						)
+					)
+				)
+				(text "r"
+					(at 7.112 -1.27 0)
+					(effects
+						(font
+							(size 8.89 8.89)
+						)
+					)
+				)
+				(text "t"
+					(at -16.002 -1.27 0)
+					(effects
+						(font
+							(size 8.89 8.89)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0631eeda-8c65-4e41-a64a-f889a914ec3f")
+	)
+	(wire
+		(pts
+			(xy 157.48 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1223c3c5-7bac-42a5-8869-454121083377")
+	)
+	(wire
+		(pts
+			(xy 40.64 81.28) (xy 46.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "167aae3d-4603-4b91-8485-cf553daf2cb2")
+	)
+	(wire
+		(pts
+			(xy 196.85 83.82) (xy 205.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1871e88a-bb6a-40c7-8ec7-2eaaf4dfb6bc")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18792e5d-d0d7-44cc-8399-e427d7b43b5d")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb32779-1761-4355-9bb7-8f399a542841")
+	)
+	(wire
+		(pts
+			(xy 40.64 83.82) (xy 46.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cdbbe6-5510-459a-b0f3-0a91cc579430")
+	)
+	(wire
+		(pts
+			(xy 196.85 81.28) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a815722b-1935-42e2-b4b1-b532f62caf3f")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0811ac5-853c-43c7-8375-8f6fe81db300")
+	)
+	(wire
+		(pts
+			(xy 118.11 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0170207-5f0f-4d06-9068-d7bcf1d98cdc")
+	)
+	(symbol
+		(lib_id "Graphic:Logo_Tetra")
+		(at 222.25 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7685ef54-d2f4-4eb9-9a8a-f349dcbd5963")
+		(property "Reference" "LOGO2"
+			(at 229.997 166.497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "teTra /NC"
+			(at 222.504 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:teTra-LOGO"
+			(at 221.488 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.488 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 221.488 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
+					(reference "LOGO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 210.82 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee99b22-7026-452d-81e2-a3665f291c65")
+		(property "Reference" "J9"
+			(at 212.852 81.4832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B2P-VH-B"
+			(at 212.852 83.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+			(at 210.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/705430001_sd.pdf"
+			(at 210.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
+			(at 210.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "70543-0001"
+			(at 210.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.jp/en/products/detail/molex/0705430001/114915?s=N4IgTCBcDaIOwAYCsAWAzAWgdgjCAugL5A"
+			(at 210.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c72ce257-4483-4a3e-a20e-165ce55d9b0a")
+		)
+		(pin "2"
+			(uuid "91813c6c-1097-4ef4-bf98-6e5e04f652d0")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 35.56 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e43f1697-a27c-4098-8bb9-a754244652e2")
+		(property "Reference" "J7"
+			(at 33.528 81.4832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B2P-VH-B"
+			(at 33.528 83.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/705430001_sd.pdf"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "70543-0001"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.jp/en/products/detail/molex/0705430001/114915?s=N4IgTCBcDaIOwAYCsAWAzAWgdgjCAugL5A"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "044e24a0-7735-42a6-8cef-3d37b9d82e5d")
+		)
+		(pin "2"
+			(uuid "e3e1d93a-fe88-437c-b34a-22c9d574d090")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 72.39)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30216584-ee65-4156-92ea-2fa17f75418d")
+		(property "Sheetname" "LTC6811_4"
+			(at 167.64 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LTC6811.kicad_sch"
+			(at 167.64 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MA" input
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6a3ea08-cd69-4da2-94dc-db157627b4ab")
+		)
+		(pin "PA" input
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6634a51a-b037-415e-8f32-1ba5e8aecd54")
+		)
+		(pin "PB" input
+			(at 167.64 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d568cda-4857-41bb-accd-d83267151df5")
+		)
+		(pin "MB" input
+			(at 167.64 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49ffe31a-4163-4fbf-8c21-1d0e5e5cb2dc")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
+					(page "46")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 72.39)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0")
+		(property "Sheetname" "LTC6811_2"
+			(at 88.9 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LTC6811.kicad_sch"
+			(at 88.9 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MA" input
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3f0b49f-a2c3-4628-9d4e-125e48d28d47")
+		)
+		(pin "PA" input
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7237abf-aa43-49a4-b68e-e66cd39263c1")
+		)
+		(pin "PB" input
+			(at 88.9 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b0ff9b5-2259-48a7-9e2f-1a6c87246070")
+		)
+		(pin "MB" input
+			(at 88.9 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "398e4672-2105-47ba-ba95-c8fd561d6049")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 72.39)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78d47b54-c839-4ab7-a5b0-c9844eec1512")
+		(property "Sheetname" "LTC6811_3"
+			(at 128.27 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LTC6811.kicad_sch"
+			(at 128.27 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MA" input
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc610170-cd1d-47ed-88cd-050b166b8fd5")
+		)
+		(pin "PA" input
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a625b14-9f54-4b4a-a159-0086145dbcb4")
+		)
+		(pin "PB" input
+			(at 128.27 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8d1c69c-2938-49ab-8e6a-3c2b210e30f7")
+		)
+		(pin "MB" input
+			(at 128.27 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c689d32b-73aa-4f4b-a90f-1916a44f61ca")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 72.39)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc3c799d-b983-4472-9d9d-934d3bacd380")
+		(property "Sheetname" "LTC6811_1"
+			(at 46.99 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LTC6811.kicad_sch"
+			(at 46.99 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MA" input
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd642cb3-ba3e-4b7e-a488-41ef22e94f18")
+		)
+		(pin "PA" input
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2e12828-cf9a-4d75-87db-470874c122c5")
+		)
+		(pin "PB" input
+			(at 46.99 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0dc4612e-6c3e-4b20-b130-0873169db970")
+		)
+		(pin "MB" input
+			(at 46.99 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f138e4b3-ea36-4027-b664-940d2abc8654")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
+					(page "7")
+				)
+			)
+		)
+	)
+)
