@@ -1,0 +1,207 @@
+(footprint "HM2108NL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.21 -0.02 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ee92302d-82a3-42ac-a402-ab43475301d0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HM2108NL"
+		(at 0.21 1.48 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "83791de0-3df5-460f-9bbc-e66c8718502e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Transformer_SMD:HM2108NL"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80bdcec7-facf-4eab-8589-efce8060d9d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/HM2108NL"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cebff361-493e-47b5-907e-513022ababd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "135µH Pulse Transformer Surface Mount"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b77fbd84-c1da-4673-8168-ab7a929a4d77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "HM2108NL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "421dd460-3925-4221-99d3-229227a0b778")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.jp/en/products/detail/pulse-electronics/HM2108NL/7914611"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c01ed888-0d24-4b34-a40c-fe548a33bbe5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.3 -6.66)
+		(end 4.3 6.66)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4bdabba6-9390-469a-94e1-ea95e90f15cd")
+	)
+	(fp_circle
+		(center -3.39 8.77)
+		(end -3.240171 8.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4bca0066-6730-4642-ba19-6f5cb66ccd41")
+	)
+	(fp_circle
+		(center -2.6008 5.0834)
+		(end -2.2452 4.9818)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f9e661d3-2994-48d2-ba6d-cc05eaffa5da")
+	)
+	(fp_rect
+		(start -4.4 -9)
+		(end 4.4 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "43fbc13b-fd40-4804-9994-5d2941b77992")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.117 -6.3974 180)
+		(layer "F.Fab")
+		(uuid "e8d4b7bb-be3d-4d48-a3c7-07fb5073dcaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.21 2.98 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1f50ad5-7508-46fe-bd1c-ad39f9adde99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "823de446-3129-4401-bb68-029af5fe635a")
+	)
+	(pad "2" smd rect
+		(at 0 7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4e314032-2b79-4b56-b9cf-ec1c95f59957")
+	)
+	(pad "3" smd rect
+		(at 2.54 7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c57b42cf-c212-4dd7-9a5a-bd690dd7e39f")
+	)
+	(pad "4" smd rect
+		(at -2.54 -7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "07a156ab-674f-4ad6-97d2-8a790cadbbc1")
+	)
+	(pad "5" smd rect
+		(at 0 -7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "af955819-8c4c-4cce-85b1-4978e4f0e653")
+	)
+	(pad "6" smd rect
+		(at 2.54 -7.82)
+		(size 1.02 1.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "84f1cf93-2433-4554-81bd-d7fe7dea9160")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Transformer_SMD.3dshapes/SMT_2108NL_PUL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

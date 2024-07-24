@@ -11,7 +11,7 @@
 		(company "teTra")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
+		(symbol "Library:Conn_01x01"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -121,7 +121,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Library:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -318,7 +318,7 @@
 				)
 			)
 		)
-		(symbol "Graphic:Logo_Tetra"
+		(symbol "Library:Logo_Tetra"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -774,7 +774,7 @@
 		(uuid "ad00bf51-f311-4529-b191-851f619e2a99")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
+		(lib_id "Library:Conn_01x01")
 		(at 53.34 234.315 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -854,7 +854,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
+		(lib_id "Library:Conn_01x01")
 		(at 53.34 240.665 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -934,7 +934,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
+		(lib_id "Library:Conn_01x01")
 		(at 53.34 247.015 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1014,7 +1014,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
+		(lib_id "Library:Conn_01x01")
 		(at 53.34 253.365 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1094,7 +1094,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Library:Conn_01x04")
 		(at 301.625 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1193,7 +1193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Graphic:Logo_Tetra")
+		(lib_id "Library:Logo_Tetra")
 		(at 330.2 260.985 0)
 		(unit 1)
 		(exclude_from_sim no)
