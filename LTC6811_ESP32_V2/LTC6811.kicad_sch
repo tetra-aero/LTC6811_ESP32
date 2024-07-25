@@ -8898,7 +8898,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Library:LTC6811-1")
 		(lib_id "Library:LTC6811-1")
 		(at 196.85 144.78 0)
 		(unit 1)

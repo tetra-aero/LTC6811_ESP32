@@ -1431,6 +1431,26 @@
 		)
 		(uuid "f7f7279a-9e01-4b51-b978-3a2e02a8f2fb")
 	)
+	(text "TO Master"
+		(exclude_from_sim no)
+		(at 23.114 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8511b27d-a852-4513-ba63-a4f671833e67")
+	)
+	(text "TO Slaves"
+		(exclude_from_sim no)
+		(at 277.114 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb924d7b-5bc6-46bc-af1f-92ef2f0be2d1")
+	)
 	(symbol
 		(lib_id "Library:GND_PACK")
 		(at 31.75 82.55 0)
@@ -1499,7 +1519,8 @@
 	)
 	(symbol
 		(lib_id "Library:HM2108NL")
-		(at 53.34 81.28 0)
+		(at 53.34 83.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1507,7 +1528,7 @@
 		(dnp no)
 		(uuid "08b055bd-0142-42b9-b3fa-6cb6a1509464")
 		(property "Reference" "TR1"
-			(at 47.752 93.472 0)
+			(at 47.752 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1536,7 @@
 			)
 		)
 		(property "Value" "HM2108NL"
-			(at 48.006 90.678 0)
+			(at 48.006 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1544,7 @@
 			)
 		)
 		(property "Footprint" "Transformer_SMD:HM2108NL"
-			(at 54.61 83.82 0)
+			(at 54.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1553,7 @@
 			)
 		)
 		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/HM2108NL"
-			(at 54.61 83.82 0)
+			(at 54.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1562,7 @@
 			)
 		)
 		(property "Description" "135µH Pulse Transformer Surface Mount"
-			(at 53.34 81.28 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1571,7 @@
 			)
 		)
 		(property "MPN" "HM2108NL"
-			(at 53.34 81.28 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1580,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.jp/en/products/detail/pulse-electronics/HM2108NL/7914611"
-			(at 53.34 81.28 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,26 +3751,16 @@
 			)
 		)
 		(pin "IPA" input
-			(at 238.76 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "633b5fd3-f4e3-4842-8fc4-f07c53ee5c7f")
-		)
-		(pin "IMB" input
-			(at 223.52 87.63 180)
+			(at 223.52 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ab9eb807-b3eb-49f9-ae40-e524c3de0edf")
+			(uuid "633b5fd3-f4e3-4842-8fc4-f07c53ee5c7f")
 		)
-		(pin "IMA" input
+		(pin "IMB" input
 			(at 238.76 87.63 0)
 			(effects
 				(font
@@ -3757,15 +3768,25 @@
 				)
 				(justify right)
 			)
-			(uuid "9def23c8-888f-4c46-a360-530e45aee1cb")
+			(uuid "ab9eb807-b3eb-49f9-ae40-e524c3de0edf")
 		)
-		(pin "IPB" input
-			(at 223.52 77.47 180)
+		(pin "IMA" input
+			(at 223.52 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+			(uuid "9def23c8-888f-4c46-a360-530e45aee1cb")
+		)
+		(pin "IPB" input
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 			(uuid "38556b01-d9e3-4b33-b997-44495c81e835")
 		)
@@ -3808,26 +3829,16 @@
 			)
 		)
 		(pin "IPA" input
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e4eab8a0-3d9e-4bd1-879d-fbd9ac137636")
-		)
-		(pin "IMB" input
-			(at 120.65 87.63 180)
+			(at 120.65 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a6789f3c-d8c0-41e0-8a09-34ce81dca3ea")
+			(uuid "e4eab8a0-3d9e-4bd1-879d-fbd9ac137636")
 		)
-		(pin "IMA" input
+		(pin "IMB" input
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -3835,15 +3846,25 @@
 				)
 				(justify right)
 			)
-			(uuid "a811ae38-82d1-419e-ae5e-a62c5e9af9e8")
+			(uuid "a6789f3c-d8c0-41e0-8a09-34ce81dca3ea")
 		)
-		(pin "IPB" input
-			(at 120.65 77.47 180)
+		(pin "IMA" input
+			(at 120.65 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+			(uuid "a811ae38-82d1-419e-ae5e-a62c5e9af9e8")
+		)
+		(pin "IPB" input
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 			(uuid "cb50942d-28f0-46d5-9408-a8698a6be944")
 		)
@@ -3886,26 +3907,16 @@
 			)
 		)
 		(pin "IPA" input
-			(at 184.15 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "890fc2b0-5b66-4628-92ce-ff8d0dec786b")
-		)
-		(pin "IMB" input
-			(at 171.45 87.63 180)
+			(at 171.45 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8afb3865-dc57-4152-9a06-55adf1ce58ae")
+			(uuid "890fc2b0-5b66-4628-92ce-ff8d0dec786b")
 		)
-		(pin "IMA" input
+		(pin "IMB" input
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -3913,15 +3924,25 @@
 				)
 				(justify right)
 			)
-			(uuid "54bdc175-d420-42ea-b77d-f4d6aa10a830")
+			(uuid "8afb3865-dc57-4152-9a06-55adf1ce58ae")
 		)
-		(pin "IPB" input
-			(at 171.45 77.47 180)
+		(pin "IMA" input
+			(at 171.45 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+			(uuid "54bdc175-d420-42ea-b77d-f4d6aa10a830")
+		)
+		(pin "IPB" input
+			(at 184.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 			(uuid "1d0f56d6-9a45-4e2e-b1be-f2fe8a71b076")
 		)
@@ -3964,26 +3985,6 @@
 			)
 		)
 		(pin "IPB" input
-			(at 67.31 77.47 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8600f853-7869-4267-8af6-bad2fe8922ac")
-		)
-		(pin "IMA" input
-			(at 86.36 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e43dfda0-a507-431a-9290-e0ce7b9bfcde")
-		)
-		(pin "IPA" input
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -3991,15 +3992,35 @@
 				)
 				(justify right)
 			)
-			(uuid "0f019398-92fd-4c18-a485-e29ecfd3adc3")
+			(uuid "8600f853-7869-4267-8af6-bad2fe8922ac")
 		)
-		(pin "IMB" input
+		(pin "IMA" input
 			(at 67.31 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+			(uuid "e43dfda0-a507-431a-9290-e0ce7b9bfcde")
+		)
+		(pin "IPA" input
+			(at 67.31 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f019398-92fd-4c18-a485-e29ecfd3adc3")
+		)
+		(pin "IMB" input
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 			(uuid "56279849-667f-4c17-a6b1-b1c4538f843b")
 		)
