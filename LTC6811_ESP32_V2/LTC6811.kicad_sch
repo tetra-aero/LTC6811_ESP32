@@ -9344,7 +9344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 133.35 0)
 			(effects
 				(font
@@ -9353,7 +9353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -9362,7 +9362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -9371,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -9380,7 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -10270,7 +10270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 119.38 0)
 			(effects
 				(font
@@ -10279,7 +10279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 241.3 115.57 0)
 			(effects
 				(font
@@ -10288,7 +10288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 241.3 115.57 0)
 			(effects
 				(font
@@ -10297,7 +10297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 241.3 115.57 0)
 			(effects
 				(font
@@ -10306,7 +10306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 241.3 115.57 0)
 			(effects
 				(font
@@ -10546,7 +10546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 130.81 0)
 			(effects
 				(font
@@ -10555,7 +10555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 227.33 130.81 0)
 			(effects
 				(font
@@ -10564,7 +10564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "49.9 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 227.33 130.81 0)
 			(effects
 				(font
@@ -10573,7 +10573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0402FR-0749R9L/726621"
+		(property "Link" "https://www.digikey.jp/en/products/detail/panasonic-electronic-components/ERJ-3EKF49R9V/196378"
 			(at 227.33 130.81 0)
 			(effects
 				(font
@@ -10582,7 +10582,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0749R9L"
+		(property "MPN" "ERJ-3EKF49R9V"
 			(at 227.33 130.81 0)
 			(effects
 				(font
@@ -12084,7 +12084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -12093,7 +12093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -12102,7 +12102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "49.9 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -12111,7 +12111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0402FR-0749R9L/726621"
+		(property "Link" "https://www.digikey.jp/en/products/detail/panasonic-electronic-components/ERJ-3EKF49R9V/196378"
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -12120,7 +12120,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0749R9L"
+		(property "MPN" "ERJ-3EKF49R9V"
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -12373,7 +12373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -12382,7 +12382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -12391,7 +12391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "49.9 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -12400,7 +12400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0402FR-0749R9L/726621"
+		(property "Link" "https://www.digikey.jp/en/products/detail/panasonic-electronic-components/ERJ-3EKF49R9V/196378"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -12409,7 +12409,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0749R9L"
+		(property "MPN" "ERJ-3EKF49R9V"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -14496,7 +14496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 228.6 109.22 0)
 			(effects
 				(font
@@ -14505,7 +14505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 228.6 109.22 0)
 			(effects
 				(font
@@ -14514,7 +14514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "49.9 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 228.6 109.22 0)
 			(effects
 				(font
@@ -14523,7 +14523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0402FR-0749R9L/726621"
+		(property "Link" "https://www.digikey.jp/en/products/detail/panasonic-electronic-components/ERJ-3EKF49R9V/196378"
 			(at 228.6 109.22 0)
 			(effects
 				(font
@@ -14532,7 +14532,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0749R9L"
+		(property "MPN" "ERJ-3EKF49R9V"
 			(at 228.6 109.22 0)
 			(effects
 				(font

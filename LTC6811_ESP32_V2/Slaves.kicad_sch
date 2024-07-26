@@ -1807,7 +1807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 83.5152 0)
 			(effects
 				(font
@@ -1816,7 +1816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 245.11 82.55 0)
 			(effects
 				(font
@@ -1825,7 +1825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 245.11 82.55 0)
 			(effects
 				(font
@@ -1834,7 +1834,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 245.11 82.55 0)
 			(effects
 				(font
@@ -1843,7 +1843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 245.11 82.55 0)
 			(effects
 				(font
@@ -2058,7 +2058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.96 83.5152 0)
 			(effects
 				(font
@@ -2067,7 +2067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -2076,7 +2076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -2085,7 +2085,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -2094,7 +2094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -2146,7 +2146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.88 81.5848 0)
 			(effects
 				(font
@@ -2155,7 +2155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 59.69 82.55 0)
 			(effects
 				(font
@@ -2164,7 +2164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 59.69 82.55 0)
 			(effects
 				(font
@@ -2173,7 +2173,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 59.69 82.55 0)
 			(effects
 				(font
@@ -2182,7 +2182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 59.69 82.55 0)
 			(effects
 				(font
@@ -2234,7 +2234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 83.5152 0)
 			(effects
 				(font
@@ -2243,7 +2243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 267.97 82.55 0)
 			(effects
 				(font
@@ -2252,7 +2252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 267.97 82.55 0)
 			(effects
 				(font
@@ -2261,7 +2261,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 267.97 82.55 0)
 			(effects
 				(font
@@ -2270,7 +2270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 267.97 82.55 0)
 			(effects
 				(font
@@ -2321,7 +2321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 83.5152 0)
 			(effects
 				(font
@@ -2330,7 +2330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -2339,7 +2339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -2348,7 +2348,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -2476,7 +2476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 83.5152 0)
 			(effects
 				(font
@@ -2485,7 +2485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 214.63 82.55 0)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 214.63 82.55 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 214.63 82.55 0)
 			(effects
 				(font
@@ -2512,7 +2512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 214.63 82.55 0)
 			(effects
 				(font
@@ -2631,7 +2631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 83.5152 0)
 			(effects
 				(font
@@ -2640,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -2658,7 +2658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -2667,7 +2667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -2982,7 +2982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 83.5152 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF/100V"
+		(property "Value" "10nF/100V NC"
 			(at 30.48 80.264 90)
 			(effects
 				(font
@@ -3233,7 +3233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 31.75 83.5152 0)
 			(effects
 				(font
@@ -3242,7 +3242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -3251,7 +3251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -3260,7 +3260,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -3269,7 +3269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -3407,7 +3407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 83.5152 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
 			(at 143.51 82.55 0)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 143.51 82.55 0)
 			(effects
 				(font
@@ -3434,7 +3434,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K1RACAUTO"
+		(property "MPN" "C0603X103K1RAC3316"
 			(at 143.51 82.55 0)
 			(effects
 				(font
@@ -3443,7 +3443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0402C103K1RACAUTO/19200876"
+		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
 			(at 143.51 82.55 0)
 			(effects
 				(font
