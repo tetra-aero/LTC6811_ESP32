@@ -1071,6 +1071,14 @@
 			)
 		)
 	)
+	(no_connect
+		(at 266.7 82.55)
+		(uuid "4e9126e3-433a-4a99-8887-9b04d89ab2f2")
+	)
+	(no_connect
+		(at 38.1 82.55)
+		(uuid "5fcd9729-8c37-4018-825e-f851be438f2a")
+	)
 	(wire
 		(pts
 			(xy 165.1 87.63) (xy 171.45 87.63)
@@ -1293,16 +1301,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 82.55) (xy 34.29 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5044f9-f7bd-444c-804b-a214da1d0334")
-	)
-	(wire
-		(pts
 			(xy 275.59 77.47) (xy 275.59 82.55)
 		)
 		(stroke
@@ -1310,16 +1308,6 @@
 			(type default)
 		)
 		(uuid "99f8f67a-c427-4bbb-9370-c20de5edb07e")
-	)
-	(wire
-		(pts
-			(xy 36.83 82.55) (xy 38.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a2c234b-f954-4265-8f8d-18f69a4150e1")
 	)
 	(wire
 		(pts
@@ -1403,16 +1391,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 82.55) (xy 271.78 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a85f49-8d2a-41bb-9509-fd91b0cf0b84")
-	)
-	(wire
-		(pts
 			(xy 241.3 82.55) (xy 243.84 82.55)
 		)
 		(stroke
@@ -1450,72 +1428,6 @@
 			)
 		)
 		(uuid "bb924d7b-5bc6-46bc-af1f-92ef2f0be2d1")
-	)
-	(symbol
-		(lib_id "Library:GND_PACK")
-		(at 31.75 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00d5c853-953b-42da-ab3e-39a2c670355d")
-		(property "Reference" "#PWR011"
-			(at 31.75 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_PACK"
-			(at 32.385 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcae1236-ce2b-4bdb-a1e6-4ae93f84b817")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Library:HM2108NL")
@@ -2208,94 +2120,6 @@
 	)
 	(symbol
 		(lib_id "Library:C")
-		(at 267.97 82.55 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bc7d99f-6961-47db-8232-8d571114c8a7")
-		(property "Reference" "C97"
-			(at 269.748 84.836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF/100V"
-			(at 273.558 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 271.78 83.5152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
-			(at 267.97 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 267.97 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603X103K1RAC3316"
-			(at 267.97 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
-			(at 267.97 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd53e750-4020-4bbb-b521-01827e2e8305")
-		)
-		(pin "2"
-			(uuid "35e055a2-d1f6-4833-aad5-e9b9384dc7ee")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
-					(reference "C97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:C")
 		(at 91.44 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2531,73 +2355,6 @@
 			(project "LTC6811_ESP32_V2"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
 					(reference "C76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:GND_PACK")
-		(at 271.78 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f81d55d-6303-46c3-b5ac-4abe5f55b8d2")
-		(property "Reference" "#PWR023"
-			(at 271.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_PACK"
-			(at 271.145 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0668ec7-8853-4043-ba58-33b5388c763a")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3201,93 +2958,6 @@
 			(project "LTC6811_ESP32_V2"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
 					(reference "TR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:C")
-		(at 35.56 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dcc14535-1a88-4346-9b06-d2939cb79902")
-		(property "Reference" "C74"
-			(at 33.528 84.836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF/100V NC"
-			(at 30.48 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 31.75 83.5152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
-			(at 35.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 35.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603X103K1RAC3316"
-			(at 35.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
-			(at 35.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74d7967a-cb54-462a-b3d5-486b2dd3cd2f")
-		)
-		(pin "2"
-			(uuid "651db18c-03b0-42a6-a4a8-9c59f43ab267")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
-					(reference "C74")
 					(unit 1)
 				)
 			)
