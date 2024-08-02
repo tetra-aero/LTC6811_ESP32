@@ -458,8 +458,22 @@
 		(uuid "22f3973b-66c5-4045-8727-c2cdf1ca18f9")
 	)
 	(no_connect
+		(at 58.42 260.35)
+		(uuid "f2f2a497-1a9a-4da3-a5d6-aa14070eda2a")
+	)
+	(no_connect
 		(at 58.42 253.365)
 		(uuid "f48ff6f6-9760-4e31-a4e0-4b910cd0768e")
+	)
+	(wire
+		(pts
+			(xy 176.53 151.13) (xy 189.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18584251-b73a-495e-9c39-f624d49477b6")
 	)
 	(wire
 		(pts
@@ -480,6 +494,16 @@
 			(type default)
 		)
 		(uuid "564eaa5a-c668-48e7-8ea3-684b59fc4b93")
+	)
+	(wire
+		(pts
+			(xy 176.53 146.05) (xy 189.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4315db-d6e6-489c-a835-c81edcaee24b")
 	)
 	(wire
 		(pts
@@ -1094,6 +1118,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:Conn_01x01")
+		(at 53.34 260.35 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c382732d-7928-48e5-9a21-32523eed2fdc")
+		(property "Reference" "J19"
+			(at 55.4228 256.9718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hole /NC"
+			(at 55.4228 256.9464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 53.34 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 53.34 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e12e76bf-fa0e-4fac-9155-aefc2325fb49")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:Conn_01x04")
 		(at 301.625 123.19 0)
 		(unit 1)
@@ -1414,6 +1512,26 @@
 			)
 			(uuid "82fbfbb5-ea53-4cdd-8007-f46a8d4dc305")
 		)
+		(pin "IMA" input
+			(at 189.23 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd1f4006-ce85-4d4a-bd62-f3c5277026c6")
+		)
+		(pin "IPA" input
+			(at 189.23 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6be1d906-6518-4f36-85bd-91d9551519a2")
+		)
 		(instances
 			(project "LTC6811_ESP32_V2"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
@@ -1471,7 +1589,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 144.78)
+		(at 147.32 143.51)
 		(size 29.21 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -1483,7 +1601,7 @@
 		)
 		(uuid "6b51f869-3fd5-42f9-b3ca-66a1d105433e")
 		(property "Sheetname" "Slaves"
-			(at 135.89 144.0684 0)
+			(at 147.32 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1610,7 @@
 			)
 		)
 		(property "Sheetfile" "Slaves.kicad_sch"
-			(at 135.89 155.5246 0)
+			(at 147.32 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,25 +1618,25 @@
 				(justify left top)
 			)
 		)
-		(pin "PA" input
-			(at 165.1 151.13 0)
+		(pin "IMA" input
+			(at 176.53 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4c819074-0508-4569-b003-9d82d81ffa8f")
+			(uuid "53da19e3-0c86-46fa-bb9a-eb81f384d8fa")
 		)
-		(pin "MA" input
-			(at 165.1 147.32 0)
+		(pin "IPA" input
+			(at 176.53 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "56341c71-6576-4d1e-9b02-ac01e66d5916")
+			(uuid "c511aaff-61f2-44cc-bab0-4096cdcc9a12")
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"

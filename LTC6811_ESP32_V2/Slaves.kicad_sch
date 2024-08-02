@@ -1075,10 +1075,6 @@
 		(at 266.7 82.55)
 		(uuid "4e9126e3-433a-4a99-8887-9b04d89ab2f2")
 	)
-	(no_connect
-		(at 38.1 82.55)
-		(uuid "5fcd9729-8c37-4018-825e-f851be438f2a")
-	)
 	(wire
 		(pts
 			(xy 165.1 87.63) (xy 171.45 87.63)
@@ -1151,23 +1147,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 77.47) (xy 29.21 77.47)
+			(xy 57.15 77.47) (xy 67.31 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f13a264-bc74-4f1e-b6fb-d4b71cb3b594")
-	)
-	(wire
-		(pts
-			(xy 29.21 87.63) (xy 29.21 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bfe4f6d-9f62-4ee6-b1ce-f7d625b72029")
 	)
 	(wire
 		(pts
@@ -1198,16 +1184,6 @@
 			(type default)
 		)
 		(uuid "52967050-7996-4201-b246-233e5ef57cca")
-	)
-	(wire
-		(pts
-			(xy 29.21 77.47) (xy 29.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dcbed1f-9b4c-43ba-9936-b618fde2ea27")
 	)
 	(wire
 		(pts
@@ -1251,16 +1227,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 87.63) (xy 67.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74c4ef9b-7493-4d71-8da8-96d14f6bdf25")
-	)
-	(wire
-		(pts
 			(xy 275.59 87.63) (xy 275.59 85.09)
 		)
 		(stroke
@@ -1268,16 +1234,6 @@
 			(type default)
 		)
 		(uuid "75342cfc-ce5d-492c-b0cb-cef3139cc243")
-	)
-	(wire
-		(pts
-			(xy 64.77 82.55) (xy 60.96 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "763148c4-3719-4b18-a5ad-0b2228612314")
 	)
 	(wire
 		(pts
@@ -1318,16 +1274,6 @@
 			(type default)
 		)
 		(uuid "a0b1586b-b6d6-47b4-aa88-6d81543eb819")
-	)
-	(wire
-		(pts
-			(xy 58.42 77.47) (xy 67.31 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a79e9a3e-037e-4327-8726-e9c2f8184f24")
 	)
 	(wire
 		(pts
@@ -1401,7 +1347,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 87.63) (xy 29.21 87.63)
+			(xy 57.15 87.63) (xy 67.31 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1429,103 +1375,29 @@
 		)
 		(uuid "bb924d7b-5bc6-46bc-af1f-92ef2f0be2d1")
 	)
-	(symbol
-		(lib_id "Library:HM2108NL")
-		(at 53.34 83.82 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08b055bd-0142-42b9-b3fa-6cb6a1509464")
-		(property "Reference" "TR1"
-			(at 47.752 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "IPA"
+		(shape input)
+		(at 57.15 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "HM2108NL"
-			(at 48.006 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "851009c4-5593-4d91-b0a1-c010a267f45d")
+	)
+	(hierarchical_label "IMA"
+		(shape input)
+		(at 57.15 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" "Transformer_SMD:HM2108NL"
-			(at 54.61 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/HM2108NL"
-			(at 54.61 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "135µH Pulse Transformer Surface Mount"
-			(at 53.34 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HM2108NL"
-			(at 53.34 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/pulse-electronics/HM2108NL/7914611"
-			(at 53.34 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56fefed5-a066-4350-8e26-6d210d269847")
-		)
-		(pin "2"
-			(uuid "590cdf5d-2f63-48bc-8aa1-8e450d1d1126")
-		)
-		(pin "3"
-			(uuid "03a4706d-9ad9-4a75-963b-4824a7b647ed")
-		)
-		(pin "4"
-			(uuid "d349b03b-3fea-4872-ad1c-00d48cc477a8")
-		)
-		(pin "5"
-			(uuid "0a6f1641-9602-4551-bb5e-91e12e02c463")
-		)
-		(pin "6"
-			(uuid "f8bd0b3c-3bf9-490b-bdd9-997f0f70156b")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
-					(reference "TR1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d456f9a9-6eb2-465d-8d4b-827adf1cc4eb")
 	)
 	(symbol
 		(lib_id "Library:GND_PACK")
@@ -1847,8 +1719,7 @@
 	)
 	(symbol
 		(lib_id "Library:HM2108NL")
-		(at 261.62 83.82 0)
-		(mirror x)
+		(at 261.62 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1856,7 +1727,7 @@
 		(dnp no)
 		(uuid "2186357b-f0bb-4889-a84e-86ba6b6c1edd")
 		(property "Reference" "TR6"
-			(at 256.54 93.345 0)
+			(at 256.54 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1735,7 @@
 			)
 		)
 		(property "Value" "HM2108NL"
-			(at 256.54 91.0336 0)
+			(at 256.54 74.0664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1743,7 @@
 			)
 		)
 		(property "Footprint" "Transformer_SMD:HM2108NL"
-			(at 262.89 81.28 0)
+			(at 262.89 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +1752,7 @@
 			)
 		)
 		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/HM2108NL"
-			(at 262.89 81.28 0)
+			(at 262.89 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1761,7 @@
 			)
 		)
 		(property "Description" "135µH Pulse Transformer Surface Mount"
-			(at 261.62 83.82 0)
+			(at 261.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1770,7 @@
 			)
 		)
 		(property "MPN" "HM2108NL"
-			(at 261.62 83.82 0)
+			(at 261.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1779,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.jp/en/products/detail/pulse-electronics/HM2108NL/7914611"
-			(at 261.62 83.82 0)
+			(at 261.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,94 +1903,6 @@
 	)
 	(symbol
 		(lib_id "Library:C")
-		(at 59.69 82.55 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32b7b6e9-8d29-4ce8-ad77-6e580890c790")
-		(property "Reference" "C73"
-			(at 57.912 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF/100V"
-			(at 54.864 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 55.88 81.5848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603X103K1RAC3316"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/kemet/C0603X103K1RAC3316/10315782"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a128688b-5071-444e-83db-cf8a98a36baa")
-		)
-		(pin "2"
-			(uuid "5772ad0c-f81a-4c9d-9fe1-3d7b8d807d44")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
-					(reference "C73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:C")
 		(at 91.44 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2200,73 +1983,6 @@
 			(project "LTC6811_ESP32_V2"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:GND_PACK")
-		(at 64.77 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4145a1d4-62d8-46fc-b9ec-ed1e45ec2ac6")
-		(property "Reference" "#PWR09"
-			(at 64.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_PACK"
-			(at 64.135 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e53ee078-6684-4b25-9692-c1aae8ff639c")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3199,94 +2915,6 @@
 			(project "LTC6811_ESP32_V2"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:Conn_01x02")
-		(at 24.13 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e43f1697-a27c-4098-8bb9-a754244652e2")
-		(property "Reference" "J7"
-			(at 22.098 81.4832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2P-VH-B"
-			(at 27.94 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
-			(at 24.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 24.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
-			(at 24.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "70543-0001"
-			(at 24.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/molex/0705430001/114915?s=N4IgTCBcDaIOwAYCsAWAzAWgdgjCAugL5A"
-			(at 24.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "044e24a0-7735-42a6-8cef-3d37b9d82e5d")
-		)
-		(pin "2"
-			(uuid "e3e1d93a-fe88-437c-b34a-22c9d574d090")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e"
-					(reference "J7")
 					(unit 1)
 				)
 			)

@@ -2543,7 +2543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/26013115?display=pdf"
 			(at 129.54 104.14 0)
 			(effects
 				(font

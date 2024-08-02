@@ -3730,16 +3730,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 198.12) (xy 322.58 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "159a1299-5229-47f6-a1cc-bfc09dec7a0e")
-	)
-	(wire
-		(pts
 			(xy 76.2 67.31) (xy 88.9 67.31)
 		)
 		(stroke
@@ -4560,6 +4550,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 184.15) (xy 322.58 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "505f2691-ab3d-4d2b-a865-2b940311dab5")
+	)
+	(wire
+		(pts
 			(xy 209.55 152.4) (xy 215.9 152.4)
 		)
 		(stroke
@@ -5217,16 +5217,6 @@
 			(type default)
 		)
 		(uuid "7a451c65-dc42-4671-adc9-247a355fd9f9")
-	)
-	(wire
-		(pts
-			(xy 322.58 184.15) (xy 322.58 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b14b6f6-0afe-46c6-bdf7-aeea0221ed28")
 	)
 	(wire
 		(pts
@@ -6687,6 +6677,16 @@
 			(type default)
 		)
 		(uuid "e8fe7d65-6099-4548-9fea-b792fa745d2e")
+	)
+	(wire
+		(pts
+			(xy 322.58 199.39) (xy 322.58 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fc0a1a-569b-448e-987d-380592e5cd95")
 	)
 	(wire
 		(pts
@@ -8898,6 +8898,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:R")
+		(at 322.58 195.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07e8c658-c8a3-4cbf-a633-f0b92c3febd6")
+		(property "Reference" "R18"
+			(at 320.04 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 320.04 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 324.358 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 322.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 322.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603JT10K0"
+			(at 322.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.jp/en/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
+			(at 322.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81de68a5-b482-4ed7-b1fa-036ffe7aefad")
+		)
+		(pin "2"
+			(uuid "11ace85e-6d20-420b-937e-5b93f2d1ee0f")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:LTC6811-1")
 		(at 196.85 144.78 0)
 		(unit 1)
@@ -9687,105 +9786,6 @@
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:R_Small")
-		(at 322.58 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c1d19aa-c4c7-4374-ae2d-e302e12ece99")
-		(property "Reference" "R18"
-			(at 325.12 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 325.12 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 320.802 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"
-			(at 322.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 322.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603JR-07100KL"
-			(at 322.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603JR-07100KL/726698?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7AIxJIDSAMiALoC%2BQA"
-			(at 322.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "524fcfd8-751c-4d38-b7cc-8aae1783c50d")
-		)
-		(pin "2"
-			(uuid "6186bcbf-ba24-4b84-882a-4a92bdecb0a9")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
-					(reference "R3")
 					(unit 1)
 				)
 			)
