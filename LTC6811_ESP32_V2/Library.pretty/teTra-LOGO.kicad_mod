@@ -8,11 +8,11 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a7494019-fcc4-40c2-b9d7-3fb323a66861")
+		(uuid "69eb9a51-c2d6-415b-9d1a-a20b19f97383")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.12)
 			)
 		)
 	)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1d7d7d77-ec75-4f64-b416-7b9e18721870")
+		(uuid "75c9dd31-407b-4a22-9acc-9b17be612711")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "225c74e2-56cf-48fd-8d49-0e690849677d")
+		(uuid "2cbc7ccd-67a0-44ee-8d2b-3835e29ffdb2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a3e73b20-23be-4085-b5f3-cae4dad16f94")
+		(uuid "3ca7431c-04d3-469a-995c-7204536d2350")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77fb7d75-0d69-493d-a30b-c6a1b5ae35b9")
+		(uuid "49929b73-1bff-4459-8628-95c3ab839cdd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -88,7 +88,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "c25be4a8-a060-4e6f-ba31-bdbf95537524")
+		(uuid "cafe2ede-fd28-4ebe-a22f-bdb6301fb814")
 	)
 	(fp_poly
 		(pts
@@ -117,7 +117,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "eaa300f7-9f54-4338-9f0d-062acfb4f108")
+		(uuid "cb5be4f4-e823-42ab-be1a-d6828e3a1a90")
 	)
 	(fp_poly
 		(pts
@@ -145,7 +145,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "52c92b0d-071e-44b9-a375-9c4c4194b45c")
+		(uuid "4104886b-4773-456d-b5c1-864f1a9d78b9")
 	)
 	(fp_poly
 		(pts
@@ -174,7 +174,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "84d6fe72-1876-4326-b117-c7d99f70be69")
+		(uuid "2f4d5f4f-e866-4db7-9290-22ad1e7ed3fd")
 	)
 	(fp_poly
 		(pts
@@ -213,7 +213,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "dfc1a1a7-17f1-482d-a112-ae2fefcefc8b")
+		(uuid "ef360caf-6cb0-4926-a09f-b7e273f246ef")
 	)
 	(fp_poly
 		(pts
@@ -259,7 +259,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "4605730c-9ca7-4a6c-985a-eb43d200852f")
+		(uuid "efcc82f9-d334-4cd4-81fb-ec4a14aa5aff")
 	)
 	(fp_poly
 		(pts
@@ -308,6 +308,6 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "cf35d19c-fc6a-4f81-86af-def179490699")
+		(uuid "e6909706-f28b-47cd-b79b-6efbab2718e2")
 	)
 )

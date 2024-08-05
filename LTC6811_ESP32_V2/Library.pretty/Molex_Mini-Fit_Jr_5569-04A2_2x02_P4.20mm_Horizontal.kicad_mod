@@ -6,20 +6,20 @@
 	(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-04A2, example for new mpn: 39-30-0040, 2 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex Mini-Fit_Jr top entryplastic_peg")
 	(property "Reference" "REF**"
-		(at 2.1 -15.1 0)
+		(at 8 -7.675 180)
 		(layer "F.SilkS")
-		(uuid "8921b81c-a827-411b-bc43-6e6032f434a0")
+		(uuid "210f53ec-54a3-4e65-b18c-d6e46c9d5fa8")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.12)
 			)
 		)
 	)
 	(property "Value" "Molex 5569"
-		(at 2.1 8.55 0)
+		(at 2.1 8.55 180)
 		(layer "F.Fab")
-		(uuid "19e94154-29ee-411f-b26c-c78ea3a57dfb")
+		(uuid "7ccc705d-8b78-4c70-b3c5-3c26c31ccfde")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c41ffa2-0cbc-42aa-af73-04b7caca1e98")
+		(uuid "51e14227-0a6e-4678-8677-61e1101258a8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/26013115?display=pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8f6f9216-e4ea-429d-a676-cab393fab5bb")
+		(uuid "64a4fb14-f133-49f6-bd28-f845306dbf3d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7260d5da-12dc-4751-83f5-bef924a8f2f5")
+		(uuid "315e0924-cd34-4318-b540-a210aae6746f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,7 +71,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "66b8aca3-abbd-4af0-b10b-90a03c1fe37f")
+		(uuid "9bcd11c8-f3b2-486d-940c-9c446ce1302f")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +84,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f7ae17da-1bc1-4957-a9b3-e20f8d2489b9")
+		(uuid "993f31b6-6624-41e7-bf26-113783576522")
 		(effects
 			(font
 				(size 1 1)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a80cf6ee-4f67-41e9-91b7-512dc98e33e3")
+		(uuid "b25be5b9-b441-4c54-94b4-d24822cad309")
 	)
 	(fp_line
 		(start -2.81 -0.99)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3d4fc172-3ddd-42ec-98fc-4299e3abdaff")
+		(uuid "23a57b20-05c9-448a-bf2c-38485020ebc9")
 	)
 	(fp_line
 		(start -2.6 -0.3)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a9666952-3fbc-40ed-a99f-fec619535a99")
+		(uuid "3590cab4-3883-45f2-8fc9-d26e72274c06")
 	)
 	(fp_line
 		(start -2.6 0.3)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4d32df79-cc70-475b-836d-1a872673c6a0")
+		(uuid "877d3782-1ad5-4079-a264-8e699e0ec404")
 	)
 	(fp_line
 		(start -2 -0.99)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5a3372b4-3991-43f8-8be9-1d9418eb8488")
+		(uuid "bfcb1b2f-f9f9-4231-a990-0f92c158c704")
 	)
 	(fp_line
 		(start -2 0)
@@ -151,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "143991e5-5cb2-4fcf-85ff-52e5577b4f2b")
+		(uuid "f90961ab-6fa5-40ff-9ce9-e91fd6af1005")
 	)
 	(fp_line
 		(start -0.3 2.11)
@@ -161,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "900bc630-16ef-4f3a-8e88-a09662ff7e70")
+		(uuid "db02cd6f-3f97-48fc-8cb8-9920262cb7bc")
 	)
 	(fp_line
 		(start 0.3 2.11)
@@ -171,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8144c33b-50a4-4610-bbde-56e523a79572")
+		(uuid "386a6863-df8b-4b3c-b24d-4d6550e8fab6")
 	)
 	(fp_line
 		(start 1.61 -1)
@@ -181,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fe132baf-5bf8-4d83-b190-4f2bc265d462")
+		(uuid "43b70228-bf34-4d1f-a4cc-3bad7e04d368")
 	)
 	(fp_line
 		(start 3.9 2.11)
@@ -191,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "abeca3ff-e085-4396-ad45-c8882221f43c")
+		(uuid "641f0a16-6c5c-44f6-ac3c-5f1e5ca05cd4")
 	)
 	(fp_line
 		(start 4.5 2.11)
@@ -201,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "75d03d60-fc57-43b7-bee3-5a226d7dcee9")
+		(uuid "7df5b132-6b5c-4a87-b70d-8ca9f5a9dd94")
 	)
 	(fp_line
 		(start 6.2 -0.99)
@@ -211,7 +211,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "21d743c1-d1cf-4436-8a95-0b416b763d9e")
+		(uuid "128a1ca7-9041-4a1f-9886-6d08194fb2b2")
 	)
 	(fp_line
 		(start 7.01 -14.01)
@@ -221,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "411fb033-5476-4adc-b72a-ed5e1cffb404")
+		(uuid "5f89ecd2-803e-491d-b4e3-433e32c65a45")
 	)
 	(fp_line
 		(start 7.01 -0.99)
@@ -231,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "762ecdd9-fbc3-4751-a7a9-a21ff8bfdd5e")
+		(uuid "dc1d1a85-3879-4296-a3d5-559a259fdf20")
 	)
 	(fp_line
 		(start -3.2 -14.4)
@@ -241,7 +241,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2cd4dd3d-eff5-4de0-99c7-f8476c17421c")
+		(uuid "7ea86c35-37fd-48e2-ac61-ea384c2f5a3a")
 	)
 	(fp_line
 		(start -3.2 7.85)
@@ -251,7 +251,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d69e5f2a-ca40-47c7-8ff6-bcc82d4438ca")
+		(uuid "43566e4d-f64e-4380-bd92-096debfccbe8")
 	)
 	(fp_line
 		(start 7.4 -14.4)
@@ -261,7 +261,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3294e312-a735-4f5e-85ab-5545b077c3f0")
+		(uuid "302a119c-17df-4d0b-bf3a-cab3144ccd22")
 	)
 	(fp_line
 		(start 7.4 7.85)
@@ -271,7 +271,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "681fde0e-e972-457c-8617-14101cabc372")
+		(uuid "a9a4f38a-4aca-460d-8f30-51c34c9084b3")
 	)
 	(fp_line
 		(start -2.7 -13.9)
@@ -281,7 +281,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ee14bdb8-25eb-4177-a3e6-812de8340067")
+		(uuid "3bed588b-3665-4830-9c83-a0c6b9f1c46f")
 	)
 	(fp_line
 		(start -2.7 -1.1)
@@ -291,7 +291,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "91c7c7ad-84b9-40e3-b6be-4f3121598fbd")
+		(uuid "0491fdbf-179e-4ce8-9151-e717e5f7a981")
 	)
 	(fp_line
 		(start -1 -1.1)
@@ -301,7 +301,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4eb05cc4-cf14-4776-aab5-02533e96e9d4")
+		(uuid "727706f3-3049-4b03-b213-ff8022c97986")
 	)
 	(fp_line
 		(start 0 -2.514214)
@@ -311,7 +311,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e744b877-a94e-4023-9d46-208b207621a2")
+		(uuid "41230fb0-5334-4439-acef-c92ba2ed58dd")
 	)
 	(fp_line
 		(start 6.9 -13.9)
@@ -321,7 +321,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b994e5d3-bc29-42c9-a759-c2b9132707a6")
+		(uuid "b6448478-844f-416f-b9ee-8b7067c2ac78")
 	)
 	(fp_line
 		(start 6.9 -1.1)
@@ -331,12 +331,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ac24e953-85c3-4eed-ba59-ee2623fa102b")
+		(uuid "fc791ef7-e08e-4427-bd23-c7ba0cfcd3b3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.1 -13.2 0)
+		(at 2.1 -13.2 180)
 		(layer "F.Fab")
-		(uuid "5675a6a4-1a50-4d31-80b7-93131916683c")
+		(uuid "93f3c6e5-1ea0-4b66-beb7-b6df3515e0fa")
 		(effects
 			(font
 				(size 1 1)
@@ -349,7 +349,7 @@
 		(size 3 3)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "e452df75-e90c-4c65-8003-bb0d7a5c4fdc")
+		(uuid "62e2b958-cfba-4a3a-ab41-cfac661d0411")
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
@@ -358,7 +358,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.092593)
-		(uuid "8a5a731f-595c-4d58-b964-74f7c37b9e77")
+		(uuid "455312c8-39d0-4fce-9e07-1d9d18e0ab58")
 	)
 	(pad "2" thru_hole oval
 		(at 4.2 0)
@@ -366,7 +366,7 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d67b640a-aee2-4c5b-981f-314954281787")
+		(uuid "de0b0ef3-cc2d-4c72-89f9-181eecdf6824")
 	)
 	(pad "3" thru_hole oval
 		(at 0 5.5)
@@ -374,7 +374,7 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2d246100-c4e8-41ad-863f-f3cbda7ffc49")
+		(uuid "7cbb7bfe-b906-4c01-ba65-209cfc5ade97")
 	)
 	(pad "4" thru_hole oval
 		(at 4.2 5.5)
@@ -382,7 +382,7 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "624a1871-71d5-43e5-bd86-9d1980922b38")
+		(uuid "b7ef7013-37e1-4e89-8cd4-d128fe4b15e6")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_5569-04A2.stp"
 		(offset

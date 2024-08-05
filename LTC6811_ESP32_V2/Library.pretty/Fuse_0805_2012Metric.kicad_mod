@@ -6,20 +6,20 @@
 	(descr "Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 	(tags "fuse")
 	(property "Reference" "REF**"
-		(at 0 -1.65 0)
+		(at 0 -1.375 180)
 		(layer "F.SilkS")
-		(uuid "577198e1-33a1-4b97-ab3e-5f1d8de5393c")
+		(uuid "0fadacd4-f3f1-444a-b8d2-b68258edd8fe")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.12)
 			)
 		)
 	)
 	(property "Value" "MPZ2012S102ATD25"
-		(at 0 1.65 0)
+		(at 0 1.65 180)
 		(layer "F.Fab")
-		(uuid "a6256eb0-8626-4519-ad01-07c392baceed")
+		(uuid "48cd3e59-8d7e-40bc-a9ca-92d82858fc9c")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dc51a93d-9916-45b3-9fb3-35e83a626bc3")
+		(uuid "24b828bf-c208-49e3-a060-78e6026cf0e2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8f16fe52-1191-4984-9754-b76fcb39cd97")
+		(uuid "fc68c20a-753b-46a7-b8a5-66a5cee010d7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a21a1e0-7396-4b4a-ae1e-7ce99902ee92")
+		(uuid "8ff11d8d-f328-4fe7-8337-3f9791180e51")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,7 +71,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5f7a6e4f-eb68-4ebe-9180-15cb917ff0e6")
+		(uuid "c3bd635e-9fc0-4f05-a176-e8d241c00dca")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +84,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d5f1c9a6-3462-437d-b7ba-0df46c63eda1")
+		(uuid "c8f3c66c-34df-4287-a8a4-80299c3d2a64")
 		(effects
 			(font
 				(size 1 1)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1b66efa8-be66-430b-be9b-fdd3aa17d98f")
+		(uuid "993d7523-7767-483e-96a8-06a0910285a3")
 	)
 	(fp_line
 		(start -0.258578 0.71)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "473ed3e1-f665-4bf4-b4cf-fa53b4338af8")
+		(uuid "e097216d-a1fe-4ce6-8b5c-aa80a869ec21")
 	)
 	(fp_line
 		(start -1.68 -0.95)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "730709b3-d2c9-469e-87aa-6fd9800097e0")
+		(uuid "c33e7358-c0d5-4e47-a959-47ff6f66a4dc")
 	)
 	(fp_line
 		(start -1.68 0.95)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b4530f9d-2888-41e6-ae98-9e46cbf09012")
+		(uuid "54248500-c900-43d3-a613-f7f955b85fa7")
 	)
 	(fp_line
 		(start 1.68 -0.95)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d712c354-9278-4777-af74-947dbd85afa2")
+		(uuid "90f13967-0d73-4f2a-986c-8cb8f7daff5b")
 	)
 	(fp_line
 		(start 1.68 0.95)
@@ -151,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9e21dcda-08a8-4dda-a945-279e1a0330b4")
+		(uuid "d957bebf-5033-4850-96bc-979f9e68b800")
 	)
 	(fp_line
 		(start -1 -0.6)
@@ -161,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e0b22768-0853-4dba-9534-e1fc132e9997")
+		(uuid "d6b5afd2-53ca-407c-9501-e024995a3e5e")
 	)
 	(fp_line
 		(start -1 0.6)
@@ -171,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fd8ed2dc-d4c8-4688-b82b-fe4c362cdaa9")
+		(uuid "d64c8aeb-4ab1-4b25-9cb0-8e79762c0df9")
 	)
 	(fp_line
 		(start 1 -0.6)
@@ -181,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3ce19aaa-40f6-4082-8728-a9b240c455b8")
+		(uuid "5ca09134-ec1c-4dd2-9369-fe9980c12a62")
 	)
 	(fp_line
 		(start 1 0.6)
@@ -191,12 +191,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "80fbb599-a39e-4d04-a5af-17250b92f1f0")
+		(uuid "50c5aafe-c6ae-4575-a0ac-a135db141c38")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "9ed94692-94c7-49a8-bcf2-e6b9374bc81c")
+		(uuid "5f17324b-2ace-4c68-b111-60aa6ce9db59")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -209,14 +209,14 @@
 		(size 0.975 1.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "e71f861e-ad4f-46f8-99d7-a6d957968702")
+		(uuid "8cba9225-7e52-451f-a0a5-758f6bc313a9")
 	)
 	(pad "2" smd roundrect
 		(at 0.9375 0)
 		(size 0.975 1.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "897ed1b8-0a13-46c0-a450-25f613c4d389")
+		(uuid "c9f8e0bb-e5bd-4681-a509-ad59925420c0")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0805_2012Metric.wrl"
 		(offset

@@ -8,10 +8,11 @@
 	(property "Reference" "REF**"
 		(at 0 -3.85 0)
 		(layer "F.SilkS")
-		(uuid "b3543e41-a186-4700-bf37-9370437906db")
+		(hide yes)
+		(uuid "45aa7b15-6879-4959-9988-967fff4d0255")
 		(effects
 			(font
-				(size 0.6 0.6)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -19,7 +20,8 @@
 	(property "Value" "Hole /NC"
 		(at 0 3.85 0)
 		(layer "F.Fab")
-		(uuid "12f0c40f-b6af-4bf6-adea-6719d73c1a32")
+		(hide yes)
+		(uuid "097d8fe1-c6c0-45da-8223-6b773bdfbd63")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cd911aca-682c-4715-b23b-ea083986b9b8")
+		(uuid "056147ea-087f-4f63-8566-ffa35a7ff9eb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e5f54a04-ed2a-482e-a031-85965ef6bd25")
+		(uuid "49297f63-c147-4c46-b637-94e4f6060c98")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9b45a96a-0602-4c1b-90be-fa104a950e92")
+		(uuid "88001c98-22d2-4dec-bc25-c5d5ecae3ec9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,7 +73,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1061f707-9eba-4fc5-9630-de49d8fa0387")
+		(uuid "46227e08-b3e9-482f-ad94-0622d2112757")
 		(effects
 			(font
 				(size 1 1)
@@ -79,7 +81,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files)
+	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
 		(end 2.85 0)
@@ -89,7 +91,7 @@
 		)
 		(fill none)
 		(layer "Cmts.User")
-		(uuid "458e7edc-3649-4d4a-b05b-2b149a715d29")
+		(uuid "8b2e1f3e-d003-4066-850a-9408fe5a1918")
 	)
 	(fp_circle
 		(center 0 0)
@@ -100,12 +102,12 @@
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "a4fd9c28-1a4e-42b5-b0d1-3d3950e01fb8")
+		(uuid "4f44aaa1-fb00-40c1-b5f0-75df8d6196fa")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "168b1034-8d10-4df0-b77f-c71251fb9a79")
+		(uuid "35a9a012-8e06-47af-a913-b5e21eee3732")
 		(effects
 			(font
 				(size 1 1)
@@ -119,6 +121,6 @@
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "263fa307-90fc-4521-b063-2f332031e8f5")
+		(uuid "b621bc25-ca52-4d85-b182-65a4e9da89de")
 	)
 )
