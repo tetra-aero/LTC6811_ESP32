@@ -446,23 +446,35 @@
 		)
 	)
 	(no_connect
-		(at 58.42 240.665)
+		(at 57.15 260.35)
+		(uuid "02d5d032-b940-492e-ab7f-df671180cbf5")
+	)
+	(no_connect
+		(at 57.15 229.235)
 		(uuid "063586cc-a580-48fd-89cd-ea9799bd846b")
 	)
 	(no_connect
-		(at 58.42 247.015)
+		(at 57.15 235.585)
 		(uuid "1032ec73-d384-495a-9208-3a628c10ef07")
 	)
 	(no_connect
-		(at 58.42 234.315)
+		(at 57.15 222.885)
 		(uuid "22f3973b-66c5-4045-8727-c2cdf1ca18f9")
 	)
 	(no_connect
-		(at 58.42 260.35)
+		(at 57.15 254)
+		(uuid "8f4b132a-1a3c-4c5a-8801-99939e657a93")
+	)
+	(no_connect
+		(at 57.15 267.335)
+		(uuid "e1499c48-2cbf-43a5-827b-6964597f0e0b")
+	)
+	(no_connect
+		(at 57.15 248.92)
 		(uuid "f2f2a497-1a9a-4da3-a5d6-aa14070eda2a")
 	)
 	(no_connect
-		(at 58.42 253.365)
+		(at 57.15 241.935)
 		(uuid "f48ff6f6-9760-4e31-a4e0-4b910cd0768e")
 	)
 	(wire
@@ -799,7 +811,7 @@
 	)
 	(symbol
 		(lib_id "Library:Conn_01x01")
-		(at 53.34 234.315 180)
+		(at 52.07 222.885 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -807,15 +819,16 @@
 		(dnp no)
 		(uuid "14c9baf5-26bb-450a-95bd-8c9a4b49d6a4")
 		(property "Reference" "J1"
-			(at 55.4228 230.9368 0)
+			(at 54.1528 219.5068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 55.4228 230.9114 0)
+			(at 54.1528 219.4814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +837,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 53.34 234.315 0)
+			(at 52.07 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 234.315 0)
+			(at 52.07 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 234.315 0)
+			(at 52.07 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +864,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 53.34 234.315 0)
+			(at 52.07 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,23 +892,24 @@
 	)
 	(symbol
 		(lib_id "Library:Conn_01x01")
-		(at 53.34 240.665 180)
+		(at 52.07 260.35 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "8a2e89e0-4d88-47d1-9c9d-dd4806326183")
-		(property "Reference" "J2"
-			(at 55.4228 237.2868 0)
+		(uuid "578f681b-7e7c-4822-95a9-1bd0315fe25d")
+		(property "Reference" "J8"
+			(at 54.1528 256.9718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 55.4228 237.2614 0)
+			(at 54.1528 256.9464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +918,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 53.34 240.665 0)
+			(at 52.07 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 240.665 0)
+			(at 52.07 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 240.665 0)
+			(at 52.07 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +945,82 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 53.34 240.665 0)
+			(at 52.07 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "930d2103-3e3e-43cf-b789-5524af8009bd")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Conn_01x01")
+		(at 52.07 229.235 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a2e89e0-4d88-47d1-9c9d-dd4806326183")
+		(property "Reference" "J2"
+			(at 54.1528 225.8568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Hole /NC"
+			(at 54.1528 225.8314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 52.07 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 52.07 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +1048,7 @@
 	)
 	(symbol
 		(lib_id "Library:Conn_01x01")
-		(at 53.34 247.015 180)
+		(at 52.07 235.585 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -967,15 +1056,16 @@
 		(dnp no)
 		(uuid "8bb2778d-bd02-4535-aa6e-74bedd04d6ad")
 		(property "Reference" "J3"
-			(at 55.4228 243.6368 0)
+			(at 54.1528 232.2068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 55.4228 243.6114 0)
+			(at 54.1528 232.1814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +1074,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 53.34 247.015 0)
+			(at 52.07 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +1083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 247.015 0)
+			(at 52.07 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 247.015 0)
+			(at 52.07 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1101,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 53.34 247.015 0)
+			(at 52.07 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +1129,7 @@
 	)
 	(symbol
 		(lib_id "Library:Conn_01x01")
-		(at 53.34 253.365 180)
+		(at 52.07 241.935 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1047,15 +1137,16 @@
 		(dnp no)
 		(uuid "92debd96-33ac-4027-b04a-6747f6db4290")
 		(property "Reference" "J4"
-			(at 55.4228 249.9868 0)
+			(at 54.1528 238.5568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 55.4228 249.9614 0)
+			(at 54.1528 238.5314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1155,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 53.34 253.365 0)
+			(at 52.07 241.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 253.365 0)
+			(at 52.07 241.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 253.365 0)
+			(at 52.07 241.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1182,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 53.34 253.365 0)
+			(at 52.07 241.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,23 +1210,24 @@
 	)
 	(symbol
 		(lib_id "Library:Conn_01x01")
-		(at 53.34 260.35 180)
+		(at 52.07 267.335 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "c382732d-7928-48e5-9a21-32523eed2fdc")
-		(property "Reference" "J19"
-			(at 55.4228 256.9718 0)
+		(uuid "a378b476-f0bf-47f9-b669-3c03e66dcadb")
+		(property "Reference" "J18"
+			(at 54.1528 263.9568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 55.4228 256.9464 0)
+			(at 54.1528 263.9314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1236,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 53.34 260.35 0)
+			(at 52.07 267.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 260.35 0)
+			(at 52.07 267.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,7 +1254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 260.35 0)
+			(at 52.07 267.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,7 +1263,82 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 53.34 260.35 0)
+			(at 52.07 267.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f50258a4-a547-4168-9dbc-05eaab7c9b96")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Conn_01x01")
+		(at 52.07 248.92 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c382732d-7928-48e5-9a21-32523eed2fdc")
+		(property "Reference" "J19"
+			(at 54.1528 245.5418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Hole /NC"
+			(at 54.1528 245.5164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 52.07 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 52.07 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,6 +1516,81 @@
 			(project "LTC6811_ESP32_V1p21"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Conn_01x01")
+		(at 52.07 254 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff8fb70a-77fe-4637-b621-4e73ed43bb01")
+		(property "Reference" "J7"
+			(at 54.1528 250.6218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Hole /NC"
+			(at 54.1528 250.5964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 52.07 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 52.07 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "566cfdd2-2e7f-4dd2-bae1-c4a85840e8dc")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
+					(reference "J7")
 					(unit 1)
 				)
 			)

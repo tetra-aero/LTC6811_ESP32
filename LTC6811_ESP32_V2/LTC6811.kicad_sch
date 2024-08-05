@@ -8021,7 +8021,7 @@
 			"AAAAKByjLwAAAABA4Rh9AQAAAAAKx+gLAAAAAFC4/wPmIrm/ubntXQAAAABJRU5ErkJggg=="
 		)
 	)
-	(text "In the daisy chain connection\nR58 is 100 ohms."
+	(text "In the daisy chain connection\nIPB-IMB is 100 ohms."
 		(exclude_from_sim no)
 		(at 212.344 102.108 0)
 		(effects
@@ -8899,7 +8899,7 @@
 	)
 	(symbol
 		(lib_id "Library:R")
-		(at 322.58 195.58 180)
+		(at 322.58 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8907,7 +8907,7 @@
 		(dnp no)
 		(uuid "07e8c658-c8a3-4cbf-a633-f0b92c3febd6")
 		(property "Reference" "R18"
-			(at 320.04 196.85 0)
+			(at 317.246 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8916,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 320.04 194.31 0)
+			(at 317.246 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 324.358 195.58 90)
+			(at 320.802 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)

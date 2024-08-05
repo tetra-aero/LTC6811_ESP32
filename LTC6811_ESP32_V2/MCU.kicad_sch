@@ -780,403 +780,6 @@
 				)
 			)
 		)
-		(symbol "Hard_code_serial_num_spi_mcp23s17-rescue:Conn_01x08_Female-Connector"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Connector_Conn_01x08_Female"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x08_Female-Connector_1_1"
-				(arc
-					(start 0 -9.652)
-					(mid -0.508 -10.16)
-					(end 0 -10.668)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -7.112)
-					(mid -0.508 -7.62)
-					(end 0 -8.128)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -4.572)
-					(mid -0.508 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.508 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy -0.508 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy -0.508 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy -0.508 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.508 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.508 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 5.588)
-					(mid -0.508 5.08)
-					(end 0 4.572)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 8.128)
-					(mid -0.508 7.62)
-					(end 0 7.112)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Hard_code_serial_num_spi_mcp23s17-rescue:GND-power"
 			(power)
 			(pin_names
@@ -4593,12 +4196,24 @@
 		(uuid "00be379f-a1c0-4fc9-a873-4d8c14269b94")
 	)
 	(no_connect
+		(at 321.31 144.78)
+		(uuid "3456a4fe-f575-4279-ba4d-b70074a38176")
+	)
+	(no_connect
 		(at 99.06 163.83)
 		(uuid "39af1f0c-d386-43c6-b0db-d123448966a9")
 	)
 	(no_connect
 		(at 142.24 186.69)
 		(uuid "3a3ebbfb-41d5-4214-ad07-875f85e15904")
+	)
+	(no_connect
+		(at 321.31 127)
+		(uuid "3ebf349a-322c-4cec-a7a9-0e04e115a297")
+	)
+	(no_connect
+		(at 321.31 137.16)
+		(uuid "3fb95d94-30c4-42da-9ea2-78a9ef5f43a2")
 	)
 	(no_connect
 		(at 99.06 153.67)
@@ -4621,6 +4236,10 @@
 		(uuid "57cdb2d4-3e89-42ca-9019-1f3527709937")
 	)
 	(no_connect
+		(at 321.31 134.62)
+		(uuid "587147dd-b59a-4aa9-a019-2553240dbefa")
+	)
+	(no_connect
 		(at 142.24 181.61)
 		(uuid "5e75fd37-4b85-411e-af75-d52e4d2e2010")
 	)
@@ -4637,12 +4256,24 @@
 		(uuid "6a68ae4a-df9b-4333-98b9-9bc9d53edd90")
 	)
 	(no_connect
+		(at 321.31 139.7)
+		(uuid "763980d5-41e2-49b6-895f-f8fd1c58fcc6")
+	)
+	(no_connect
 		(at 99.06 148.59)
 		(uuid "7674b6fd-5b2b-48af-a8c5-5297e85496cc")
 	)
 	(no_connect
+		(at 321.31 132.08)
+		(uuid "80f450ed-df15-4126-9e46-aa8f762fb98e")
+	)
+	(no_connect
 		(at 142.24 166.37)
 		(uuid "83f4e52b-e468-4f3a-970c-1b4b23b969b6")
+	)
+	(no_connect
+		(at 321.31 142.24)
+		(uuid "846a3352-3545-4512-bff1-99407d49e373")
 	)
 	(no_connect
 		(at 142.24 171.45)
@@ -4655,6 +4286,10 @@
 	(no_connect
 		(at 142.24 153.67)
 		(uuid "aea5fdc1-9d66-4072-98d7-0faeda454649")
+	)
+	(no_connect
+		(at 321.31 129.54)
+		(uuid "c1eaf205-393f-4b5f-af46-ad4ce3507872")
 	)
 	(no_connect
 		(at 142.24 173.99)
@@ -5188,16 +4823,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 132.08) (xy 321.31 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c92dad-6499-4012-b740-0d35d49416ba")
-	)
-	(wire
-		(pts
 			(xy 401.32 201.93) (xy 321.31 201.93)
 		)
 		(stroke
@@ -5275,16 +4900,6 @@
 			(type default)
 		)
 		(uuid "47f035e5-a5ba-4e03-8c3e-44e3ed6aae54")
-	)
-	(wire
-		(pts
-			(xy 321.31 129.54) (xy 331.47 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48db74ca-385f-4862-b6c5-f8144cb525b9")
 	)
 	(wire
 		(pts
@@ -5375,16 +4990,6 @@
 			(type default)
 		)
 		(uuid "53dbe594-ad83-48df-abb3-f400a8352446")
-	)
-	(wire
-		(pts
-			(xy 331.47 137.16) (xy 321.31 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54e42c6d-7018-40a0-9bcf-8bad612f8c00")
 	)
 	(wire
 		(pts
@@ -5788,16 +5393,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 134.62) (xy 331.47 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80eed790-c928-4058-aaa4-04bf63c39c16")
-	)
-	(wire
-		(pts
 			(xy 58.42 140.97) (xy 64.77 140.97)
 		)
 		(stroke
@@ -5875,16 +5470,6 @@
 			(type default)
 		)
 		(uuid "886fc3b2-364c-41e1-898b-609ad22e2b58")
-	)
-	(wire
-		(pts
-			(xy 331.47 127) (xy 321.31 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "891859dc-ed57-4ca2-b016-6f7c92712ccf")
 	)
 	(wire
 		(pts
@@ -6045,16 +5630,6 @@
 			(type default)
 		)
 		(uuid "9ed9917b-3f69-4ce0-8471-ceab092769da")
-	)
-	(wire
-		(pts
-			(xy 331.47 142.24) (xy 321.31 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c0b820-c10e-4763-862f-187a63b7a45f")
 	)
 	(wire
 		(pts
@@ -6418,16 +5993,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 139.7) (xy 331.47 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b42c5f-4060-4d15-a1db-041d13b9f760")
-	)
-	(wire
-		(pts
 			(xy 337.82 181.61) (xy 337.82 184.15)
 		)
 		(stroke
@@ -6605,16 +6170,6 @@
 			(type default)
 		)
 		(uuid "dda0da43-94aa-464c-bf85-4fa519e5fcfa")
-	)
-	(wire
-		(pts
-			(xy 321.31 144.78) (xy 331.47 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddf10d09-182e-43de-9841-ca6b4b840d20")
 	)
 	(wire
 		(pts
@@ -17625,6 +17180,17 @@
 		)
 		(uuid "241b13a0-b34d-47e9-b53a-6d48163bc62e")
 	)
+	(label "+3V3"
+		(at 229.87 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34927752-bf64-4908-ae31-7fb982ef7688")
+	)
 	(label "HSPI_SCK"
 		(at 90.17 168.91 0)
 		(fields_autoplaced yes)
@@ -17680,6 +17246,17 @@
 		)
 		(uuid "7222a775-ae5f-41df-9d9f-d606d9e6c552")
 	)
+	(label "INTA"
+		(at 229.87 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "730c6f84-d6ae-42a6-b926-d55d644c97fd")
+	)
 	(label "VSPI_SCK"
 		(at 143.51 161.29 0)
 		(fields_autoplaced yes)
@@ -17712,6 +17289,17 @@
 			(justify left bottom)
 		)
 		(uuid "829518c9-7b25-419f-897f-bec8799816f1")
+	)
+	(label "INTB"
+		(at 229.87 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e4a0541-cd96-459d-a034-ac03781ad355")
 	)
 	(label "VSPI_MISO"
 		(at 143.51 158.75 0)
@@ -17789,6 +17377,17 @@
 			(justify left bottom)
 		)
 		(uuid "c33cb20e-d77f-4ef8-b55b-964e8ed803a6")
+	)
+	(label "GND"
+		(at 229.87 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0c6527d-b603-4420-b4f1-d1eb4e19e62e")
 	)
 	(label "HSPI_SCK"
 		(at 229.87 154.94 0)
@@ -20047,93 +19646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Hard_code_serial_num_spi_mcp23s17-rescue:Conn_01x08_Female-Connector")
-		(at 336.55 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "579dae9d-a1f8-4e4b-a8cc-39c4b4495838")
-		(property "Reference" "J20"
-			(at 337.2612 135.2296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPB_0-7"
-			(at 337.2612 137.541 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 336.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 336.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5fb9bf43-0114-40c9-9e4e-51ce13d9845a")
-		)
-		(pin "3"
-			(uuid "d705f34c-b25e-4b28-85b0-03bf18aed6c1")
-		)
-		(pin "4"
-			(uuid "80fd68fe-0da4-4114-b291-ceadf46bdf49")
-		)
-		(pin "5"
-			(uuid "e05acc97-b44d-42e1-8f60-d595c228ecf4")
-		)
-		(pin "6"
-			(uuid "704030fb-0e14-4ff5-9d12-bce88bae7260")
-		)
-		(pin "8"
-			(uuid "7933b027-ccb3-4dd7-9b65-71f341ea40b5")
-		)
-		(pin "7"
-			(uuid "72e1db5d-d850-4c5d-b74e-1cc84820b4db")
-		)
-		(pin "1"
-			(uuid "ec22e68c-b5e2-428e-86ca-577d80abd0a9")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ab72d4d"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:+3V3")
 		(at 208.28 91.44 0)
 		(mirror y)
@@ -20440,91 +19952,6 @@
 			(project "LTC6811_ESP32_V2"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ab72d4d"
 					(reference "R151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hard_code_serial_num_spi_mcp23s17-rescue:Conn_01x08_Female-Connector")
-		(at 223.52 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b588f93-66ba-4f48-b12d-8ca138c63b76")
-		(property "Reference" "J8"
-			(at 226.2632 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08_SPI"
-			(at 226.2632 136.2964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 223.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7b2b464d-e2c4-42be-9d38-944b10280fbe")
-		)
-		(pin "3"
-			(uuid "735848fc-68a6-4770-904f-a80c6c493e7f")
-		)
-		(pin "4"
-			(uuid "373ee292-6464-4571-976a-8936d32c9d69")
-		)
-		(pin "5"
-			(uuid "285d443e-390f-44ad-8b40-e808106b3330")
-		)
-		(pin "6"
-			(uuid "d546d279-1e2e-42fb-883a-00d3f68ac9d9")
-		)
-		(pin "7"
-			(uuid "bd38fc5b-4555-4b98-a5d4-c5d1cec1c825")
-		)
-		(pin "8"
-			(uuid "4cd50911-c088-4390-86e1-ca0081c3a2ff")
-		)
-		(pin "1"
-			(uuid "a15fdd11-ef47-48b4-980f-c5420d53c5a1")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/00000000-0000-0000-0000-00005ab72d4d"
-					(reference "J8")
 					(unit 1)
 				)
 			)
