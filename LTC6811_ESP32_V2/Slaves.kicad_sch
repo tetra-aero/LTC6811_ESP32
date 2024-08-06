@@ -1375,6 +1375,28 @@
 		)
 		(uuid "bb924d7b-5bc6-46bc-af1f-92ef2f0be2d1")
 	)
+	(label "MB"
+		(at 269.24 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25dbb002-68b5-4da2-bd80-7481d34da6c5")
+	)
+	(label "PB"
+		(at 269.24 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8acf784-7a2b-4675-8acf-2d8876c63b71")
+	)
 	(hierarchical_label "IPA"
 		(shape input)
 		(at 57.15 77.47 180)

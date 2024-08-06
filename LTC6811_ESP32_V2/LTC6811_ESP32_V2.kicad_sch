@@ -462,6 +462,10 @@
 		(uuid "22f3973b-66c5-4045-8727-c2cdf1ca18f9")
 	)
 	(no_connect
+		(at 57.15 273.05)
+		(uuid "67ce9b41-632f-4de9-9373-a4dd02d4f0c0")
+	)
+	(no_connect
 		(at 57.15 254)
 		(uuid "8f4b132a-1a3c-4c5a-8801-99939e657a93")
 	)
@@ -808,6 +812,81 @@
 			(justify left bottom)
 		)
 		(uuid "ad00bf51-f311-4529-b191-851f619e2a99")
+	)
+	(symbol
+		(lib_id "Library:Conn_01x01")
+		(at 52.07 273.05 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "07f24dd5-41ee-469f-8fa9-2bda06cb4233")
+		(property "Reference" "J20"
+			(at 54.1528 269.6718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Hole /NC"
+			(at 54.1528 269.6464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 52.07 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 52.07 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f2ccb1b-6714-446c-96ce-82b4cc45b268")
+		)
+		(instances
+			(project "LTC6811_ESP32_V2"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Library:Conn_01x01")
