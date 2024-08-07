@@ -1679,7 +1679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4562/0603B105K250XD.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3644/CL10B105KA8NNNC_spec.pdf"
 			(at 129.032 138.938 0)
 			(effects
 				(font
@@ -1697,7 +1697,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B105K250XD"
+		(property "MPN" "CL10B105KA8NNNC"
 			(at 129.032 138.938 0)
 			(effects
 				(font
@@ -1706,7 +1706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/nextgen-components/0603B105K250XD/14670931"
+		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
 			(at 129.032 138.938 0)
 			(effects
 				(font
@@ -1916,7 +1916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4562/0603B105K250XD.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3644/CL10B105KA8NNNC_spec.pdf"
 			(at 213.487 126.238 0)
 			(effects
 				(font
@@ -1934,7 +1934,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B105K250XD"
+		(property "MPN" "CL10B105KA8NNNC"
 			(at 213.487 126.238 0)
 			(effects
 				(font
@@ -1943,7 +1943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/nextgen-components/0603B105K250XD/14670931"
+		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
 			(at 213.487 126.238 0)
 			(effects
 				(font

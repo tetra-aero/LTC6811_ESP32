@@ -3890,7 +3890,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "70543-0001"
+		(property "MPN" "B2P-VH"
 			(at 43.18 132.08 0)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/molex/0705430001/114915?s=N4IgTCBcDaIOwAYCsAWAzAWgdgjCAugL5A"
+		(property "Link" "https://www.digikey.jp/en/products/detail/jst-sales-america-inc/B2P-VH/926547"
 			(at 43.18 132.08 0)
 			(effects
 				(font
@@ -5734,7 +5734,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "70543-0001"
+		(property "MPN" "B2P-VH"
 			(at 383.54 132.08 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/molex/0705430001/114915?s=N4IgTCBcDaIOwAYCsAWAzAWgdgjCAugL5A"
+		(property "Link" "https://www.digikey.jp/en/products/detail/jst-sales-america-inc/B2P-VH/926547"
 			(at 383.54 132.08 0)
 			(effects
 				(font

@@ -10,6 +10,140 @@
 		(company "teTra")
 	)
 	(lib_symbols
+		(symbol "Device:Thermistor"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at 2.54 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res thermistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Library:1N4148W"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -8373,105 +8507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:Thermistor")
-		(at 327.66 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02e461f3-a9ab-4b75-b395-706ba4dd63dc")
-		(property "Reference" "TH16"
-			(at 326.644 211.836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K NTC SMD"
-			(at 331.216 223.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/50/db/ntc/NTC_SMD_Automotive_series_0603.pdf?ref_disty=digikey"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NTC Thermistor 100k 0603 (1608 Metric)"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B57355V5104F360"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/epcos-tdk-electronics/B57355V5104F360/7347813?s=N4IgTCBcDaIEIFYDsBmBCBqCCMAGALAGIoBsuIAugL5A"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18f4d1d6-4012-4860-b896-355043bc292e")
-		)
-		(pin "2"
-			(uuid "46fd35c6-a41f-4834-b593-a44195b5f063")
-		)
-		(instances
-			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "TH16")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
-					(reference "TH6")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "TH11")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:GND_PACK")
 		(at 249.555 165.1 0)
 		(unit 1)
@@ -8662,7 +8697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 322.58 195.58 0)
 			(effects
 				(font
@@ -8671,7 +8706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 322.58 195.58 0)
 			(effects
 				(font
@@ -8680,7 +8715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603JT10K0"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 322.58 195.58 0)
 			(effects
 				(font
@@ -8689,7 +8724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
+		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 322.58 195.58 0)
 			(effects
 				(font
@@ -8726,7 +8761,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Library:LTC6811-1")
 		(lib_id "Library:LTC6811-1")
 		(at 196.85 144.78 0)
 		(unit 1)
@@ -9377,7 +9411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 218.44 121.92 0)
 			(effects
 				(font
@@ -9386,7 +9420,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 218.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 218.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
 			(at 218.44 121.92 0)
 			(effects
 				(font
@@ -9458,7 +9510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 354.965 195.58 0)
 			(effects
 				(font
@@ -9467,7 +9519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 354.965 195.58 0)
 			(effects
 				(font
@@ -9476,7 +9528,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603JT10K0"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 354.965 195.58 0)
 			(effects
 				(font
@@ -9485,7 +9537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
+		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 354.965 195.58 0)
 			(effects
 				(font
@@ -10087,7 +10139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 379.095 195.58 0)
 			(effects
 				(font
@@ -10096,7 +10148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 379.095 195.58 0)
 			(effects
 				(font
@@ -10105,7 +10157,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603JT10K0"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 379.095 195.58 0)
 			(effects
 				(font
@@ -10114,7 +10166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
+		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 379.095 195.58 0)
 			(effects
 				(font
@@ -10244,6 +10296,105 @@
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor")
+		(at 327.66 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f439da5-a7d1-485e-bfcb-ee5d0d62d2e1")
+		(property "Reference" "TH1"
+			(at 325.882 211.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K NTC SMD"
+			(at 329.184 212.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:R_0603_1608Metric"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNTCforTempeSenso&partno=NCU18XH103F6SRB"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THERMISTOR NTC 10KOHM 3380K 0603"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCU18XH103F6SRB"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.jp/en/products/detail/murata-electronics/NCU18XH103F6SRB/7243451"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "327b20de-0aaf-43fb-a538-11700b050bf4")
+		)
+		(pin "2"
+			(uuid "4c6df74d-d0d5-4e59-9e4f-0f85229c3f0f")
+		)
+		(instances
+			(project "LTC6811_ESP32_V3"
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
+					(reference "TH16")
+					(unit 1)
+				)
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
+					(reference "TH6")
+					(unit 1)
+				)
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
+					(reference "TH11")
+					(unit 1)
+				)
+				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -10755,7 +10906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 232.41 121.92 0)
 			(effects
 				(font
@@ -10764,7 +10915,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 232.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 232.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
 			(at 232.41 121.92 0)
 			(effects
 				(font
@@ -10863,7 +11032,7 @@
 				(hide yes)
 			)
 		)
-		(property "购买链接" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10A475KO8NNNC/3887442"
+		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10A475KO8NNNC/3887442?s=N4IgTCBcDaIMIBkCMAGAggFgOwFYDSA8gBwByZcIAugL5A"
 			(at 265.43 148.59 0)
 			(effects
 				(font
@@ -11427,7 +11596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 367.03 195.58 0)
 			(effects
 				(font
@@ -11436,7 +11605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 367.03 195.58 0)
 			(effects
 				(font
@@ -11445,7 +11614,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603JT10K0"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 367.03 195.58 0)
 			(effects
 				(font
@@ -11454,7 +11623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
+		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 367.03 195.58 0)
 			(effects
 				(font
@@ -12972,7 +13141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4562/0603B105K250XD.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3644/CL10B105KA8NNNC_spec.pdf"
 			(at 228.6 153.67 0)
 			(effects
 				(font
@@ -12990,7 +13159,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B105K250XD"
+		(property "MPN" "CL10B105KA8NNNC"
 			(at 228.6 153.67 0)
 			(effects
 				(font
@@ -12999,7 +13168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/nextgen-components/0603B105K250XD/14670931"
+		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
 			(at 228.6 153.67 0)
 			(effects
 				(font
@@ -13464,7 +13633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 342.9 195.58 0)
 			(effects
 				(font
@@ -13473,7 +13642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 342.9 195.58 0)
 			(effects
 				(font
@@ -13482,7 +13651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603JT10K0"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 342.9 195.58 0)
 			(effects
 				(font
@@ -13491,7 +13660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
+		(property "Link" "https://www.digikey.jp/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 342.9 195.58 0)
 			(effects
 				(font
@@ -13563,7 +13732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4562/0603B105K250XD.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3644/CL10B105KA8NNNC_spec.pdf"
 			(at 219.71 153.67 0)
 			(effects
 				(font
@@ -13581,7 +13750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B105K250XD"
+		(property "MPN" "CL10B105KA8NNNC"
 			(at 219.71 153.67 0)
 			(effects
 				(font
@@ -13590,7 +13759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/nextgen-components/0603B105K250XD/14670931"
+		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
 			(at 219.71 153.67 0)
 			(effects
 				(font
