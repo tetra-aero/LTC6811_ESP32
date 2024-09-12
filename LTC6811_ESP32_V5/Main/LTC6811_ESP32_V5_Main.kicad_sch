@@ -2247,7 +2247,7 @@
 			(uuid "3e716b15-9d28-46fd-9dc3-c5bff9ce31b2")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(page "5")
 				)
@@ -2335,7 +2335,7 @@
 			(uuid "92ddacdc-7d72-4557-af52-f1bceb8c0472")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(page "4")
 				)
@@ -2393,7 +2393,7 @@
 			(uuid "c17cdff5-e6cd-47e1-8e04-5275646d60c4")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(page "3")
 				)
@@ -2451,7 +2451,7 @@
 			(uuid "70b8841f-43f9-4653-906b-2966be852cc8")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(page "6")
 				)
