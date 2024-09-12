@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,7 +177,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5,
+        0.6,
+        0.8,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +211,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -533,7 +559,7 @@
       "group_symbols": true,
       "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "位号"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -577,7 +603,7 @@
   "sheets": [
     [
       "6a86ff6f-b159-4c4c-8a40-e732cc82e010",
-      "Root"
+      "根目录"
     ],
     [
       "00000000-0000-0000-0000-00005ac18063",
@@ -598,10 +624,6 @@
     [
       "fc3c799d-b983-4472-9d9d-934d3bacd380",
       "LTC6811_1"
-    ],
-    [
-      "4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0",
-      "LTC6811_2"
     ],
     [
       "bf541923-54df-4690-b604-2afa5c7277ba",
@@ -650,6 +672,10 @@
     [
       "86f6d45a-5e24-49ba-a828-e7e0c9ed1174",
       "cell1"
+    ],
+    [
+      "4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0",
+      "LTC6811_2"
     ],
     [
       "bf541923-54df-4690-b604-2afa5c7277ba",

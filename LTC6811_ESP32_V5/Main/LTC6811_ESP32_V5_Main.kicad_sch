@@ -1949,7 +1949,7 @@
 		(instances
 			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -2037,7 +2037,7 @@
 		(instances
 			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -2095,7 +2095,7 @@
 		(instances
 			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -2153,7 +2153,7 @@
 		(instances
 			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
