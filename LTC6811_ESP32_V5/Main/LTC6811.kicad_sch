@@ -8282,7 +8282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "023d5e0f-0bdb-491e-8783-8cc5e60a1a93")
-		(property "Reference" "C18"
+		(property "Reference" "C8"
 			(at 354.965 220.345 0)
 			(effects
 				(font
@@ -8353,16 +8353,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C18")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C8")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C13")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -8381,7 +8373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04b61709-2bbd-44a3-876a-43c4323972b9")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR085"
 			(at 249.555 171.45 0)
 			(effects
 				(font
@@ -8430,16 +8422,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0139")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR085")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -8459,7 +8443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06799235-38a8-468f-bcd9-b9506c8d3b1e")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR086"
 			(at 272.415 140.97 0)
 			(effects
 				(font
@@ -8508,16 +8492,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0140")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR086")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -8536,7 +8512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07e8c658-c8a3-4cbf-a633-f0b92c3febd6")
-		(property "Reference" "R18"
+		(property "Reference" "R8"
 			(at 317.246 194.056 0)
 			(effects
 				(font
@@ -8607,16 +8583,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R8")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R13")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -8635,7 +8603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0946817e-3197-44d9-9100-ff2c57f0e09e")
-		(property "Reference" "U14"
+		(property "Reference" "U12"
 			(at 196.85 108.1786 0)
 			(effects
 				(font
@@ -8851,16 +8819,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "U14")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "U12")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "U13")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -8879,7 +8839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f4084dc-ee5f-41a4-b2d3-9da7a2ded7c0")
-		(property "Reference" "TH17"
+		(property "Reference" "TH7"
 			(at 336.55 212.09 90)
 			(effects
 				(font
@@ -8950,16 +8910,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "TH17")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "TH7")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "TH12")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -8978,7 +8930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "100066d2-735d-416b-802a-5a14dbfa51e7")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR081"
 			(at 174.625 73.66 0)
 			(effects
 				(font
@@ -9027,16 +8979,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0135")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR081")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9055,7 +8999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19169a8e-ddc6-4b9a-8609-201eab7350a3")
-		(property "Reference" "TH18"
+		(property "Reference" "TH8"
 			(at 347.98 212.09 90)
 			(effects
 				(font
@@ -9126,16 +9070,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "TH18")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "TH8")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "TH13")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9155,7 +9091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b619aaf-a888-499d-b3dd-fc24cb3e485b")
-		(property "Reference" "F41"
+		(property "Reference" "F15"
 			(at 73.66 125.73 90)
 			(effects
 				(font
@@ -9224,16 +9160,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F41")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F15")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F28")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9252,7 +9180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b79c665-1a4d-4bb2-b6e4-c683fba48f9f")
-		(property "Reference" "R93"
+		(property "Reference" "R47"
 			(at 217.17 124.46 90)
 			(effects
 				(font
@@ -9321,16 +9249,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R93")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R47")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R54")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9349,7 +9269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f2fbd75-3e4b-478d-947d-d5a8d3465166")
-		(property "Reference" "R20"
+		(property "Reference" "R10"
 			(at 352.425 196.85 0)
 			(effects
 				(font
@@ -9420,16 +9340,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R10")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R15")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9449,7 +9361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f73d36c-e387-4e1c-9ee6-f18467d29f25")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR082"
 			(at 234.95 152.4 0)
 			(effects
 				(font
@@ -9498,16 +9410,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0136")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR082")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9527,7 +9431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aa888bb-b106-4f9f-8172-5b601bceeba0")
-		(property "Reference" "F49"
+		(property "Reference" "F23"
 			(at 73.66 151.13 90)
 			(effects
 				(font
@@ -9596,16 +9500,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F49")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F23")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F36")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9624,7 +9520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b47fbde-8aeb-425c-a0a3-8da4d1e85be3")
-		(property "Reference" "C115"
+		(property "Reference" "C63"
 			(at 177.8 62.865 0)
 			(effects
 				(font
@@ -9695,16 +9591,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C115")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C63")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C89")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9724,7 +9612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c97fe19-9084-4c21-a154-f9575943daeb")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR080"
 			(at 93.98 167.64 0)
 			(effects
 				(font
@@ -9773,16 +9661,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0134")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR080")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9801,7 +9681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "360c4b8e-effe-45ca-b6ff-1ae9d8fc3c55")
-		(property "Reference" "TP9"
+		(property "Reference" "TP5"
 			(at 318.897 149.86 0)
 			(effects
 				(font
@@ -9852,16 +9732,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "TP9")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "TP5")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "TP7")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9881,7 +9753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f46c70c-9345-4aab-ae6b-98bdc4b54f8e")
-		(property "Reference" "F47"
+		(property "Reference" "F21"
 			(at 73.66 146.05 90)
 			(effects
 				(font
@@ -9950,16 +9822,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F47")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F21")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F34")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -9978,7 +9842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49e55202-9aa9-4911-b2d0-9b22ce7ded7f")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 376.555 196.85 0)
 			(effects
 				(font
@@ -10049,16 +9913,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R22")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R12")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R17")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10077,7 +9933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bc3a876-7557-403e-a63c-ad8d5e40fd01")
-		(property "Reference" "D55"
+		(property "Reference" "D23"
 			(at 78.232 76.3016 90)
 			(effects
 				(font
@@ -10148,16 +10004,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "D55")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "D23")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "D39")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10176,7 +10024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f439da5-a7d1-485e-bfcb-ee5d0d62d2e1")
-		(property "Reference" "TH16"
+		(property "Reference" "TH6"
 			(at 325.882 211.836 90)
 			(effects
 				(font
@@ -10247,16 +10095,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V3"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "TH16")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "TH6")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "TH11")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10275,7 +10115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fc263f5-6166-4c99-8002-b63536f1b528")
-		(property "Reference" "TH20"
+		(property "Reference" "TH10"
 			(at 372.11 212.09 90)
 			(effects
 				(font
@@ -10346,16 +10186,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "TH20")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "TH10")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "TH15")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10374,7 +10206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53a4e42d-9c66-4d25-bfdc-b06b7f3fdacc")
-		(property "Reference" "D57"
+		(property "Reference" "D25"
 			(at 247.015 145.415 0)
 			(effects
 				(font
@@ -10443,16 +10275,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "D57")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "D25")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "D41")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10472,7 +10296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5746dee8-dee5-426f-a26c-36da9ef49ac7")
-		(property "Reference" "F46"
+		(property "Reference" "F20"
 			(at 73.66 143.51 90)
 			(effects
 				(font
@@ -10541,16 +10365,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F46")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F20")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F33")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10569,7 +10385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5811e3ef-1f6c-42e4-9aa0-dd1db8087c6d")
-		(property "Reference" "TP10"
+		(property "Reference" "TP6"
 			(at 318.897 154.94 0)
 			(effects
 				(font
@@ -10620,16 +10436,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "TP10")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "TP6")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "TP8")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10648,7 +10456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a5b8600-e027-4024-b7a8-d3c61309c736")
-		(property "Reference" "R201"
+		(property "Reference" "R99"
 			(at 252.095 156.21 0)
 			(effects
 				(font
@@ -10719,16 +10527,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R201")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R99")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R150")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10747,7 +10547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5abd32f1-60ba-4a8a-857d-2dfa06b87d67")
-		(property "Reference" "R101"
+		(property "Reference" "R98"
 			(at 231.14 124.46 90)
 			(effects
 				(font
@@ -10816,16 +10616,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R101")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R98")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R100")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10844,7 +10636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ba1f0f0-d1ea-4548-8e39-74df090e9868")
-		(property "Reference" "C66"
+		(property "Reference" "C42"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -10915,16 +10707,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C66")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C42")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C43")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -10943,7 +10727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cca19ba-b434-4641-9286-63a5e17ff79c")
-		(property "Reference" "R194"
+		(property "Reference" "R92"
 			(at 129.54 55.88 90)
 			(effects
 				(font
@@ -11014,16 +10798,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R194")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R92")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R143")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11043,7 +10819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dcd3708-2da1-42cb-b47c-6e6fb13599c5")
-		(property "Reference" "F45"
+		(property "Reference" "F19"
 			(at 73.66 135.89 90)
 			(effects
 				(font
@@ -11112,16 +10888,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F45")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F19")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F32")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11140,7 +10908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fca9774-41e1-4555-b0b8-c88932031e78")
-		(property "Reference" "D56"
+		(property "Reference" "D24"
 			(at 90.9066 76.3016 90)
 			(effects
 				(font
@@ -11211,16 +10979,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "D56")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "D24")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "D40")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11240,7 +11000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "714fca5e-98bb-4fa1-9e37-59834a1da5d7")
-		(property "Reference" "F42"
+		(property "Reference" "F16"
 			(at 73.66 128.27 90)
 			(effects
 				(font
@@ -11309,16 +11069,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F42")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F16")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F29")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11338,7 +11090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72471576-937e-476e-9d15-9162b8c69eaf")
-		(property "Reference" "F40"
+		(property "Reference" "F14"
 			(at 73.66 123.19 90)
 			(effects
 				(font
@@ -11407,16 +11159,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F40")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F14")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F27")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11435,7 +11179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73d75b0f-d8ed-40b9-92f1-c08d9481cb55")
-		(property "Reference" "R21"
+		(property "Reference" "R11"
 			(at 364.49 196.85 0)
 			(effects
 				(font
@@ -11506,16 +11250,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R21")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R11")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R16")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11535,7 +11271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "801cd297-8632-4830-8068-834ef497ff6e")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR087"
 			(at 265.43 161.29 0)
 			(effects
 				(font
@@ -11584,16 +11320,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0141")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR087")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11612,7 +11340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88269edf-4a95-4286-aa9b-bf93d3f1e4cc")
-		(property "Reference" "J16"
+		(property "Reference" "J12"
 			(at 50.165 132.08 0)
 			(effects
 				(font
@@ -11696,16 +11424,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "J16")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "J12")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "J14")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11725,7 +11445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c56685c-a5c4-4ad1-a76b-923b552e4e65")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR083"
 			(at 234.95 176.53 0)
 			(effects
 				(font
@@ -11774,16 +11494,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0137")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR083")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11802,7 +11514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e66d3b0-fdbd-4444-a1a4-734209b2a968")
-		(property "Reference" "D54"
+		(property "Reference" "D22"
 			(at 65.532 76.3016 90)
 			(effects
 				(font
@@ -11873,16 +11585,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "D54")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "D22")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "D38")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -11901,7 +11605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fe0200b-4a5e-46e7-a3b6-f04e3e16483d")
-		(property "Reference" "R198"
+		(property "Reference" "R96"
 			(at 219.075 143.51 90)
 			(effects
 				(font
@@ -11972,16 +11676,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R198")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R96")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R147")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12000,7 +11696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92ba0312-d8d6-4a2d-98ca-0d9216dd65cc")
-		(property "Reference" "FB4"
+		(property "Reference" "FB2"
 			(at 106.3498 61.0616 0)
 			(effects
 				(font
@@ -12071,16 +11767,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "FB4")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "FB2")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "FB3")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12099,7 +11787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "954bcae9-12b6-4a6b-9643-c5a8b6a90799")
-		(property "Reference" "TH19"
+		(property "Reference" "TH9"
 			(at 359.41 212.09 90)
 			(effects
 				(font
@@ -12170,16 +11858,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "TH19")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "TH9")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "TH14")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12198,7 +11878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a967486-f65a-4c34-a967-1a6cecfc52af")
-		(property "Reference" "R193"
+		(property "Reference" "R91"
 			(at 129.54 49.53 90)
 			(effects
 				(font
@@ -12269,16 +11949,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R193")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R91")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R142")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12298,7 +11970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e86c677-2e32-40a1-9f00-defc944427bb")
-		(property "Reference" "F50"
+		(property "Reference" "F24"
 			(at 73.66 153.67 90)
 			(effects
 				(font
@@ -12367,16 +12039,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F50")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F24")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F37")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12395,7 +12059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0f52dcf-0606-44ff-9925-217af9c35613")
-		(property "Reference" "C22"
+		(property "Reference" "C10"
 			(at 379.095 220.345 0)
 			(effects
 				(font
@@ -12466,16 +12130,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C22")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C10")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C15")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12494,7 +12150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a86ea295-4252-431d-b581-a4550f6c48bb")
-		(property "Reference" "R196"
+		(property "Reference" "R94"
 			(at 219.075 133.35 90)
 			(effects
 				(font
@@ -12565,16 +12221,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R196")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R94")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R145")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12593,7 +12241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad4d387d-140a-40c8-8ea7-5d52da9a6219")
-		(property "Reference" "C17"
+		(property "Reference" "C7"
 			(at 342.9 220.345 0)
 			(effects
 				(font
@@ -12664,16 +12312,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C17")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C7")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C12")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12693,7 +12333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0de44fa-1aff-4986-adf1-7651f453d3cc")
-		(property "Reference" "F48"
+		(property "Reference" "F22"
 			(at 73.66 148.59 90)
 			(effects
 				(font
@@ -12762,16 +12402,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F48")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F22")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F35")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12790,7 +12422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b15daa1a-bb54-4e26-a781-b519c2428783")
-		(property "Reference" "J17"
+		(property "Reference" "J13"
 			(at 50.165 153.67 0)
 			(effects
 				(font
@@ -12874,16 +12506,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "J17")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "J13")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "J15")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12903,7 +12527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf86a18b-5b27-4d20-88f3-cb3ae416e970")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR079"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -12952,16 +12576,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0133")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR079")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -12980,7 +12596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5a6221f-1f35-4284-8a82-474071d40f59")
-		(property "Reference" "C117"
+		(property "Reference" "C65"
 			(at 228.6 152.4 0)
 			(effects
 				(font
@@ -13051,16 +12667,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C117")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C65")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C91")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13079,7 +12687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7217c22-e533-4ad8-9fe2-3189d0989460")
-		(property "Reference" "C19"
+		(property "Reference" "C9"
 			(at 367.03 220.345 0)
 			(effects
 				(font
@@ -13150,16 +12758,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C19")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C9")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C14")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13179,7 +12779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca0052d6-b502-44ba-982e-2b5b42b81783")
-		(property "Reference" "F44"
+		(property "Reference" "F18"
 			(at 73.66 133.35 90)
 			(effects
 				(font
@@ -13248,16 +12848,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F44")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F18")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F31")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13277,7 +12869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb081a02-4a60-477e-b5aa-8313d7010b51")
-		(property "Reference" "F52"
+		(property "Reference" "F26"
 			(at 73.66 158.75 90)
 			(effects
 				(font
@@ -13346,16 +12938,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F52")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F26")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F39")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13375,7 +12959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb4a0885-c708-4cb0-9685-7b3998ae3736")
-		(property "Reference" "F43"
+		(property "Reference" "F17"
 			(at 73.66 130.81 90)
 			(effects
 				(font
@@ -13444,16 +13028,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F43")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F17")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F30")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13472,7 +13048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb833187-407e-476a-a154-528587f85612")
-		(property "Reference" "R19"
+		(property "Reference" "R9"
 			(at 340.36 196.85 0)
 			(effects
 				(font
@@ -13543,16 +13119,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R19")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R9")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R14")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13571,7 +13139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd3e6d9b-ed0a-41a5-9b75-47edd39b4f03")
-		(property "Reference" "C116"
+		(property "Reference" "C64"
 			(at 219.71 152.4 0)
 			(effects
 				(font
@@ -13642,16 +13210,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C116")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C64")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C90")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13671,7 +13231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cee13a3a-7558-466d-abb2-5214b9949fea")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 391.16 238.76 0)
 			(effects
 				(font
@@ -13720,16 +13280,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR08")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR06")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13748,7 +13300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3370e68-bb77-4e39-b892-4bad5d74db42")
-		(property "Reference" "R197"
+		(property "Reference" "R95"
 			(at 219.075 135.89 90)
 			(effects
 				(font
@@ -13819,16 +13371,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "R197")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "R95")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "R146")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13847,7 +13391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd3b3dd2-0d76-4782-bc97-60d1ff654063")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR084"
 			(at 240.03 128.27 0)
 			(effects
 				(font
@@ -13897,16 +13441,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0138")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR084")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -13926,7 +13462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f3134f-0296-40ac-9959-65830e199aaf")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 304.8 238.76 0)
 			(effects
 				(font
@@ -13975,16 +13511,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR07")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR03")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR05")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -14003,7 +13531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3645612-8369-45b2-9117-fcec3bc00d7a")
-		(property "Reference" "Q40"
+		(property "Reference" "Q14"
 			(at 252.095 136.525 0)
 			(effects
 				(font
@@ -14080,16 +13608,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "Q40")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "Q14")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "Q27")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -14109,7 +13629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8a2d996-9f55-4569-adf6-e4cc653c49ea")
-		(property "Reference" "F51"
+		(property "Reference" "F25"
 			(at 73.66 156.21 90)
 			(effects
 				(font
@@ -14178,16 +13698,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "F51")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "F25")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "F38")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -14207,7 +13719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb178e93-6f5a-48b8-b078-c9f110d4d60f")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR077"
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -14256,16 +13768,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0131")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -14284,7 +13788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe0d41dd-916a-439b-a4ae-0c9ec9ef5ba3")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 318.135 219.71 0)
 			(effects
 				(font
@@ -14355,16 +13859,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C16")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C6")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C11")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -14384,7 +13880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff1b3b78-2459-44df-8bb2-4b0bab5b7bf1")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR078"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -14433,16 +13929,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "#PWR0132")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "#PWR078")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -14461,7 +13949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffd9c230-e457-485f-9e15-a0c170b3209e")
-		(property "Reference" "C119"
+		(property "Reference" "C67"
 			(at 275.336 131.5466 0)
 			(effects
 				(font
@@ -14532,16 +14020,8 @@
 		)
 		(instances
 			(project "LTC6811_ESP32_V2"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(reference "C119")
-					(unit 1)
-				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(reference "C67")
-					(unit 1)
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(reference "C93")
 					(unit 1)
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
@@ -14632,18 +14112,12 @@
 			(uuid "c0502001-f36a-405d-bb36-dc9f08283470")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "15")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "28")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "41")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "54")
 				)
 			)
 		)
@@ -14729,18 +14203,12 @@
 			(uuid "4129365d-18ca-40d8-8a6b-4b04654785d4")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "19")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "32")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "45")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "58")
 				)
 			)
 		)
@@ -14826,18 +14294,12 @@
 			(uuid "7b42bdf8-c761-422d-8488-1295f11b9f6d")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "13")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "26")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "39")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "52")
 				)
 			)
 		)
@@ -14923,18 +14385,12 @@
 			(uuid "f7a8b31a-e54a-4df7-be57-689da868375d")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "17")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "30")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "43")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "56")
 				)
 			)
 		)
@@ -15020,18 +14476,12 @@
 			(uuid "5c26c082-b33f-41a7-b440-fe96eb6da2e1")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "11")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "24")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "37")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "50")
 				)
 			)
 		)
@@ -15117,18 +14567,12 @@
 			(uuid "8fa0bffc-97ad-4aa5-bd22-58b87ef5a94c")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "16")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "29")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "42")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "55")
 				)
 			)
 		)
@@ -15214,18 +14658,12 @@
 			(uuid "479a780f-56b1-4da1-badc-908a223be1c8")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "8")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "21")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "34")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "47")
 				)
 			)
 		)
@@ -15311,18 +14749,12 @@
 			(uuid "117de19d-57fd-48b5-afbd-00c93196637e")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "10")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "23")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "36")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "49")
 				)
 			)
 		)
@@ -15408,18 +14840,12 @@
 			(uuid "90d90062-5d4c-4012-8cfa-bbcc9d98d7f1")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "18")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "31")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "44")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "57")
 				)
 			)
 		)
@@ -15505,18 +14931,12 @@
 			(uuid "5d00367a-b08b-4742-9dad-8b9595de8782")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "12")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "25")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "38")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "51")
 				)
 			)
 		)
@@ -15602,18 +15022,12 @@
 			(uuid "3f9a37de-53c9-423c-ad40-9f82ab8de978")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "9")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "22")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "35")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "48")
 				)
 			)
 		)
@@ -15699,18 +15113,12 @@
 			(uuid "8e28c3c6-7b3b-41e1-b3da-a7c2775fbde0")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380"
 					(page "14")
 				)
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0"
 					(page "27")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/78d47b54-c839-4ab7-a5b0-c9844eec1512"
-					(page "40")
-				)
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010/6b51f869-3fd5-42f9-b3ca-66a1d105433e/30216584-ee65-4156-92ea-2fa17f75418d"
-					(page "53")
 				)
 			)
 		)

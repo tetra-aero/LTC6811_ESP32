@@ -1047,157 +1047,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 52.07 222.885 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "14c9baf5-26bb-450a-95bd-8c9a4b49d6a4")
-		(property "Reference" "J1"
-			(at 54.1528 219.5068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Hole /NC"
-			(at 54.1528 219.4814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 52.07 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 52.07 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LTC6811_ESP32_V1p21"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "LTC6811"
-				(path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 52.07 212.09 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "222610d3-57f8-48bf-afea-174919c19641")
-		(property "Reference" "J20"
-			(at 54.1528 208.7118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Hole /NC"
-			(at 54.1528 208.6864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 52.07 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 52.07 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LTC6811_ESP32_V5"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 52.07 217.17 180)
+		(at 77.47 217.17 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1205,7 +1055,7 @@
 		(dnp no)
 		(uuid "38595ddf-3943-40f2-b2ee-affec50ace1d")
 		(property "Reference" "J21"
-			(at 54.1528 213.7918 0)
+			(at 79.5528 213.7918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1064,7 @@
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 54.1528 213.7664 0)
+			(at 79.5528 213.7664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1073,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 217.17 0)
+			(at 77.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 217.17 0)
+			(at 77.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1091,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 52.07 217.17 0)
+			(at 77.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1100,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 52.07 217.17 0)
+			(at 77.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,78 +1112,6 @@
 			(project "LTC6811_ESP32_V5"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 52.07 266.7 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "44cb2aad-d60a-43af-b75f-67de6612ac71")
-		(property "Reference" "J8"
-			(at 54.1528 263.3218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Hole /NC"
-			(at 54.1528 263.2964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 52.07 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 52.07 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LTC6811_ESP32_V3"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1499,85 +1277,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 52.07 229.235 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a2e89e0-4d88-47d1-9c9d-dd4806326183")
-		(property "Reference" "J2"
-			(at 54.1528 225.8568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Hole /NC"
-			(at 54.1528 225.8314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 229.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 229.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 52.07 229.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 52.07 229.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LTC6811_ESP32_V1p21"
-				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "LTC6811"
-				(path "/c4061cfa-a05d-44c7-ba89-bb211c8b143a"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 52.07 235.585 180)
+		(at 77.47 266.7 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1585,7 +1285,7 @@
 		(dnp no)
 		(uuid "8bb2778d-bd02-4535-aa6e-74bedd04d6ad")
 		(property "Reference" "J3"
-			(at 54.1528 232.2068 0)
+			(at 79.5528 263.3218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1294,7 @@
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 54.1528 232.1814 0)
+			(at 79.5528 263.2964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1303,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 235.585 0)
+			(at 77.47 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 235.585 0)
+			(at 77.47 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1321,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 52.07 235.585 0)
+			(at 77.47 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1330,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 52.07 235.585 0)
+			(at 77.47 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,7 +1355,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 52.07 241.935 180)
+		(at 77.47 238.76 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1663,7 +1363,7 @@
 		(dnp no)
 		(uuid "92debd96-33ac-4027-b04a-6747f6db4290")
 		(property "Reference" "J4"
-			(at 54.1528 238.5568 0)
+			(at 79.5528 235.3818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1372,7 @@
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 54.1528 238.5314 0)
+			(at 79.5528 235.3564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1381,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 241.935 0)
+			(at 77.47 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 241.935 0)
+			(at 77.47 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1399,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 52.07 241.935 0)
+			(at 77.47 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1408,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 52.07 241.935 0)
+			(at 77.47 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1433,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 52.07 261.62 180)
+		(at 77.47 259.08 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1741,7 +1441,7 @@
 		(dnp no)
 		(uuid "a378b476-f0bf-47f9-b669-3c03e66dcadb")
 		(property "Reference" "J18"
-			(at 54.1528 258.2418 0)
+			(at 79.5528 255.7018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1450,7 @@
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 54.1528 258.2164 0)
+			(at 79.5528 255.6764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1459,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 261.62 0)
+			(at 77.47 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 261.62 0)
+			(at 77.47 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1477,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 52.07 261.62 0)
+			(at 77.47 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1486,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 52.07 261.62 0)
+			(at 77.47 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1505,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 52.07 248.92 180)
+		(at 77.47 247.65 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1813,7 +1513,7 @@
 		(dnp no)
 		(uuid "c382732d-7928-48e5-9a21-32523eed2fdc")
 		(property "Reference" "J19"
-			(at 54.1528 245.5418 0)
+			(at 79.5528 244.2718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1522,7 @@
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 54.1528 245.5164 0)
+			(at 79.5528 244.2464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1531,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 248.92 0)
+			(at 77.47 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 248.92 0)
+			(at 77.47 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1549,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 52.07 248.92 0)
+			(at 77.47 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1558,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 52.07 248.92 0)
+			(at 77.47 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +1806,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 52.07 254 180)
+		(at 77.47 228.6 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2114,7 +1814,7 @@
 		(dnp no)
 		(uuid "ff8fb70a-77fe-4637-b621-4e73ed43bb01")
 		(property "Reference" "J7"
-			(at 54.1528 250.6218 0)
+			(at 79.5528 225.2218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +1823,7 @@
 			)
 		)
 		(property "Value" "Hole /NC"
-			(at 54.1528 250.5964 0)
+			(at 79.5528 225.1964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 52.07 254 0)
+			(at 77.47 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +1841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 254 0)
+			(at 77.47 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +1850,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 52.07 254 0)
+			(at 77.47 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +1859,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 52.07 254 0)
+			(at 77.47 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +1947,7 @@
 			(uuid "3e716b15-9d28-46fd-9dc3-c5bff9ce31b2")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(page "5")
 				)
@@ -2335,7 +2035,7 @@
 			(uuid "92ddacdc-7d72-4557-af52-f1bceb8c0472")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(page "4")
 				)
@@ -2393,7 +2093,7 @@
 			(uuid "c17cdff5-e6cd-47e1-8e04-5275646d60c4")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(page "3")
 				)
@@ -2451,7 +2151,7 @@
 			(uuid "70b8841f-43f9-4653-906b-2966be852cc8")
 		)
 		(instances
-			(project "LTC6811_ESP32_V5"
+			(project "LTC6811_ESP32_V5_Main"
 				(path "/6a86ff6f-b159-4c4c-8a40-e732cc82e010"
 					(page "6")
 				)
