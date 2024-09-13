@@ -6667,7 +6667,7 @@
 		(path "/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380/360c4b8e-effe-45ca-b6ff-1ae9d8fc3c55")
 		(sheetname "LTC6811_1")
 		(sheetfile "LTC6811.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -7632,6 +7632,7 @@
 		(property "Reference" "TP4"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c694a82f-cccc-48bb-8933-fb2a3b52f691")
 			(effects
 				(font
@@ -7641,8 +7642,8 @@
 			)
 		)
 		(property "Value" "Vref2"
-			(at 0 1.55 0)
-			(layer "F.Fab")
+			(at 0.05 -1.75 0)
+			(layer "F.SilkS")
 			(uuid "443551f2-ec46-425b-9230-c9c28c5f33ea")
 			(effects
 				(font
@@ -7694,7 +7695,7 @@
 		(path "/6b51f869-3fd5-42f9-b3ca-66a1d105433e/fc3c799d-b983-4472-9d9d-934d3bacd380/5811e3ef-1f6c-42e4-9aa0-dd1db8087c6d")
 		(sheetname "LTC6811_1")
 		(sheetfile "LTC6811.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -10442,7 +10443,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/c382732d-7928-48e5-9a21-32523eed2fdc")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -18308,7 +18309,7 @@
 		(path "/00000000-0000-0000-0000-00005ac18063/1f6da100-6a88-4ea7-a648-e8d6a684967f")
 		(sheetname "PowerSupply")
 		(sheetfile "PowerSupply.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -31298,7 +31299,7 @@
 		)
 		(path "/fa65b393-8ebe-4854-9176-2af361d7981a")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_poly
 			(pts
@@ -35471,7 +35472,7 @@
 		(path "/00000000-0000-0000-0000-00005ac18063/cf341958-96b6-4df7-9ffe-4f928df8e555")
 		(sheetname "PowerSupply")
 		(sheetfile "PowerSupply.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -46028,7 +46029,7 @@
 		(path "/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0/360c4b8e-effe-45ca-b6ff-1ae9d8fc3c55")
 		(sheetname "LTC6811_2")
 		(sheetfile "LTC6811.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -47107,7 +47108,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/38595ddf-3943-40f2-b2ee-affec50ace1d")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -55897,7 +55898,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/92debd96-33ac-4027-b04a-6747f6db4290")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -56012,7 +56013,7 @@
 		(path "/6b51f869-3fd5-42f9-b3ca-66a1d105433e/4e3577f7-fcc6-43dd-b7cf-8d175ec4d9f0/5811e3ef-1f6c-42e4-9aa0-dd1db8087c6d")
 		(sheetname "LTC6811_2")
 		(sheetfile "LTC6811.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -58050,7 +58051,7 @@
 		(sheetname "CAN")
 		(sheetfile "CAN.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -1)
 			(end 0.7 -1)
@@ -66992,7 +66993,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/8bb2778d-bd02-4535-aa6e-74bedd04d6ad")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -71485,7 +71486,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/a378b476-f0bf-47f9-b669-3c03e66dcadb")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -78770,7 +78771,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6147c463-de4c-4027-8ec7-13df34ffe6f7")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(zone_connect 2)
 		(attr through_hole)
 		(fp_line
@@ -82376,7 +82377,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ff8fb70a-77fe-4637-b621-4e73ed43bb01")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -84131,7 +84132,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "100nF/100V"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "95149a01-8319-4371-8165-c93c6f1edb04")
@@ -84155,7 +84156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KC8NNNC/5961291?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTgDgDki4AdEkAXQF8g"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84168,7 +84169,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84181,7 +84182,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNWC"
+		(property "MPN" "CL10B104KC8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84194,7 +84195,7 @@
 				)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"
+		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KC8NNNC/5961291?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTgDgDki4QBdAXyA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -86537,7 +86538,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dfa3421d-f1bc-4f8a-9f76-d385d7166dae")
 		(sheetname "根目录")
-		(sheetfile "LTC6811_ESP32_V5_Main.kicad_sch")
+		(sheetfile "LTC6811_ESP32_Master_V5.kicad_sch")
 		(zone_connect 2)
 		(attr through_hole)
 		(fp_line
@@ -87244,7 +87245,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "100nF/100V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "27a0bdd8-ce8e-40ce-8e48-a819abed6d42")
@@ -87268,7 +87269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KC8NNNC/5961291?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTgDgDki4AdEkAXQF8g"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87281,7 +87282,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87294,7 +87295,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNWC"
+		(property "MPN" "CL10B104KC8NNNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87307,7 +87308,7 @@
 				)
 			)
 		)
-		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"
+		(property "Link" "https://www.digikey.jp/en/products/detail/samsung-electro-mechanics/CL10B104KC8NNNC/5961291?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTgDgDki4QBdAXyA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90431,14 +90432,14 @@
 		(layer "F.Fab")
 		(uuid "54e96235-5f3b-4b0d-a576-54946d06cbd9")
 	)
-	(gr_text "BMS_Master\nLTC6811_ESP32_V5\n2024/09/12"
-		(at 85.7 135.941928 0)
+	(gr_text "BMS_ESP32\n2024/09/12\nLTC6811_Master_V5\n"
+		(at 87.65 136.65 -0)
 		(layer "B.SilkS")
-		(uuid "b77cdd7f-57dc-4711-a06a-1d94f14f9505")
+		(uuid "7e86bb81-5096-4e69-b0d6-203586f4c2e0")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
@@ -90587,7 +90588,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BMS_Master\n2024/09/12\nLTC6811_ESP32_V5\n"
+	(gr_text "BMS_ESP32\n2024/09/12\nLTC6811_Master_V5\n"
 		(at 97.7 161.6 0)
 		(layer "F.SilkS")
 		(uuid "b597f798-51cb-4274-adb0-c1e0ed7aa534")
