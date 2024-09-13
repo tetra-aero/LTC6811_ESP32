@@ -73651,8 +73651,8 @@
 		(layer "F.Fab")
 		(uuid "58fd0c5f-3bc0-4410-8db2-c009dc6bd999")
 	)
-	(gr_text "BMS_Slaves(24Cells)\n2024/09/13\nLTC6811_Slaves_V5\n"
-		(at 304.3 139.05 -0)
+	(gr_text "BMS_ESP32(24Cells)\n2024/09/13\nLTC6811_Slaves_V5\n"
+		(at 304.3 139.05 0)
 		(layer "B.SilkS")
 		(uuid "cc86d856-4e2c-4655-b906-37683dc50ddb")
 		(effects
@@ -73771,7 +73771,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BMS_Slaves(24Cells)\n2024/09/13\nLTC6811_Slaves_V5\n"
+	(gr_text "BMS_ESP32(24Cells)\n2024/09/13\nLTC6811_Slaves_V5\n"
 		(at 314.8 150.6 0)
 		(layer "F.SilkS")
 		(uuid "b597f798-51cb-4274-adb0-c1e0ed7aa534")
