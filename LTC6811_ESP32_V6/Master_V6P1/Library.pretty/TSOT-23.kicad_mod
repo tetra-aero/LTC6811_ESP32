@@ -1,0 +1,337 @@
+(footprint "TSOT-23"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3-pin TSOT23 package, http://www.analog.com.tw/pdf/All_In_One.pdf, Alternate KiCad Library")
+	(tags "TSOT-23")
+	(property "Reference" "REF**"
+		(at 0 2.3 0)
+		(layer "F.SilkS")
+		(uuid "f6bfd77d-1f09-43a9-bb74-a312cf8bdc53")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SSM3J332R,LF"
+		(at 0 2.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "007c205f-387c-47b9-a2f2-96bbf7dd46eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3J332R_datasheet_en_20250523.pdf?did=2620&prodName=SSM3J332R"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cdb8b9b-07a2-44de-b934-f919a3722779")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "P-MOSFET transistor, gate/source/drain"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cc54a56-b51e-4afb-aac7-47322a102716")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "SSM3J332R,LF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c6df171-4c70-4ee8-b614-7c88eee20b10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.jp/en/products/detail/toshiba-semiconductor-and-storage/SSM3J332R-LF/3522371"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef0b4877-f28a-4642-b551-61f433bbd927")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -1.8)
+		(end -2.2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d31b6b8d-dca7-4828-b9fc-799f83af7ccc")
+	)
+	(fp_line
+		(start -2.2 1.8)
+		(end 2.2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ae913b2-a1a0-45cf-b820-cc09e7de82c0")
+	)
+	(fp_line
+		(start 2.2 -1.8)
+		(end -2.2 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbdc69ae-f8a5-49fe-9a40-0400174b1360")
+	)
+	(fp_line
+		(start 2.2 1.8)
+		(end 2.2 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40407955-7840-4a59-a41d-c50fc4b6976e")
+	)
+	(fp_line
+		(start -2.17 -1.7)
+		(end -2.17 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa5482a9-f2bb-484c-96b2-774b03dae72a")
+	)
+	(fp_line
+		(start -2.17 -1.7)
+		(end 2.17 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca98dee9-721d-4a0c-a19a-cac5e132fe90")
+	)
+	(fp_line
+		(start 2.17 1.7)
+		(end -2.17 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08fa6c77-b34d-461f-acd8-38ef18d18495")
+	)
+	(fp_line
+		(start 2.17 1.7)
+		(end 2.17 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44c5de12-7eea-402e-8024-8f431b56c5b1")
+	)
+	(fp_line
+		(start -1.5 -1.2)
+		(end -1.5 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fd4961e-6071-4008-b6d1-a7b759379f7f")
+	)
+	(fp_line
+		(start -1.5 -0.7)
+		(end -0.9 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47e67ce6-f23e-4ebe-bc90-360a206a6f9c")
+	)
+	(fp_line
+		(start -1.5 0.7)
+		(end -1.5 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "caa3d563-6182-4b05-9c17-c42c1b8816ce")
+	)
+	(fp_line
+		(start -1.5 1.2)
+		(end -0.9 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85537572-69a5-4d6d-be67-77540e08fc63")
+	)
+	(fp_line
+		(start -0.9 -1.2)
+		(end -1.5 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26673879-6bc9-48ef-83fd-26ef146d85e3")
+	)
+	(fp_line
+		(start -0.9 0.7)
+		(end -1.5 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5dde4e99-eada-427e-a851-cc55166d20ee")
+	)
+	(fp_line
+		(start -0.88 -1.45)
+		(end -0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96700ec0-b9b0-4d52-9898-c0348693e35b")
+	)
+	(fp_line
+		(start 0.88 -1.45)
+		(end -0.88 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c33057a-97d2-40e3-b89c-596856894c30")
+	)
+	(fp_line
+		(start 0.88 -1.45)
+		(end 0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1a1df08-80bc-4f5d-8f93-0e923169f82e")
+	)
+	(fp_line
+		(start 0.88 1.45)
+		(end -0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14a99537-1441-47d6-8985-1e43bc03e575")
+	)
+	(fp_line
+		(start 0.9 0.25)
+		(end 1.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca93188c-8d13-48c9-aa86-619cd9213913")
+	)
+	(fp_line
+		(start 1.5 -0.25)
+		(end 0.9 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "572b54dc-73f9-448c-a9da-ad0cf5861866")
+	)
+	(fp_line
+		(start 1.5 0.25)
+		(end 1.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f8801ac-e1e0-4cb6-b8ab-a60061d7f22c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(uuid "21badc40-8517-4e2f-bfac-7db5536aeb98")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.31 -0.95)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "13cef1c2-6655-4918-b7d2-69f0a58303a9")
+	)
+	(pad "2" smd roundrect
+		(at -1.31 0.95)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "39501707-25b5-4193-899f-7bc4e0b31b7a")
+	)
+	(pad "3" smd roundrect
+		(at 1.31 0)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f30f820c-df56-4934-9cb8-dde837e6ed8e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

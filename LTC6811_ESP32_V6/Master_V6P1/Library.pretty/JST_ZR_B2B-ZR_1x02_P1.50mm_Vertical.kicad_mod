@@ -1,0 +1,275 @@
+(footprint "JST_ZR_B2B-ZR_1x02_P1.50mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "B2B-ZR ")
+	(property "Reference" "REF**"
+		(at -2.899999 -0.04 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3719c5ce-5784-472d-9411-d9ac8988f283")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "10K NTC"
+		(at 0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "57754dd7-00c1-4ddb-bbdd-98b6e031677b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f343f52d-43a1-45f1-b1fd-0b0d35e9ca18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36421e78-8e34-48d8-907d-e5216515b0dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "MF52C1103F3380"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65a5ac07-6536-4f82-9d66-860260122fdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.jp/en/products/detail/cantherm/MF52C1103F3380/1840604"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8a43c76-8d67-4b20-aab0-45a36802f9b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.6249 -2.327)
+		(end -1.6249 1.4322)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93ec7c7c-d8d3-4104-81ad-0107e662cdb3")
+	)
+	(fp_line
+		(start -1.6249 1.4322)
+		(end 3.1249 1.4322)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7efefa0-8f90-4554-beac-3842fb07c521")
+	)
+	(fp_line
+		(start 3.1249 -2.327)
+		(end -1.6249 -2.327)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de389735-aa1d-414d-9eb9-ea2b87b2a065")
+	)
+	(fp_line
+		(start 3.1249 1.4322)
+		(end 3.1249 -2.327)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a2182b1-26fa-410c-89d4-7f2b16a8734b")
+	)
+	(fp_circle
+		(center -2.11 -0.04)
+		(end -1.9301 -0.01)
+		(stroke
+			(width 0.208)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a5f3fa4b-ad36-46c1-853b-aaf838bff012")
+	)
+	(fp_circle
+		(center -2.11 -0.04)
+		(end -1.93 -0.04)
+		(stroke
+			(width 0.208)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "b0088a5b-8a96-434b-b221-13a035ae930c")
+	)
+	(fp_line
+		(start -1.7519 -2.454)
+		(end -1.7519 1.5592)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca370eaa-3eea-4dbc-8fe3-cf9d8331a6ac")
+	)
+	(fp_line
+		(start -1.7519 1.5592)
+		(end 3.2519 1.5592)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3a289c0-d43b-491e-ae7d-1004b8c7c2f7")
+	)
+	(fp_line
+		(start 3.2519 -2.454)
+		(end -1.7519 -2.454)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75f7a254-27ee-45d4-b394-7467e5e562f7")
+	)
+	(fp_line
+		(start 3.2519 1.5592)
+		(end 3.2519 -2.454)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f248b114-fc81-4ce8-8b7b-fa828cb868ff")
+	)
+	(fp_line
+		(start -1.4979 -2.2)
+		(end -1.4979 1.3052)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48562273-4e77-4d5d-a761-cfc2f748aa91")
+	)
+	(fp_line
+		(start -1.4979 1.3052)
+		(end 2.9979 1.3052)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7b0b9c1-42fb-405b-88bc-163425a60f39")
+	)
+	(fp_line
+		(start 2.9979 -2.2)
+		(end -1.4979 -2.2)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9696f344-eb3b-4cf5-81fe-b87a904dcaf9")
+	)
+	(fp_line
+		(start 2.9979 1.3052)
+		(end 2.9979 -2.2)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c38fb0b4-ec7e-48e5-9001-22e442195998")
+	)
+	(fp_circle
+		(center 0 -1.905)
+		(end 0 -1.905)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "608a7834-b1cd-4732-a82c-d7bf2ea694ce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "588e5b92-8457-47cc-a2a6-103b3bb4e3cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.2446 1.2446)
+		(drill 0.7366)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "019b6025-db54-4473-8929-b8883335e995")
+	)
+	(pad "2" thru_hole circle
+		(at 1.500001 0)
+		(size 1.2446 1.2446)
+		(drill 0.7366)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84c407e1-fbd8-4396-b97d-52f09029aa00")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZR_B2B-ZR_1x02_P1.50mm_Vertical.STEP"
+		(offset
+			(xyz 0.75 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
