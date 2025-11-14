@@ -1,0 +1,137 @@
+(footprint "MountingHole_3.2mm_M3_ISO7380"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3, ISO7380")
+	(tags "mounting hole 3.2mm no annular m3 iso7380")
+	(property "Reference" "REF**"
+		(at 0 -3.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e7081019-0040-458a-b1f2-137f3a2e03ae")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Hole /NC"
+		(at 0 3.85 0)
+		(layer "F.Fab")
+		(uuid "e5057fb4-6c5e-4685-8581-fa57a6aa53a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfffd03e-e69b-453c-9a7c-5414dc3be25d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole without connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b82469b6-9f2d-40bc-ab5c-49a452c9ab61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "N/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cc297c8-c16d-4689-862a-b0d25b38a979")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a923203e-91ce-4a94-90a0-e2af83dbb916")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "73bada9b-63de-4634-8814-5376c1f6f52f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4df84637-a754-4c24-b6e4-9100aed6150a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "7b8bc6f1-f23d-4c5e-9cba-662093d25038")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -2.85 0)
+					(mid 2.85 0)
+					(end -2.85 0)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
